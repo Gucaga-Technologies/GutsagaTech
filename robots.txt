@@ -1,0 +1,12 @@
+﻿# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow: /wp-json/wp/v2/
+Disallow: /?rest_route=/wp/v2/
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://gutsaga.tech/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

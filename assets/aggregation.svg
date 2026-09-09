@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" role="img" aria-label="Without a central warehouse, 100 pharmacies each hold two packs, so the network finances 200 packs. With a central warehouse replenishing next morning, each pharmacy holds one pack and roughly 29 to 43 sit centrally, about 129 to 143 in total at the same availability.">
+<defs>
+<style>
+.t{font-family:Poppins,'Segoe UI',sans-serif}
+.hd{font-weight:700;font-size:15px;fill:#001D2B}
+.sm{font-weight:600;font-size:11px;fill:#5b6b7c}
+.big{font-weight:700;font-size:30px}
+.lb{font-weight:600;font-size:11.5px;fill:#41586b}
+</style>
+<symbol id="ph">
+<rect x="0" y="0" width="34" height="42" rx="5" fill="#eef2f8" stroke="#dbe4ef"/>
+<rect x="7" y="24" width="20" height="7" rx="1.5" fill="#7f9db0"/>
+<rect x="7" y="14" width="20" height="7" rx="1.5" fill="#7f9db0"/>
+<rect x="9.5" y="34" width="15" height="4" rx="1" fill="#c4d2de"/>
+</symbol>
+<symbol id="ph1">
+<rect x="0" y="0" width="34" height="42" rx="5" fill="#eef2f8" stroke="#dbe4ef"/>
+<rect x="7" y="24" width="20" height="7" rx="1.5" fill="#7f9db0"/>
+<rect x="9.5" y="34" width="15" height="4" rx="1" fill="#c4d2de"/>
+</symbol>
+</defs>
+<rect width="900" height="400" fill="#ffffff"/>
+
+<!-- ================= LEFT: no warehouse ================= -->
+<text x="40" y="34" class="t hd">Without a central warehouse</text>
+<text x="40" y="54" class="t sm">Every pharmacy insures itself. The spare pack is duplicated 100 times.</text>
+
+<!-- grid of pharmacies, 2 packs each -->
+<g>
+
+<use href="#ph" x="40" y="76"/><use href="#ph" x="84" y="76"/><use href="#ph" x="128" y="76"/><use href="#ph" x="172" y="76"/><use href="#ph" x="216" y="76"/><use href="#ph" x="260" y="76"/><use href="#ph" x="304" y="76"/><use href="#ph" x="348" y="76"/>
+<use href="#ph" x="40" y="128"/><use href="#ph" x="84" y="128"/><use href="#ph" x="128" y="128"/><use href="#ph" x="172" y="128"/><use href="#ph" x="216" y="128"/><use href="#ph" x="260" y="128"/><use href="#ph" x="304" y="128"/><use href="#ph" x="348" y="128"/>
+<use href="#ph" x="40" y="180"/><use href="#ph" x="84" y="180"/><use href="#ph" x="128" y="180"/><use href="#ph" x="172" y="180"/><use href="#ph" x="216" y="180"/><use href="#ph" x="260" y="180"/><use href="#ph" x="304" y="180"/><use href="#ph" x="348" y="180"/>
+</g>
+<text x="40" y="248" class="t sm">&#215; 100 pharmacies &#183; 2 packs each</text>
+
+<rect x="40" y="264" width="342" height="76" rx="14" fill="#F1F2FF" stroke="#e2e8f2"/>
+<text x="211" y="300" class="t big" fill="#001D2B" text-anchor="middle">200 packs</text>
+<text x="211" y="322" class="t sm" text-anchor="middle">financed by the network</text>
+
+<!-- ================= divider / arrow ================= -->
+<path d="M414 200 H470" stroke="#1AB4DF" stroke-width="3"/>
+<path d="M470 200 l-12 -7 v14 z" fill="#1AB4DF"/>
+<text x="442" y="186" class="t sm" fill="#1AB4DF" text-anchor="middle">add a warehouse</text>
+
+<!-- ================= RIGHT: with warehouse ================= -->
+<text x="500" y="34" class="t hd">With a central warehouse</text>
+<text x="500" y="54" class="t sm">Replenishment next morning. Protection is pooled instead of copied.</text>
+
+<!-- warehouse -->
+<rect x="500" y="72" width="150" height="86" rx="10" fill="#001D2B"/>
+<text x="575" y="100" class="t" font-size="11.5" font-weight="600" fill="#a9c3d4" text-anchor="middle">CENTRAL WAREHOUSE</text>
+<text x="575" y="128" class="t" font-size="22" font-weight="700" fill="#1AB4DF" text-anchor="middle">29&#8211;43</text>
+<text x="575" y="146" class="t" font-size="10.5" font-weight="600" fill="#a9c3d4" text-anchor="middle">packs, pooled</text>
+
+<!-- flow lines -->
+<path d="M575 158 V182" stroke="#1AB4DF" stroke-width="2.5"/>
+<path d="M520 182 H828" stroke="#1AB4DF" stroke-width="2.5"/>
+<path d="M520 182 V200" stroke="#1AB4DF" stroke-width="2" opacity=".55"/><path d="M564 182 V200" stroke="#1AB4DF" stroke-width="2" opacity=".55"/><path d="M608 182 V200" stroke="#1AB4DF" stroke-width="2" opacity=".55"/><path d="M652 182 V200" stroke="#1AB4DF" stroke-width="2" opacity=".55"/><path d="M696 182 V200" stroke="#1AB4DF" stroke-width="2" opacity=".55"/><path d="M740 182 V200" stroke="#1AB4DF" stroke-width="2" opacity=".55"/><path d="M784 182 V200" stroke="#1AB4DF" stroke-width="2" opacity=".55"/><path d="M828 182 V200" stroke="#1AB4DF" stroke-width="2" opacity=".55"/>
+<!-- pharmacies with one pack -->
+<g>
+
+<use href="#ph1" x="503" y="200"/><use href="#ph1" x="547" y="200"/><use href="#ph1" x="591" y="200"/><use href="#ph1" x="635" y="200"/><use href="#ph1" x="679" y="200"/><use href="#ph1" x="723" y="200"/><use href="#ph1" x="767" y="200"/><use href="#ph1" x="811" y="200"/>
+</g>
+<text x="500" y="266" class="t sm">&#215; 100 pharmacies &#183; 1 pack each</text>
+
+<rect x="500" y="282" width="360" height="76" rx="14" fill="#1AB4DF"/>
+<text x="680" y="318" class="t big" fill="#ffffff" text-anchor="middle">129&#8211;143 packs</text>
+<text x="680" y="340" class="t" font-size="11" font-weight="600" fill="#e6f7fd" text-anchor="middle">same availability, roughly a third less stock</text>
+
+<text x="450" y="386" class="t" font-size="10.5" font-weight="500" fill="#8a99a8" text-anchor="middle">A teaching model. Real figures depend on supply frequency and reliability, replenishment time, demand variability, pack size and the availability required.</text>
+</svg>

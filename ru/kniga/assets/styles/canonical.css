@@ -1,0 +1,26 @@
+body{font-family:serif;line-height:1.45;max-width:46rem;margin:auto;padding:2rem} h1,h2,h3{font-family:sans-serif} .source-page{margin:0 0 2rem} .callout{border-left:.25rem solid #888;padding-left:1rem} .formula{font-family:serif;font-weight:600} figure img{max-width:100%;height:auto} table{border-collapse:collapse;width:100%} th,td{padding:.35rem .5rem;border:1px solid #999;vertical-align:top} .source-marker{font-size:.75rem;color:#777}
+/* Phase 1 repair: semantic-flow QA only; not final EPUB styling. */
+.chapter-label,.stage-label{font-family:sans-serif;font-size:.82rem;font-weight:700;letter-spacing:.02em;margin:.25rem 0 .5rem}
+.speaker-line{margin:.45rem 0;padding-left:1rem}
+.key-statement{font-weight:600}
+.card{border:1px solid #bbb;padding:.8rem 1rem;margin:.8rem 0}
+.timeline{display:grid;grid-template-columns:6rem 1fr;gap:.45rem 1rem}
+.timeline dt{font-weight:700}.timeline dd{margin:0}
+.clean-figure{margin:1rem 0}.clean-figure img{display:block;max-width:100%;height:auto;margin:auto}
+.deferred-figure{display:none}
+@media(max-width:520px){body{padding:1rem}.timeline{grid-template-columns:1fr;gap:.15rem}.timeline dd{margin:0 0 .7rem}table{font-size:.88rem}th,td{padding:.3rem}}
+
+/* Closeout semantic structures */
+.card-grid{margin:1rem 0}.card-grid>.card{margin:.65rem 0}
+.process-flow{display:flex;gap:.65rem;flex-wrap:wrap;list-style-position:inside;padding-left:0}.process-flow li{border:1px solid #aaa;padding:.6rem .8rem;flex:1 1 10rem}
+.management-check-list,.card-question-list{padding-left:1.5rem}
+@media(max-width:520px){.process-flow{display:block}.process-flow li{margin:.4rem 0}}
+
+/* Final semantic cleanup */
+.author-name{font-weight:700;letter-spacing:.04em}.book-title{margin:.4rem 0 1rem}
+.mechanism-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.mechanism-list li{padding:.7rem;border:1px solid #bbb}.mechanism-list p{margin:.3rem 0 0}
+.state-target-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.6rem}.state-target-grid>.card{margin:0}
+@media(max-width:520px){.mechanism-list,.state-target-grid{grid-template-columns:1fr}}
+
+/* Repair closeout: prevent semantic tables from forcing horizontal scroll on narrow screens. */
+@media(max-width:520px){table{table-layout:fixed;width:100%}th,td{overflow-wrap:anywhere;word-break:break-word}}

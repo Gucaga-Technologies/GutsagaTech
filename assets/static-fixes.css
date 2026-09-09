@@ -1,0 +1,16 @@
+/* Static mirror fixes: Elementor animations require JS on WordPress.
+   In static/file preview, keep all animated elements visible. */
+.elementor-invisible,
+.animated,
+.elementor-widget-image,
+.elementor-widget-heading,
+.elementor-widget-text-editor {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.elementor-invisible {
+  transform: none !important;
+}
+img {
+  max-width: 100%;
+}

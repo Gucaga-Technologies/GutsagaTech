@@ -1,0 +1,16 @@
+TITLE
+КАК СЧИТАТЬ ДНИ ЗАПАСА
+
+TRANSCRIPT
+СРЕДНИЙ ЗАПАС
+в закупочной стоимости
+/
+СРЕДНЯЯ ДНЕВНАЯ СЕБЕСТОИМОСТЬ
+продаж
+=
+ДНИ ЗАПАСА
+скорость оборота капитала
+Сравнивать показатель имеет смысл только при сопоставимом уровне наличия.
+
+DIRECTIONAL SEMANTICS — VISUALLY VERIFIED
+NONE — formula uses division and equality operators, not directional arrows.

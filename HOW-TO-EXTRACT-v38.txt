@@ -1,0 +1,64 @@
+v38 — EXTRACT ALL THREE ZIPS INTO THE SAME FOLDER
+==================================================
+The upload limit is 30 MB and the full site with the book is about 65 MB, so it
+is split into three. All three contain the SAME top folder name, so they merge
+into one folder on their own.
+
+  1-gutsaga-site-v38.zip      the website          (25 MB)
+  2-ru-kniga-book.zip         the book             (19 MB)
+  3-ru-kniga-downloads.zip    its PDF and EPUB     (22 MB)
+
+
+THE ONE THING THAT GOES WRONG
+------------------------------
+Windows likes to create a folder named after the zip, so you end up with
+
+    gutsaga-site-v38\gutsaga-site-v38\...        <-- doubled, wrong
+
+Extract all three into the SAME PARENT folder, never into each other.
+
+
+STEP BY STEP (Windows)
+-----------------------
+  1. Make one empty folder, e.g.  C:\Work\website_gutsaga\
+  2. Right-click 1-gutsaga-site-v38.zip -> "Extract All..."
+     Set the destination to  C:\Work\website_gutsaga
+     NOT C:\Work\website_gutsaga\gutsaga-site-v38 — Windows adds the zip's own
+     name to the path by default. Delete that last part before clicking Extract.
+     -> you now have C:\Work\website_gutsaga\gutsaga-site-v38\
+  3. Same with 2-ru-kniga-book.zip — destination C:\Work\website_gutsaga again.
+     If Windows asks about merging or replacing, say yes / replace.
+  4. Same again with 3-ru-kniga-downloads.zip.
+
+
+CHECK IT WORKED
+----------------
+All three of these must exist:
+
+    gutsaga-site-v38\index.html
+    gutsaga-site-v38\ru\kniga\index.html
+    gutsaga-site-v38\ru\kniga\downloads\   (a .pdf and an .epub inside)
+
+And there must be NO folder called
+
+    gutsaga-site-v38\gutsaga-site-v38
+
+If you see that one, a zip was extracted inside another. Move its contents up
+one level, or start again with an empty folder.
+
+Total: 779 files, of which 183 are the book.
+
+
+THEN JUST OPEN IT
+------------------
+Double-click  gutsaga-site-v38\index.html.
+
+Everything works straight from the folder, the Russian book included — go to
+the book page, press "Читать по-русски", then "Читать книгу онлайн". Chapters,
+the contents page and the search all work.
+
+(If you would rather use a server, that works too. From inside gutsaga-site-v38:
+    python -m http.server 8080
+then open  http://localhost:8080/ )
+
+On gutsaga.tech it all works with no configuration.

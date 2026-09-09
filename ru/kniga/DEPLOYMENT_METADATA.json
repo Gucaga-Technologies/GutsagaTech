@@ -1,0 +1,15 @@
+{
+  "source_web_rc": "RC3",
+  "source_web_rc_sha256": "ea3762dc899d47ce7d08a512de6aae170181e15780648e1b111144632da6e558",
+  "book_site_origin": "https://gutsaga.tech",
+  "book_base_path": "/ru/kniga/",
+  "book_public_root": "https://gutsaga.tech/ru/kniga/",
+  "continuation_human_url": "https://gutsaga.tech/ru/evolution",
+  "continuation_qr_service_url": "https://pharma-market-evolution-ru.books.gutsaga.tech",
+  "enable_indexing": true,
+  "enable_analytics": false,
+  "qa_status": "PASS",
+  "qa_blockers": 0,
+  "qa_majors": 0,
+  "generated_at": "2026-09-07T12:44:20.065806Z"
+}

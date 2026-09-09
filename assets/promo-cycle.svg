@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 254" role="img" aria-label="Stock target through a promotion: raised before the promotion starts, returned to standard before it ends, so there is no overstock left afterwards">
+<defs>
+<style>
+.lb{font-family:Poppins,'Segoe UI',sans-serif;font-weight:700}
+</style>
+</defs>
+<rect width="480" height="254" fill="#ffffff"/>
+
+<!-- promotion window -->
+<rect x="96" y="26" width="280" height="164" fill="#1AB4DF" opacity=".07"/>
+<rect x="96" y="26" width="280" height="164" fill="none" stroke="#1AB4DF" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55"/>
+<text x="236" y="42" class="lb" font-size="15" fill="#001D2B" text-anchor="middle">Promotion</text>
+
+<!-- baseline before -->
+<rect x="24" y="166" width="70" height="24" fill="#7f9db0"/>
+<rect x="24" y="144" width="70" height="22" fill="#1AB4DF"/>
+
+<!-- target raised, ahead of the promotion -->
+<rect x="96" y="104" width="52" height="86" fill="#F5C542"/>
+
+<!-- promotion: stock works harder, target follows real sell-through -->
+<rect x="150" y="150" width="40" height="40" fill="#7f9db0"/>
+<rect x="150" y="96"  width="40" height="54" fill="#1AB4DF"/>
+<rect x="192" y="138" width="40" height="52" fill="#7f9db0"/>
+<rect x="192" y="70"  width="40" height="68" fill="#1AB4DF"/>
+<rect x="234" y="152" width="40" height="38" fill="#7f9db0"/>
+<rect x="234" y="112" width="40" height="40" fill="#1AB4DF"/>
+<rect x="276" y="140" width="40" height="50" fill="#7f9db0"/>
+<rect x="276" y="84"  width="40" height="56" fill="#1AB4DF"/>
+
+<!-- target back to standard, before the promotion ends -->
+<rect x="322" y="104" width="52" height="86" fill="#F5C542"/>
+
+<!-- baseline after — no overstock mountain -->
+<rect x="378" y="166" width="70" height="24" fill="#7f9db0"/>
+<rect x="378" y="144" width="70" height="22" fill="#1AB4DF"/>
+
+<!-- axis -->
+<path d="M14 190 H464" stroke="#001D2B" stroke-width="2.5"/>
+<path d="M464 190 l-9 -5 v10 z" fill="#001D2B"/>
+<text x="462" y="210" class="lb" font-size="12" fill="#41586b" text-anchor="end">Time</text>
+
+<!-- callouts -->
+<rect x="60" y="60" width="104" height="26" rx="13" fill="#001D2B"/>
+<text x="112" y="77" class="lb" font-size="12" fill="#ffffff" text-anchor="middle">Target up</text>
+<path d="M122 86 L122 104" stroke="#001D2B" stroke-width="2"/>
+
+<rect x="300" y="60" width="146" height="26" rx="13" fill="#001D2B"/>
+<text x="373" y="77" class="lb" font-size="12" fill="#ffffff" text-anchor="middle">Back to standard</text>
+<path d="M348 86 L348 104" stroke="#001D2B" stroke-width="2"/>
+
+<!-- legend -->
+<rect x="24" y="228" width="12" height="12" fill="#7f9db0"/>
+<text x="42" y="238" class="lb" font-size="11" fill="#41586b">stock on hand</text>
+<rect x="142" y="228" width="12" height="12" fill="#1AB4DF"/>
+<text x="160" y="238" class="lb" font-size="11" fill="#41586b">target level</text>
+<rect x="248" y="228" width="12" height="12" fill="#F5C542"/>
+<text x="266" y="238" class="lb" font-size="11" fill="#41586b">target changed for the promotion</text>
+</svg>

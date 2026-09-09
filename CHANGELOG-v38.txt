@@ -1,0 +1,181 @@
+GUTSAGA SITE — v38 (from v37)
+==============================
+
+A. FIVE NEW KNOWLEDGE ARTICLES, BUILT FROM THE FOUNDER'S BOOK
+=============================================================
+The Knowledge Hub had eight thin pages (~450 words each). It now also carries a
+series of five long articles, in English, taken from the operational chapters of
+"The Evolution of the Pharmaceutical Market". 8,400 words in total.
+
+They are written for pharmacy chains and pharma distribution, and they follow
+the book's own staging — one chain growing up, step by step:
+
+  1. knowledge/availability-as-a-financial-metric.html      (1,600 words)
+     "Availability is a financial number, not a shelf number"
+     What an empty shelf really costs; why 5 points of availability can mean a
+     ~20% difference in sales; how to define availability through lost margin
+     (potential margin = actual + estimated lost margin); why an ERP cannot tell
+     you what availability was 90 days ago; the four ways to break the number
+     down (supplier, category manager, pharmacy, time); the bonus trap.
+
+  2. knowledge/cost-of-high-availability.html               (1,545 words)
+     "What high availability costs"
+     Days of stock and why it is meaningless without availability beside it;
+     where a growing chain's money is lying; how supplier terms can finance
+     growth; using turnover to find the manufacturer, buyer or pharmacy where
+     capital is stuck; the owner who called to ask what to do with the cash.
+
+  3. knowledge/one-policy-hundred-pharmacies.html           (1,824 words)
+     "Can a hundred pharmacies manage stock the same way?"
+     One policy versus a hundred daily decisions; why an owner's instruction
+     does not change the system; the five levels of ordering maturity; ordering
+     driven by forecast versus by the state of the stock; the chain of 350
+     pharmacies where the twenty that objected were running the same
+     availability on ~50 days of stock against the network's ~35.
+
+  4. knowledge/central-warehouse-less-stock.html            (1,892 words)
+     "Why adding a warehouse can reduce total stock"
+     The aggregation paradox, worked through: 100 pharmacies × 2 packs = 200,
+     against ~129-143 with a central warehouse at the same availability. With a
+     new diagram. Protection period, the overnight replenishment cycle, pooled
+     uncertainty, the ~30% two projects actually saw, breaking bulk, pharmacist
+     time, resilience during a market shortage, buying power.
+
+  5. knowledge/cheaper-purchase-price.html                  (1,531 words)
+     "Does buying cheaper always mean earning more?"
+     Direct purchasing and private label; the distributor-vs-manufacturer
+     comparison; GMROI and its bands; "how many months of demand are in one
+     compulsory lot?" (24,000 ÷ 1,000 = 24 months); parallel trade caveats;
+     seven questions before signing a direct contract.
+
+NEW: THE "KNOWLEDGE" MENU ITEM NOW EXPANDS
+  Hover (or focus) Knowledge in the top menu and a two-column panel opens:
+      PROBLEM GUIDES                 PHARMACY CHAINS, STAGE BY STAGE
+      Reduce overstock               1 - Availability is a financial number
+      Prevent stockouts              2 - What high availability costs
+      Automate manual ordering       3 - A hundred pharmacies, one policy
+      Expiration & obsolete stock    4 - Adding a warehouse, less stock
+      Redistribution                 5 - Does buying cheaper earn more?
+      Promotion stock planning       From our founder's book ->
+      Glossary of terms
+      Horizon vs the alternatives
+  with "All knowledge ->" across the top. Same behaviour as the Industries and
+  Free Demo menus, and it works from every page depth. Thirteen articles are
+  now visible from the menu on any page of the site.
+
+ATTRIBUTION (light, as agreed)
+  One line at the foot of each article: "The thinking in this article draws on
+  The Evolution of the Pharmaceutical Market, a book by our founder Serzas
+  Gutsaga", linking to the book page. Nothing in the headline or the hero.
+
+WHERE THEY ARE LINKED FROM
+  - Knowledge Hub: a new section, "The pharmacy chain, stage by stage"
+  - Book page: a new section, "Five chapters, working" — so a reader who lands
+    on the book while the English edition is in preparation has something to
+    read in English immediately
+  - Cross-linked to each other and to the existing guides, the audit page and
+    the value calculator
+  - llms.txt, ai.html and page-sitemap.xml all updated
+
+WHAT WAS DELIBERATELY LEFT OUT
+  - Client names from the source chapters that our rules do not allow us to
+    publish. Two named clients in the warehouse chapter appear as "in one
+    project" and "a second client"; the Siberia/Urals case is not used at all.
+  - The book's "35-40 days of stock down to under 20" project result. It is a
+    real figure from a real project, but it reads as a ~50% stock cut, and every
+    other page on the site says 10-40%. It is yours to publish if you want it —
+    just tell me and I will put it back with the right framing.
+  - The exact warehouse availability threshold. The book states it; the article
+    says "a small fraction of its target level" instead, so no parameter recipe
+    is published.
+  - The self-check from the end of the book: it already exists in English on
+    the book page, so it was not duplicated.
+
+VERIFICATION
+  Every number, formula and example in the five articles was checked back
+  against the Russian source chapter, line by line, by a second pass: 17
+  corrections were applied (a caption that implied a 50% stock cut, one garbled
+  comparison, one invented causal clause, two claims tightened back to what the
+  author actually wrote, and eleven sentences that read as translation rather
+  than English). No client-confidentiality leak in any article.
+
+
+B. FIXES AND CHANGES FROM YOUR REVIEW
+======================================
+
+1. VALUE CALCULATOR — FITS, AND ASKS FOR NUMBERS PEOPLE KNOW
+   The results table was set to "never wrap" inside a box set to "hide what
+   sticks out", so a long number (~$1.7M freed) was chopped off at the edge.
+   Fixed proportions and wrapping cells now, the section is wider, type steps
+   down on smaller screens. Checked at 1440 / 1200 / 768 / 390 px with eight
+   sets of numbers, from a 5-shop chain to an $800M distributor: no clipping.
+
+   "Inventory turns, days (ITR)" is gone — most people do not know it. The
+   calculator asks for Sales / year (all locations) and derives the stock cover
+   itself, showing it back: "From your sales, margin and stock: 65 days of stock
+   (5.6 turns a year)", with a warning when the numbers cannot both be true.
+   "Reorder every ... days" is now "Replenishment time, days".
+
+2. THE ORDERING-LABOUR AMBIGUITY — CONFIRMED AND FIXED
+   That review was right, and it mattered most for distributors. Hours per day
+   were multiplied by the NUMBER OF LOCATIONS, so read as "hours per person" a
+   100-location chain was overstated 100x and a 3-warehouse distributor was
+   understated. The field is now "Ordering hours / person / day" and the saving
+   is computed per person against an 8-hour day, using the headcount already
+   being asked for. Default 5 h/person/day.
+
+3. OTHER CALCULATOR ERRORS FOUND WHILE CHECKING (none reported, all fixed)
+   - Margin was applied as mark-up on cost in one place and margin on sales in
+     another; it is now consistently gross margin % of sales.
+   - Empty or zero fields silently kept the previous value; they now fall back
+     to the example value, and every field is bounded.
+   - Impossible sales/stock combinations freed more cash than the company owned.
+   - A business already lean was still promised a 20% stock cut because its fill
+     rate was high; it now gets the small, honest number.
+   - Stock reduction capped at 40%, sales uplift at 20% — as published elsewhere.
+   - Values above a billion no longer print as "$999929.4B".
+
+4. HOMEPAGE -> BENEFITS DID NOTHING
+   The "Benefits" menu item pointed at "index.html" — from the homepage that IS
+   the homepage. Same bug on all 9 Knowledge pages, where it landed on the
+   Knowledge index. Fixed on all 10, then every menu item on every page was
+   checked against the page it names: 0 mismatches left.
+
+5. PICTURES
+   - Technologies hero: the laptop-and-dashboards render from the homepage,
+     instead of the Horizon screenshot (which was also used again further down
+     the same page, so the page showed the same picture twice).
+   - Promotions card: your promotion slide, redrawn as a sharp vector graphic in
+     our colours. Also added, full width, to the "Promotion stock planning"
+     knowledge page.
+   - New diagram for the warehouse article (200 packs vs 129-143).
+
+CHECKS
+-------
+  - 7,371 internal links. Broken: only the 21 known industry photo placeholders.
+  - 128 JSON-LD blocks, all valid (5 new FAQPage blocks).
+  - 63 pages at 1440 / 1200 / 768 / 390 px: no horizontal overflow, no JS errors.
+  - Benefits menu item click-tested from the homepage and two Knowledge pages.
+  - Russian book re-checked from the folder: styles, chapters, search all fine.
+  - gt-extra.css re-inlined into all 58 pages that carry it.
+
+ONE THING TO DECIDE (not changed)
+----------------------------------
+The "Horizon — automated ordering" card on the Technologies page still uses the
+production screenshot. At card size it is unreadable, and it shows a real
+client's stock locations (Apteka A003-A018) and their SKUs. For a public site
+that is worth replacing or blurring before go-live — say the word and I will.
+
+STILL OPEN (unchanged)
+-----------------------
+  - 21 industry photos — run scripts/get-industry-photos.py on your machine
+  - Testimonials, waiting on signatures (kept in the HTML, hidden since v32)
+  - English edition of the book
+  - A dedicated demo video (the demo page uses the diagnostic video for now)
+
+NEXT ARTICLES THE BOOK WOULD EASILY SUPPORT
+  - "Customer patience time": which products have to sit in the pharmacy, which
+    can sit centrally, and which can be reliably promised from a supplier
+  - "When does stock become excess?"
+  - "Do you have several products, or a category?"
+  - "What exactly are you going to scale?"

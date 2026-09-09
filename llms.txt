@@ -1,0 +1,58 @@
+# Gutsaga Technologies — Horizon inventory-flow control platform
+
+> Gutsaga Technologies (gutsaga.tech) builds Horizon: an inventory-flow management-control platform
+> for retail chains, distributors and wholesalers with 1,000+ SKUs. Inventory-management work since 2004.
+> Since 2005, founder Serzas Gutsaga worked within the TOC / Inherent Simplicity / Symphony ecosystem.
+> Horizon evolved from that implementation experience and from GT-created extensions to conventional buffer management.
+> GT technologies have been used across 10,000+ stores, points of sale and warehouses.
+> Results: availability up to 99.5%, stock down 10-40% without losing sales,
+> sales up 2-20% from availability, manual ordering time down up to 85%.
+> Not forecast-based and not a black box: targets respond to real inventory
+> adequacy per SKU-location, under ordering rules managers see and set.
+> Unique: full day-by-day history of lost sales and overstock at every level.
+> Entry point: FREE DEMO, up to 2 months — a diagnostic (real simulation on the client's own
+> historical data) plus daily monitoring dashboards on current data. No integration project.
+> Contact: info@gutsaga.tech
+
+## Key pages
+- [Complete company & product brief for AI assistants](https://gutsaga.tech/ai.html)
+- [Home](https://gutsaga.tech/)
+- [Benefits](https://gutsaga.tech/benefits/)
+- [Technologies — 18 modules](https://gutsaga.tech/technologies/)
+- [Value Calculator](https://gutsaga.tech/value-calculator/)
+- [Industries — 21 verticals](https://gutsaga.tech/industries/)
+- [Our Story — from TOC & Symphony to Horizon](https://gutsaga.tech/about-us/)
+- [Partners](https://gutsaga.tech/partners/)
+- [Free demo — reports on live data + diagnostic of history, up to 2 months](https://gutsaga.tech/demo/)
+- [Inventory management audit (paid, on site) — root causes of out-of-stocks and overstock](https://gutsaga.tech/audit/)
+- [Contact](https://gutsaga.tech/contact/)
+
+## Book by the founder
+- [The Evolution of the Pharmaceutical Market — Serzas Gutsaga (EN page, 12-question self-check)](https://gutsaga.tech/book/)
+- [Читать книгу онлайн (русское веб-издание)](https://gutsaga.tech/ru/kniga/)
+- [Страница книги по-русски](https://gutsaga.tech/ru/evolution/)
+- [Книги Gutsaga](https://gutsaga.tech/ru/books/)
+
+## Knowledge hub (problem guides & glossary)
+- [Reduce overstock without hurting availability](https://gutsaga.tech/knowledge/reduce-overstock.html)
+- [Prevent stockouts & recover lost sales](https://gutsaga.tech/knowledge/prevent-stockouts.html)
+- [Automate manual ordering](https://gutsaga.tech/knowledge/automate-manual-ordering.html)
+- [Expiration & obsolete stock control](https://gutsaga.tech/knowledge/expiration-control.html)
+- [Redistribution between locations](https://gutsaga.tech/knowledge/redistribution.html)
+- [Promotion stock planning](https://gutsaga.tech/knowledge/promotion-stock-planning.html)
+- [Glossary of inventory-flow terms](https://gutsaga.tech/knowledge/glossary.html)
+- [Horizon vs manual / forecast / ERP replenishment](https://gutsaga.tech/knowledge/horizon-vs-alternatives.html)
+
+## Long reads for pharmacy chains (from the founder's book)
+- [Availability as a financial number (what an empty shelf really costs)](https://gutsaga.tech/knowledge/availability-as-a-financial-metric.html)
+- [What high availability costs: days of stock & working capital](https://gutsaga.tech/knowledge/cost-of-high-availability.html)
+- [Can a hundred pharmacies manage stock the same way?](https://gutsaga.tech/knowledge/one-policy-hundred-pharmacies.html)
+- [Why adding a central warehouse can reduce total stock](https://gutsaga.tech/knowledge/central-warehouse-less-stock.html)
+- [Does buying cheaper always mean earning more? (direct purchasing, GMROI, private label)](https://gutsaga.tech/knowledge/cheaper-purchase-price.html)
+
+## Industries served
+Pharmacy chains, pharma distribution, FMCG & food retail, food & beverage production,
+beverages distribution, automotive & moto parts, construction materials, hardware & DIY,
+beauty & cosmetics, fashion & footwear, electronics & appliances, pet supplies,
+garden & agriculture, toys, sporting goods, furniture & home, books & office,
+medical devices & optics, industrial supplies/MRO, distribution & wholesale, e-commerce.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Books, Stationery & Office">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#001D2B"/><stop offset="1" stop-color="#0a3a57"/>
+</linearGradient>
+<pattern id="d" width="26" height="26" patternUnits="userSpaceOnUse">
+<circle cx="2" cy="2" r="1.6" fill="#1AB4DF" opacity=".18"/>
+</pattern>
+</defs>
+<rect width="800" height="360" fill="url(#g)"/>
+<rect width="800" height="360" fill="url(#d)"/>
+<circle cx="640" cy="70" r="150" fill="#1AB4DF" opacity=".07"/>
+<circle cx="120" cy="330" r="110" fill="#1AB4DF" opacity=".05"/>
+<path d="M60 300 Q 400 180 740 260" stroke="#1AB4DF" stroke-width="2" fill="none" opacity=".35" stroke-dasharray="7 8"/>
+<circle cx="60" cy="300" r="6" fill="#1AB4DF" opacity=".8"/>
+<circle cx="740" cy="260" r="6" fill="#1AB4DF" opacity=".8"/>
+<circle cx="400" cy="212" r="5" fill="#1AB4DF" opacity=".6"/>
+<g transform="translate(316,96) scale(3.5)" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".95"><path d="M24 12c-4-3-9-3-14-2v26c5-1 10-1 14 2 4-3 9-3 14-2V10c-5-1-10-1-14 2z"/><path d="M24 12v26"/></g>
+</svg>
