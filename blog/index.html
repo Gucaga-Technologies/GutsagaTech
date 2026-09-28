@@ -651,6 +651,94 @@ div[style*="background:#F1F2FF"] .elementor-widget-image-box .elementor-widget-c
 .gtx-dd-know a.gtx-dd-note{font-size:.76rem !important;color:#1AB4DF !important;font-weight:600;margin-top:4px;
   border-top:1px solid #eef2f8;border-radius:0;padding-top:9px}
 @media(max-width:1199px){.gtx-dd-panel.gtx-dd-know{min-width:0;grid-template-columns:1fr}}
+
+/* v39: web-book contents (ru/kniga) */
+.gtx-bktoc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:20px}
+.gtx-bktoc-part{background:#fff;border:1px solid #e2e8f2;border-radius:16px;padding:20px 20px 12px;box-shadow:0 2px 10px rgba(0,29,43,.04)}
+.gtx-bktoc-wide{grid-column:1/-1}
+.gtx-bktoc-head{display:block;text-decoration:none;margin-bottom:10px;border-bottom:1px solid #eef2f8;padding-bottom:10px}
+.gtx-bktoc-head b{display:block;font-family:Poppins,sans-serif;font-size:1.05rem;line-height:1.3;color:#001D2B;margin-top:4px}
+a.gtx-bktoc-head:hover b{color:#1AB4DF}
+.gtx-bktoc-part ol{list-style:none;margin:0;padding:0}
+.gtx-bktoc-cols{columns:2 300px;column-gap:26px}
+.gtx-bktoc-part li{break-inside:avoid;margin:0}
+.gtx-bktoc-part li a{display:flex;gap:10px;align-items:baseline;padding:7px 6px;border-radius:8px;text-decoration:none;
+  color:#243b4d;font-family:Poppins,sans-serif;font-size:.9rem;line-height:1.4}
+.gtx-bktoc-part li a:hover{background:#F1F2FF;color:#001D2B}
+.gtx-bktoc-n{flex:0 0 auto;min-width:26px;height:22px;border-radius:6px;background:#001D2B;color:#fff;font-size:.72rem;
+  font-weight:700;display:inline-flex;align-items:center;justify-content:center;padding:0 5px}
+.gtx-bktoc-dot{background:transparent;border:2px solid #cfdbe6;min-width:10px;width:10px;height:10px;border-radius:50%;padding:0;margin:0 8px}
+.gtx-bktoc-new{font-style:normal;font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  background:#1AB4DF;color:#fff;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:1px;white-space:nowrap}
+.gtx-bktoc-newnote{font-family:Poppins,sans-serif;font-size:.86rem !important;color:#41586b;margin-top:14px !important}
+.gtx-bktoc-newnote .gtx-bktoc-new{margin:0 6px 0 0}
+@media(max-width:520px){.gtx-bktoc-grid{grid-template-columns:1fr}.gtx-bktoc-cols{columns:1}}
+
+/* v39: Our Story — phase, leadership, board, companies */
+.gtx-phase{background:#001D2B;border-radius:22px;padding:30px;display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch;
+  box-shadow:0 20px 50px rgba(0,29,43,.18)}
+.gtx-phase-step{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:20px}
+.gtx-phase-step.on{background:#1AB4DF;border-color:#1AB4DF}
+.gtx-phase-step span{display:block;font-family:Poppins,sans-serif;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:#8fc9e2;font-weight:700}
+.gtx-phase-step.on span{color:#e6f7fd}
+.gtx-phase-step b{display:block;font-family:Poppins,sans-serif;font-size:1.2rem;color:#fff;margin:6px 0 8px;line-height:1.25}
+.gtx-phase-step p{margin:0;color:#a9c3d4;font-size:.86rem !important;line-height:1.55 !important}
+.gtx-phase-step.on p{color:#f1fbff}
+.gtx-phase-arrow{align-self:center;color:#1AB4DF;font-size:1.8rem;font-weight:700}
+.gtx-phase-note{grid-column:1/-1;margin:6px 0 0;text-align:center;color:#8fc9e2;font-family:Poppins,sans-serif;font-size:.86rem !important;font-weight:600}
+.gtx-leaders{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:36px}
+.gtx-leader{display:grid;grid-template-columns:170px 1fr;gap:24px;background:#fff;border:1px solid #e2e8f2;border-radius:20px;padding:26px;
+  box-shadow:0 10px 30px rgba(0,29,43,.06);align-items:start}
+.gtx-leader figure{margin:0}
+.gtx-leader img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:16px;display:block;box-shadow:0 10px 24px rgba(0,29,43,.14)}
+.gtx-leader h3{font-family:Poppins,sans-serif;font-size:1.45rem !important;line-height:1.2 !important;color:#001D2B;margin:6px 0 8px}
+.gtx-leader-lead{font-family:Poppins,sans-serif;color:#243b4d;font-size:.98rem !important;line-height:1.55 !important;margin:0 0 12px}
+.gtx-leader .gtx-story-list{margin:0}
+.gtx-leader .gtx-story-list li{font-size:.9rem;line-height:1.55;margin-bottom:6px}
+.gtx-leader .gtx-story-list a{color:#1AB4DF;font-weight:600}
+.gtx-leader-role{margin:14px 0 0;padding-top:12px;border-top:1px solid #eef2f8;font-family:Poppins,sans-serif;font-size:.84rem !important;
+  line-height:1.5 !important;color:#41586b;font-weight:600}
+.gtx-board{margin-top:24px;background:#F1F2FF;border:1px solid #e2e8f2;border-radius:20px;padding:26px 28px;display:grid;
+  grid-template-columns:1.1fr 1.4fr;gap:26px;align-items:center}
+.gtx-board h3{font-family:Poppins,sans-serif;font-size:1.3rem !important;color:#001D2B;margin:6px 0 8px}
+.gtx-board p{margin:0;color:#41586b;font-size:.93rem !important;line-height:1.6 !important}
+.gtx-board-seats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.gtx-seat{background:#fff;border:1px solid #e2e8f2;border-radius:14px;padding:16px 14px;text-align:center}
+.gtx-seat.on{border-color:#1AB4DF;box-shadow:0 0 0 3px rgba(26,180,223,.12)}
+.gtx-seat-dot{display:block;width:34px;height:34px;border-radius:50%;margin:0 auto 10px;background:#dfe7ef}
+.gtx-seat.on .gtx-seat-dot{background:#001D2B}
+.gtx-seat b{display:block;font-family:Poppins,sans-serif;font-size:.9rem;color:#001D2B;line-height:1.3}
+.gtx-seat small{display:block;font-size:.76rem;color:#5b6b7c;margin-top:3px}
+.gtx-cos{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:34px}
+.gtx-co{background:#fff;border:1px solid #e2e8f2;border-radius:20px;padding:28px;box-shadow:0 6px 20px rgba(0,29,43,.05)}
+.gtx-co-tag{display:inline-flex;width:48px;height:48px;border-radius:12px;background:#001D2B;color:#1AB4DF;font-family:Poppins,sans-serif;
+  font-weight:800;align-items:center;justify-content:center;letter-spacing:.04em}
+.gtx-co-tag.alt{background:#1AB4DF;color:#fff}
+.gtx-co h3{font-family:Poppins,sans-serif;font-size:1.3rem !important;color:#001D2B;margin:14px 0 6px}
+.gtx-co-job{font-family:Poppins,sans-serif;color:#243b4d;font-weight:600;font-size:.98rem !important;line-height:1.5 !important;margin:0 0 12px}
+.gtx-co .gtx-story-list li{font-size:.9rem;line-height:1.55}
+.gtx-co-lead{margin:14px 0 0;padding-top:12px;border-top:1px solid #eef2f8;font-family:Poppins,sans-serif;font-size:.84rem !important;color:#1AB4DF;font-weight:700}
+@media(max-width:1100px){.gtx-leaders{grid-template-columns:1fr}}
+@media(max-width:900px){.gtx-board{grid-template-columns:1fr}.gtx-cos{grid-template-columns:1fr}}
+@media(max-width:620px){.gtx-leader{grid-template-columns:1fr;padding:22px}.gtx-leader figure{max-width:200px}
+  .gtx-phase{grid-template-columns:1fr;padding:22px}.gtx-phase-arrow{transform:rotate(90deg);justify-self:center}
+  .gtx-board-seats{grid-template-columns:1fr}}
+
+/* v43: EU funding — trust line centred between the stats and the next section */
+.gtx-eu{display:flex;align-items:center;justify-content:center;gap:11px;margin:44px auto 0;font-family:Poppins,sans-serif;color:#fff}
+.gtx-eu,.gtx-eu span,.gtx-eu b{font-size:1.02rem !important;line-height:1.45 !important;color:#fff}
+.gtx-eu b{font-weight:700}
+.gtx-eu-flag{width:27px;height:18px;flex:0 0 auto;border-radius:2px;display:block}
+@media(max-width:600px){.gtx-eu{flex-wrap:wrap;text-align:center;margin-top:36px}.gtx-eu,.gtx-eu span,.gtx-eu b{font-size:.92rem !important}}
+
+/* v43: company and leader cards — footer line no longer hugs the last bullet */
+.gtx-co{display:flex;flex-direction:column}
+.gtx-co .gtx-story-list{margin:0 0 22px}
+.gtx-co-lead{margin-top:auto !important;padding-top:16px !important}
+.gtx-leader .gtx-story-list{margin:0 0 18px}
+.gtx-leader-role{padding-top:14px !important}
+/* v43: the play/pause control sat on top of the chart's last date label — move it under the chart */
+.gtx-motion-toggle{position:static !important;display:block;margin:10px 0 0 auto}
 </style>
 </head>
 <body class="wp-singular page-template-default page page-id-34 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor hello-elementor-default elementor-default elementor-kit-19 elementor-page elementor-page-34"><nav class="static-nav"><a href="../index.html">Home</a> <a href="../benefits/index.html">Benefits</a> <a href="../technologies/index.html">Technologies</a> <a href="../industries/index.html">Industries</a> <a href="../about-us/index.html">Our Story</a> <a href="index.html">Blog</a></nav><div class="hfeed site" id="page">

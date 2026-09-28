@@ -1,0 +1,56 @@
+GUTSAGA SITE — v45 (from v44)
+==============================
+
+OUR STORY — WRITTEN FOR CUSTOMERS (v45)
+  Two companies section rewritten from the customer's side (no sales talk):
+    Heading: "Horizon software and business consulting"
+    Gutsaga Technologies — Horizon, the inventory-flow system, from
+      implementation to measurable results:
+        - Horizon and its technologies, developed in-house
+        - Implementation from data connection to go-live, then ongoing support
+        - Results tracked on your own data: availability, stock and lost sales
+    Gutsaga Consulting — Business audits and consulting:
+        - Audits that show where stock, money and sales are lost
+        - Business consulting on inventory, supply chain and operations
+    Conferences, books and "brand" removed from this section.
+  - Serzas's card: Director of Gutsaga Consulting — business audits and consulting.
+  - Augustas's card: "responsible for client implementation" (sales removed).
+  - llms.txt / ai.html updated to match.
+
+--- v44 ---
+
+OUR STORY (v44)
+  - Removed the Leadership intro line ("Clear roles for the next stage: ...").
+    The heading now goes straight into the two leader cards.
+
+--- v43 changes, included ---
+
+HOMEPAGE
+  - EU funding line under the % figures is now larger (about 1.02rem) and white,
+    with the EU flag, sitting exactly in the middle between the figures and the
+    next section (44 px above, 44 px below). The dark-blue block's bottom
+    padding was reduced so there is less empty space.
+  - The chart's "Pause animation" button moved below the chart so it no longer
+    covers the "Oct 3" label.
+
+OUR STORY
+  Removed, as asked:
+    - "Accountable for the company's results: markets, sales, implementation and the team."
+    - "the CEO runs the company" (Leadership lead line and the Board box)
+    - "stepping out of daily management, not out of the company."
+    - "Each company has one clear job, so neither has to compete with the other for attention."
+  - Leadership lead now reads: "Clear roles for the next stage: a CEO for the
+    company, the founder for research and development, and a Board for strategy
+    and vision."
+  - Company cards (GT / GC) tidied: even spacing, "Led by ..." line aligned at
+    the bottom of both cards. Leader cards: same spacing fix.
+  - llms.txt / ai.html updated the same way.
+
+CHECKS
+  - 63 pages at 1440 / 1200 / 768 / 390 px: no overflow, no JS errors.
+  - 7,372 internal links: only the 21 known industry photos missing.
+  - 129 JSON-LD blocks, all valid.
+
+PACKAGE
+  Website only. ru/kniga is NOT included — copy your existing ru\kniga folder
+  (the reader you already have) into ru\ after extracting.
