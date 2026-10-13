@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@page leftpage {
+  size:167mm 240mm;
+  margin:15mm 20mm 18mm 15mm;
+  background:#fff;
+}
+@page rightpage {
+  size:167mm 240mm;
+  margin:15mm 15mm 18mm 20mm;
+  background:#fff;
+}
+html,body{margin:0;padding:0;background:#fff;color:var(--ink);}
+body{font-family:var(--font-body);font-size:var(--body);line-height:var(--body-leading);}
+main{margin:0;padding:0;}
+section[id^="ch-"]{margin:0;padding:0;}
+.book-page{
+  box-sizing:border-box; width:132mm; height:207mm; position:relative; overflow:visible;
+  margin:0; padding:0; break-after:page; page-break-after:always;
+}
+.book-page.left-page{page:leftpage;}
+.book-page.right-page{page:rightpage;}
+.book-page:last-of-type{break-after:auto;page-break-after:auto;}
+.folio{
+  position:absolute; bottom:-11.2mm; font-family:var(--font-ui); font-size:7.2pt; line-height:8pt;
+  letter-spacing:.04em; color:#829099; z-index:20;
+}
+.left-page .folio{left:0}.right-page .folio{right:0}
+.measure{max-width:112mm;}

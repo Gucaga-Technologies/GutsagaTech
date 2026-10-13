@@ -1,0 +1,12 @@
+/* b104-b107 accepted print-remediation carriers: exact trim vector surfaces, semantic CIDs retained in hidden source shadows where applicable. */
+@page b104-p030-full{size:167mm 240mm;margin:0;background:#fff}
+@page b105-p032-full{size:167mm 240mm;margin:0;background:#fff}
+@page b106-p033-full{size:167mm 240mm;margin:0;background:#fff}
+@page b107-p034-full{size:167mm 240mm;margin:0;background:#fff}
+#pdf-032{page:b104-p030-full!important} #pdf-034{page:b105-p032-full!important} #pdf-036{page:b106-p033-full!important} #pdf-037{page:b107-p034-full!important}
+#pdf-032,#pdf-034,#pdf-036,#pdf-037{margin:0!important;padding:0!important;width:167mm!important;height:240mm!important;min-height:240mm!important;max-height:240mm!important;overflow:hidden!important;break-after:page!important;page-break-after:always!important}
+#pdf-037{break-after:auto!important;page-break-after:auto!important}
+#pdf-032::after,#pdf-034::after,#pdf-036::after,#pdf-037::after{content:none!important;display:none!important}
+#pdf-032>.approved-full-art,#pdf-034>.approved-full-art,#pdf-036>.approved-full-art,#pdf-037>.approved-full-art{display:block!important;position:static!important;width:167mm!important;height:240mm!important;margin:0!important;padding:0!important;overflow:hidden!important;break-inside:avoid!important;page-break-inside:avoid!important}
+#pdf-032>.approved-full-art img,#pdf-034>.approved-full-art img,#pdf-036>.approved-full-art img,#pdf-037>.approved-full-art img{display:block!important;width:167mm!important;height:240mm!important;max-width:none!important;max-height:none!important;margin:0!important;padding:0!important;object-fit:fill!important}
+#pdf-032>.p026-source-semantic-shadow,#pdf-036>.p029-source-semantic-shadow,#pdf-037>.p030-source-semantic-shadow{display:none!important}

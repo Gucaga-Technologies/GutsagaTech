@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* b138 final typography closure: source-side policy for the four remediated pages.
+   PRINT authority uses approved b138 page replacements; this stylesheet keeps canonical XHTML
+   aligned with the same >=8 pt reader-facing intent. Folios remain service text. */
+#b057-kpi-page-03 .metric-name,
+#b057-kpi-page-03 .metric-note,
+#b057-kpi-page-03 .formula,
+#b057-kpi-page-03 .trend-values,
+#b057-kpi-page-03 .axis-labels,
+#b057-kpi-page-03 .card p,
+#b057-kpi-page-03 .question-list li,
+#b057-kpi-page-03 .q-badge,
+#b057-kpi-page-03 .error,
+#b057-kpi-page-03 .error b,
+#b057-kpi-page-03 .action-strip {font-size:8.1pt !important; line-height:9.8pt !important;}
+#b057-kpi-page-03 .q-badge {width:5mm !important;height:5mm !important;min-width:5mm !important;max-width:5mm !important;min-height:5mm !important;max-height:5mm !important;flex-basis:5mm !important;line-height:5mm !important;}
+
+#b057-kpi-page-05 .metric-name,
+#b057-kpi-page-05 .metric-note,
+#b057-kpi-page-05 .formula,
+#b057-kpi-page-05 .gmroi-trend-title,
+#b057-kpi-page-05 .gmroi-months,
+#b057-kpi-page-05 .gmroi-baseline,
+#b057-kpi-page-05 .card-title,
+#b057-kpi-page-05 .card p,
+#b057-kpi-page-05 .error,
+#b057-kpi-page-05 .error b,
+#b057-kpi-page-05 .question-list li,
+#b057-kpi-page-05 .q-badge,
+#b057-kpi-page-05 .action-strip {font-size:8.1pt !important; line-height:9.8pt !important;}
+#b057-kpi-page-05 .gmroi-chart svg text {font-size:16px !important;}
+#b057-kpi-page-05 .q-badge {width:5mm !important;height:5mm !important;min-width:5mm !important;max-width:5mm !important;min-height:5mm !important;max-height:5mm !important;flex-basis:5mm !important;line-height:5mm !important;}
+
+#b057-kpi-page-09 .unwanted-main-metric b,
+#b057-kpi-page-09 .unwanted-main-metric span,
+#b057-kpi-page-09 .unwanted-trend h3,
+#b057-kpi-page-09 .unwanted-status-row b,
+#b057-kpi-page-09 .unwanted-status-row span,
+#b057-kpi-page-09 .question-list li,
+#b057-kpi-page-09 .q-badge,
+#b057-kpi-page-09 .error,
+#b057-kpi-page-09 .error b,
+#b057-kpi-page-09 .action-strip {font-size:8.1pt !important; line-height:9.8pt !important;}
+#b057-kpi-page-09 .unwanted-trend svg text {font-size:17.3px !important;}
+#b057-kpi-page-09 .q-badge {width:5mm !important;height:5mm !important;min-width:5mm !important;max-width:5mm !important;min-height:5mm !important;max-height:5mm !important;flex-basis:5mm !important;line-height:5mm !important;}
+
+/* b138: targeted KPI pages carry an explicit canonical .folio in XHTML.
+   Suppress legacy pagination pseudo-folios on these remediated pages so the
+   generated replacement contains exactly one footer folio. */
+#b057-kpi-page-03::after,
+#b057-kpi-page-05::after,
+#b057-kpi-page-09::after {content:none !important; display:none !important;}

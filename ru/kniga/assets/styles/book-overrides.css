@@ -1,0 +1,336 @@
+/* BOOK_ARCHITECTURE_STANDARD v1.2.1 - PharmaBook approved block P187-P197. Scoped only. */
+.std12-page{max-width:48rem;margin:0 auto;padding:1.25rem 1.4rem 1.5rem;box-sizing:border-box;}
+.std12-page .std12-kicker{font-family:"Noto Sans",sans-serif;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#6f7d85;margin:0 0 .8rem;}
+.std12-page .std12-title{font-family:"Noto Sans",sans-serif;font-weight:700;color:#12324A;margin:.2rem 0 .55rem;line-height:1.12;}
+.std12-page .std12-deck{font-family:"Noto Serif",serif;color:#52616B;font-size:1.05em;margin:.2rem 0 .8rem;}
+.std12-page .std12-p{font-family:"Noto Serif",serif;color:#26333B;line-height:1.42;margin:.55rem 0;}
+.std12-page .std12-section{font-family:"Noto Sans",sans-serif;color:#12324A;font-weight:700;margin:1rem 0 .45rem;}
+.std12-page .std12-grid{display:grid;gap:.75rem;}
+.std12-page .std12-grid-2{grid-template-columns:repeat(2,minmax(0,1fr));}
+.std12-page .std12-grid-3{grid-template-columns:repeat(3,minmax(0,1fr));}
+.std12-page .std12-grid-4{grid-template-columns:repeat(4,minmax(0,1fr));}
+.std12-page .std12-card{border:1px solid #cfd9dc;border-radius:.8rem;padding:.8rem;background:#EEF2F3;}
+.std12-page .std12-card-risk{background:#f8eeea;border-color:#e2c7c0;}
+.std12-page .std12-card-good{background:#edf7f5;border-color:#bfddd8;}
+.std12-page .std12-card-warm{background:#fbf2d8;border-color:#ead49c;}
+.std12-page .std12-card-title{font-family:"Noto Sans",sans-serif;font-weight:700;color:#12324A;margin:0 0 .4rem;}
+.std12-page .std12-label{font-family:"Noto Sans",sans-serif;color:#52616B;margin:.2rem 0;}
+.std12-page .std12-callout{border-left:.36rem solid #1E918A;background:#EEF2F3;border-radius:0 .8rem .8rem 0;padding:.8rem 1rem;margin:1rem 0;font-family:"Noto Serif",serif;font-weight:700;color:#12324A;}
+.std12-page .std12-callout-warm{border-left-color:#D3921F;background:#F6E8BD;}
+.std12-page .std12-flow{display:flex;gap:.55rem;align-items:stretch;flex-wrap:wrap;margin:.8rem 0;}
+.std12-page .std12-flow>*{flex:1 1 7rem;}
+.std12-page .std12-node{font-family:"Noto Sans",sans-serif;font-weight:700;text-align:center;border:1px solid #cfd9dc;border-radius:.7rem;padding:.8rem;background:#fff;color:#12324A;}
+.std12-page .std12-list{margin:.45rem 0 .45rem 1.2rem;padding:0;}
+.std12-page .std12-list li{margin:.28rem 0;}
+.std12-page .std12-metric{font-family:"Noto Sans",sans-serif;text-align:center;color:#12324A;font-weight:700;}
+.std12-page .std12-metric strong{font-size:2rem;display:block;color:#1E918A;}
+.std12-page .std12-human-layout{display:grid;grid-template-columns:1fr minmax(8rem,1.1fr) 1fr;gap:.6rem;align-items:center;margin:.8rem 0;}
+.std12-page .std12-human-layout img{display:block;width:100%;height:auto;}
+.std12-page .std12-worksheet{display:grid;gap:.8rem;margin:.8rem 0;}
+.std12-page .std12-workrow{border:1px solid #d9e0e2;border-radius:.7rem;padding:.75rem;}
+.std12-page .std12-worklabels{display:grid;grid-template-columns:1.3fr .7fr 1fr 1fr 1.4fr 1fr;gap:.35rem;font-family:"Noto Sans",sans-serif;font-weight:700;color:#12324A;}
+.std12-page .std12-actions{display:grid;gap:.7rem;}
+.std12-page .std12-action{display:grid;grid-template-columns:2rem 1fr;gap:.7rem;align-items:start;border:1px solid #d9e0e2;border-radius:.7rem;padding:.75rem;background:#fff;}
+.std12-page .std12-action-num{width:1.7rem;height:1.7rem;border-radius:50%;display:grid;place-items:center;background:#1E918A;color:white;font-family:"Noto Sans",sans-serif;font-weight:700;}
+.std12-page .std12-legacy-figure{display:none!important;}
+@media (max-width:44rem){.std12-page .std12-grid-2,.std12-page .std12-grid-3,.std12-page .std12-grid-4,.std12-page .std12-human-layout{grid-template-columns:1fr}.std12-page .std12-worklabels{grid-template-columns:1fr 1fr;}}
+
+
+/* P160 */
+#pdf-144 #block-02484{font-family:var(--font-ui);font-size:8.1pt;line-height:9.8pt;color:var(--muted);margin-bottom:2mm;}
+#pdf-144 #block-02485{font-size:10.8pt;line-height:14pt;max-width:116mm;margin-bottom:3mm;}
+#pdf-144 #block-02486{font-size:14.7pt;line-height:17.5pt;border-left:1.5mm solid var(--teal);padding-left:4mm;margin:2mm 0 3mm;max-width:120mm;}
+#pdf-144 #block-02488{max-width:118mm;margin-bottom:3mm;}
+#pdf-144 #block-02489{font-size:11.2pt;line-height:13.6pt;border-left:1.5mm solid var(--teal);padding-left:4mm;margin:2mm 0 2mm;}
+#pdf-144 #block-02491{max-width:118mm;margin-bottom:2mm;}
+#pdf-144 .capacity-contrast{margin-top:2mm;}
+#pdf-144 .diagram-panel{min-height:37mm;padding:3mm 4mm}.capacity-contrast .mini-bars{height:17mm;margin:3mm 0 1mm}.capacity-contrast .mini-bars i:nth-child(4){height:16mm}
+
+/* P161 */
+#pdf-145 #block-02506{max-width:120mm;margin-bottom:4mm;}
+#pdf-145 #block-02520{max-width:112mm;margin-bottom:3mm;}
+#pdf-145 #block-02521{font-family:var(--font-ui);font-weight:800;font-size:10.2pt;line-height:12.8pt;border-left:1.5mm solid var(--teal);padding:2.7mm 0 2.7mm 4mm;margin:2mm 0 3mm;background:linear-gradient(to right,var(--light-cool),#fff 80%);}
+#pdf-145 .access-bottleneck{margin-top:2mm}.access-bottleneck figcaption{text-align:left;margin-bottom:1mm;}
+
+/* P162 */
+#pdf-146 #block-02523{margin-bottom:1.5mm;}#pdf-146 #block-02524{font-family:var(--font-ui);font-size:8.3pt;line-height:10pt;color:var(--muted);margin-bottom:1.5mm;}
+#pdf-146 #table-009{margin:1.5mm 0 2mm;}#pdf-146 #table-009 th,#pdf-146 #table-009 td{padding:1.55mm 2.1mm;}#pdf-146 #table-009 th:first-child,#pdf-146 #table-009 td:first-child{width:43%;}
+#pdf-146 #block-02536{margin:1mm 0 1mm;font-weight:700;}#pdf-146 #block-02537{columns:2;column-gap:8mm;margin:0 0 2mm;padding-left:5mm;}#pdf-146 #block-02537 li{break-inside:avoid;margin-bottom:.8mm;}
+#pdf-146 #block-02539{font-family:var(--font-ui);font-size:10pt;line-height:12.5pt;font-weight:800;color:var(--navy);border-left:1.5mm solid var(--teal);padding-left:4mm;margin:1.5mm 0 2.5mm;}
+#pdf-146 #block-02540{font-size:9.2pt;line-height:11pt;margin-bottom:1mm;text-transform:uppercase;letter-spacing:.02em;}
+#pdf-146 #table-010{font-size:7.8pt;line-height:9.45pt;margin:1mm 0 0;}#pdf-146 #table-010 th{width:27%;}#pdf-146 #table-010 th,#pdf-146 #table-010 td{padding:1.3mm 2mm;}
+
+/* P163 */
+#pdf-147 .chapter-title{font-size:19pt;line-height:21.5pt;margin-bottom:2mm;}
+#pdf-147 #block-02556{font-family:var(--font-ui);font-size:11.3pt;line-height:13.5pt;font-weight:800;color:var(--navy);margin-bottom:3mm;}
+#pdf-147 #block-02557,#pdf-147 #block-02558{max-width:114mm;}
+#pdf-147 #block-02559{margin:2mm 0 1mm;background:var(--light-cool);border-left:1.5mm solid var(--teal);padding:2.5mm 4mm;}#pdf-147 #block-02559 h3{font-size:10pt;line-height:12pt;margin:0;}
+#pdf-147 #table-011{margin:1mm 0 3mm;font-size:8.3pt;line-height:10.4pt;}#pdf-147 #table-011 th:first-child,#pdf-147 #table-011 td:first-child{width:32%;}#pdf-147 #table-011 td{padding:2.35mm 2.6mm;}
+#pdf-147 #block-02570{font-family:var(--font-ui);font-size:9.6pt;line-height:12pt;font-weight:800;color:var(--navy);margin:0;}
+
+/* P164 */
+#pdf-148 #block-02590{max-width:116mm;margin-bottom:3mm;}#pdf-148 #block-02591{font-family:var(--font-ui);font-size:10.5pt;line-height:13pt;font-weight:800;border-left:1.5mm solid var(--teal);padding:2.5mm 0 2.5mm 4mm;margin:2mm 0 5mm;}
+#pdf-148 .four-gates{margin-top:2mm}.four-gates figcaption{font-size:12.7pt;line-height:15pt;text-transform:none;text-align:left;margin-bottom:1.5mm}.four-gates .diagram-conclusion{font-size:9pt;line-height:11pt;}
+
+/* P165 */
+#pdf-149 #block-02593{max-width:118mm;}#pdf-149 #block-02595{max-width:112mm;margin-bottom:2.5mm;}#pdf-149 #table-012{margin:2mm 0 3mm;}#pdf-149 #table-012 td{padding:2.5mm 2.6mm;}#pdf-149 #block-02606{font-size:12.1pt;line-height:15pt;border-left:1.5mm solid var(--teal);padding-left:4mm;margin:3mm 0;}#pdf-149 #block-02608{max-width:114mm;margin-bottom:0;}
+
+/* P166 */
+#pdf-150 #block-02611{margin-bottom:2.5mm;}#pdf-150 #block-02613{max-width:116mm;margin-bottom:2mm;}#pdf-150 #block-02614{font-family:var(--font-ui);font-size:9.9pt;line-height:12.2pt;font-weight:800;color:var(--navy);background:var(--light-cool);border-left:1.5mm solid var(--teal);padding:2.8mm 4mm;margin:2mm 0 2.5mm;}
+#pdf-150 #block-02616{max-width:116mm;margin-bottom:3mm;}#pdf-150 .lower-grid{display:grid;grid-template-columns:1fr 1fr;gap:6mm;align-items:start;}#pdf-150 #block-02617{font-size:10pt;line-height:12pt;margin-bottom:1.5mm;}#pdf-150 #block-02618{margin-bottom:0;}#pdf-150 #block-02619{font-size:10pt;line-height:12pt;margin-bottom:1.5mm;}#pdf-150 #table-013{font-size:7.75pt;line-height:9.35pt;margin:0;}#pdf-150 #table-013 th{width:31%;padding:1.45mm 1.7mm;}#pdf-150 #table-013 td{padding:1.45mm 1.8mm;}
+
+/* P167 */
+#pdf-151 .chapter-title{margin-bottom:1.5mm;}#pdf-151 #block-02632{font-family:var(--font-ui);font-size:8.2pt;line-height:10pt;color:var(--muted);margin-bottom:2mm;}#pdf-151 #block-02633{max-width:116mm;margin-bottom:2mm;}#pdf-151 #table-014{margin:1.5mm 0 2mm;}#pdf-151 #table-014 th:first-child,#pdf-151 #table-014 td:first-child{width:39%;}#pdf-151 #table-014 th,#pdf-151 #table-014 td{padding:1.65mm 2mm;}#pdf-151 #block-02646{font-family:var(--font-ui);font-size:10.5pt;line-height:13pt;font-weight:800;color:var(--navy);border-left:1.5mm solid var(--teal);padding-left:4mm;margin:2mm 0 3mm;}#pdf-151 .routes-grid{display:grid;grid-template-columns:1fr 1fr;gap:6mm;}#pdf-151 .routes-grid h3{font-size:10.2pt;line-height:12.3pt;margin-bottom:1.5mm;}#pdf-151 .routes-grid p{margin-bottom:1.5mm;}#pdf-151 #block-02651{font-family:var(--font-ui);font-weight:800;font-size:8.9pt;line-height:11pt;border-left:1.2mm solid var(--teal);padding-left:3mm;}
+
+/* P168 */
+#pdf-152 #block-02653{font-size:17.8pt;line-height:20.5pt;margin-bottom:4mm;}#pdf-152 #block-02654{max-width:115mm;margin-bottom:2mm;}#pdf-152 #block-02655{font-family:var(--font-ui);font-size:10.2pt;line-height:12.5pt;font-weight:800;color:var(--navy);border-left:1.5mm solid var(--teal);padding:2.6mm 0 2.6mm 4mm;margin:2mm 0 3.5mm;}#pdf-152 #block-02656{max-width:116mm;margin-bottom:3mm;}#pdf-152 #block-02657{font-size:8.9pt;line-height:11.2pt;color:var(--muted);max-width:116mm;margin-bottom:3mm;}#pdf-152 .execution-chain{margin-top:4mm}.execution-chain figcaption{text-transform:none;text-align:left;font-size:10.2pt;line-height:12pt;}
+
+/* P169 */
+#pdf-153 #block-02660{margin-bottom:2mm;}#pdf-153 .feedback-loop{margin:1mm 0 2.5mm}.feedback-loop figcaption{text-transform:none;text-align:left;font-size:8.7pt;line-height:10.5pt;color:var(--muted);margin-bottom:1mm}.feedback-loop .diagram-conclusion{font-size:7.7pt;line-height:9.3pt;padding:2.1mm 3mm;margin-top:2mm;}#pdf-153 #block-02668{max-width:118mm;margin-bottom:2.5mm;}#pdf-153 .analysis-grid{display:grid;grid-template-columns:1fr 1fr;gap:6mm;align-items:start;}#pdf-153 #table-015{font-size:7.75pt;line-height:9.3pt;margin:0;}#pdf-153 #table-015 th,#pdf-153 #table-015 td{padding:1.45mm 1.8mm;}#pdf-153 #block-02707{font-size:10.2pt;line-height:12.2pt;margin-bottom:1.5mm;}#pdf-153 #block-02708{margin-bottom:1.8mm;}#pdf-153 #block-02709{font-family:var(--font-ui);font-weight:800;font-size:8.8pt;line-height:10.8pt;border-left:1.2mm solid var(--teal);padding-left:3mm;margin-bottom:1.7mm;}#pdf-153 #block-02710{font-size:8.5pt;line-height:10.5pt;color:var(--muted);margin-bottom:2mm;}#pdf-153 #block-02711{font-family:var(--font-ui);font-weight:800;font-size:9pt;line-height:11pt;color:var(--navy);margin-bottom:0;}
+
+/* P170 */
+#pdf-154 #block-02713{margin-bottom:1.5mm;}#pdf-154 #block-02714{font-family:var(--font-ui);font-size:8.4pt;line-height:10pt;color:var(--muted);margin-bottom:2mm;}#pdf-154 #table-016{font-size:7.8pt;line-height:9.45pt;margin:1mm 0 3mm;}#pdf-154 #table-016 th,#pdf-154 #table-016 td{padding:1.55mm 1.8mm;}#pdf-154 #table-016 th:nth-child(1),#pdf-154 #table-016 td:nth-child(1){width:8%;text-align:center;}#pdf-154 #table-016 th:nth-child(2),#pdf-154 #table-016 td:nth-child(2){width:30%;}#pdf-154 #block-02742{font-size:11.4pt;line-height:13.8pt;border-left:1.5mm solid var(--teal);padding-left:4mm;margin:2mm 0 2.5mm;}#pdf-154 #block-02744{max-width:116mm;margin-bottom:0;}
+
+/* P171 */
+#pdf-155 #block-02746{font-size:18.5pt;line-height:21.5pt;margin-bottom:2.5mm;}#pdf-155 #block-02748{max-width:116mm;margin-bottom:2mm;}#pdf-155 #table-017{font-size:7.65pt;line-height:9.15pt;margin:1.5mm 0 2.5mm;}#pdf-155 #table-017 th,#pdf-155 #table-017 td{padding:1.35mm 1.55mm;}#pdf-155 #table-017 th:nth-child(1),#pdf-155 #table-017 td:nth-child(1){width:24%;}#pdf-155 #table-017 th:nth-child(2),#pdf-155 #table-017 td:nth-child(2){width:45%;}#pdf-155 #table-017 th:nth-child(3),#pdf-155 #table-017 td:nth-child(3){width:31%;}#pdf-155 #block-02776{font-family:var(--font-ui);font-weight:800;font-size:9.3pt;line-height:11.5pt;border-left:1.5mm solid var(--teal);padding-left:4mm;margin:2mm 0 2.5mm;}#pdf-155 #block-02777{font-size:10.2pt;line-height:12.3pt;margin:0 0 1.5mm;}#pdf-155 .transition-grid{display:grid;grid-template-columns:1fr 1fr;gap:6mm;align-items:start;}#pdf-155 .transition-grid p{margin-bottom:1.5mm;}#pdf-155 #block-02779{font-family:var(--font-ui);font-size:9.2pt;line-height:11.4pt;font-weight:800;color:var(--navy);border-left:1.2mm solid var(--teal);padding-left:3mm;}#pdf-155 #block-02782{font-family:var(--font-ui);font-size:9.6pt;line-height:11.8pt;font-weight:800;color:var(--navy);margin-top:1mm;}
+/* fit corrections after rendered proof */
+#pdf-153 .loop-grid{grid-template-rows:auto 6mm auto;gap:1.4mm;margin-top:1.5mm;}
+#pdf-153 .loop-node{padding:2.3mm 1.5mm;font-size:7.6pt;line-height:8.8pt;}
+#pdf-153 .feedback-loop{margin-bottom:1.5mm;}
+#pdf-153 #block-02668{margin-bottom:1.6mm;}
+#pdf-153 #table-015 th,#pdf-153 #table-015 td{padding:1.15mm 1.5mm;}
+#pdf-153 #block-02708{font-size:8.9pt;line-height:11.0pt;margin-bottom:1.2mm;}
+#pdf-153 #block-02709{margin-bottom:1.2mm;}
+#pdf-153 #block-02710{font-size:8.8pt;line-height:10.7pt;margin-bottom:1.2mm;}
+
+#pdf-155 #table-017{font-size:7.6pt;line-height:9pt;margin:1mm 0 1.8mm;}
+#pdf-155 #table-017 th,#pdf-155 #table-017 td{padding:1.05mm 1.35mm;}
+#pdf-155 #block-02776{margin:1.5mm 0 1.8mm;}
+#pdf-155 #block-02777{margin-bottom:1mm;}
+#pdf-155 .transition-grid{gap:5mm;}
+#pdf-155 .transition-grid p{font-size:8.9pt;line-height:11.1pt;margin-bottom:1mm;}
+#pdf-155 #block-02779{font-size:8.9pt;line-height:11.1pt;}
+#pdf-155 #block-02782{font-size:9.1pt;line-height:11.2pt;margin-top:.5mm;}
+/* density remediation: use meaningful scale/spacing rather than filler */
+#pdf-145 .bottleneck-row{min-height:101mm;}
+#pdf-145 .factory-box{padding:5mm 6mm;gap:3.2mm;}
+#pdf-145 .factory-box span{padding:1.8mm;}
+#pdf-145 .flow-lines{gap:10mm;}
+#pdf-145 .gate{height:82mm;}
+#pdf-145 .demand-circle{width:50mm;height:50mm;}
+
+#pdf-146 #table-009 th,#pdf-146 #table-009 td{padding:2.45mm 2.25mm;}
+#pdf-146 #table-010 th,#pdf-146 #table-010 td{padding:2.05mm 2.1mm;}
+#pdf-146 #block-02537{margin-bottom:3mm;}
+#pdf-146 #block-02539{margin-top:2.5mm;margin-bottom:3.5mm;}
+
+#pdf-147 #block-02557,#pdf-147 #block-02558{max-width:101mm;}
+#pdf-147 #block-02557{margin-bottom:5mm;}
+#pdf-147 #block-02558{margin-bottom:4mm;}
+#pdf-147 #block-02559{padding:3.5mm 4.5mm;margin:3mm 0 2mm;}
+#pdf-147 #table-011 th,#pdf-147 #table-011 td{padding:3.7mm 3mm;}
+#pdf-147 #block-02570{margin-top:4mm;max-width:112mm;}
+
+#pdf-148 #block-02590{max-width:105mm;margin-bottom:6mm;}
+#pdf-148 #block-02591{margin:3mm 0 7mm;padding-top:3.5mm;padding-bottom:3.5mm;max-width:116mm;}
+#pdf-148 .four-gates{margin-top:4mm;}
+#pdf-148 .gate-step{min-height:72mm;}
+#pdf-148 .gate-step:after{height:48mm;}
+#pdf-148 .gate-map:before{top:31mm;}
+#pdf-148 .four-gates .diagram-conclusion{padding-top:3.5mm;padding-bottom:3.5mm;margin-top:5mm;}
+
+#pdf-149 #block-02595{max-width:103mm;margin-bottom:5mm;}
+#pdf-149 #table-012{margin:4mm 0 5mm;}
+#pdf-149 #table-012 thead th{padding:3.4mm 3mm;}
+#pdf-149 #table-012 td{padding:4.4mm 3mm;}
+#pdf-149 #block-02606{margin:5mm 0;padding-top:3.5mm;padding-bottom:3.5mm;max-width:118mm;}
+#pdf-149 #block-02608{max-width:104mm;}
+
+#pdf-151 #table-014 th,#pdf-151 #table-014 td{padding:2.5mm 2.2mm;}
+#pdf-151 #block-02646{margin:3mm 0 4mm;padding-top:2.5mm;padding-bottom:2.5mm;}
+#pdf-151 .routes-grid>div{background:#F7F9FA;padding:4mm;border-top:1.2mm solid var(--teal);}
+#pdf-151 .routes-grid{gap:7mm;}
+
+#pdf-152 #block-02654{max-width:104mm;margin-bottom:5mm;}
+#pdf-152 #block-02655{margin:3mm 0 5mm;padding-top:4mm;padding-bottom:4mm;}
+#pdf-152 #block-02656{max-width:106mm;margin-bottom:5mm;}
+#pdf-152 #block-02657{max-width:106mm;margin-bottom:5mm;}
+#pdf-152 .execution-chain{margin-top:6mm;}
+#pdf-152 .execution-row span{padding:6.5mm 1mm;}
+#pdf-152 .risk-options{display:grid;grid-template-columns:1fr 1.45fr 1fr;gap:3mm;margin:5mm 0 3mm;align-items:stretch;}
+#pdf-152 .risk-options span{font-family:var(--font-ui);font-size:7.8pt;line-height:9.4pt;text-align:center;border:1pt solid #AABBC3;background:var(--light-warm);padding:4mm 2mm;border-radius:1.5mm;font-weight:700;color:var(--navy);}
+#pdf-152 .risk-options strong{grid-column:1 / -1;font-family:var(--font-ui);font-size:8.4pt;line-height:10.3pt;text-align:center;color:var(--navy);padding-top:1mm;}
+#pdf-152 .execution-note{margin-top:3mm;font-size:8.2pt;line-height:10.1pt;}
+
+#pdf-154 #table-016{font-size:8.2pt;line-height:10.15pt;margin:2mm 0 5mm;}
+#pdf-154 #table-016 th,#pdf-154 #table-016 td{padding:2.45mm 2mm;}
+#pdf-154 #block-02742{margin:4mm 0 4mm;padding-top:3mm;padding-bottom:3mm;}
+#pdf-154 #block-02744{font-size:9.8pt;line-height:13pt;max-width:104mm;}
+#pdf-154 #table-016{font-size:8.35pt;line-height:10.45pt;}
+#pdf-154 #table-016 th,#pdf-154 #table-016 td{padding:3.7mm 2.1mm;}
+#pdf-154 #table-016 th:nth-child(2),#pdf-154 #table-016 td:nth-child(2){width:34%;}
+#pdf-154 #block-02744{max-width:96mm;margin-top:2mm;}
+/* P168 flex correction: avoid intrinsic grid overflow in WeasyPrint */
+#pdf-152 .risk-options{display:flex;flex-wrap:wrap;gap:3mm;margin:5mm 0 3mm;align-items:stretch;}
+#pdf-152 .risk-options span{box-sizing:border-box;min-width:0;flex:1 1 0;font-size:7.7pt;line-height:9.2pt;padding:4mm 1.5mm;overflow-wrap:anywhere;}
+#pdf-152 .risk-options strong{box-sizing:border-box;flex:0 0 100%;width:100%;font-size:8.4pt;line-height:10.2pt;text-align:center;padding-top:1mm;}
+#pdf-152 .risk-options{display:flex;flex-wrap:wrap;gap:3mm;margin:5mm 0 3mm;align-items:stretch;}
+#pdf-152 .risk-card{box-sizing:border-box;min-width:0;flex:1 1 0;font-family:var(--font-ui);font-size:7.7pt;line-height:9.2pt;text-align:center;border:1pt solid #AABBC3;background:var(--light-warm);padding:4mm 1.5mm;border-radius:1.5mm;font-weight:700;color:var(--navy);overflow-wrap:anywhere;}
+#pdf-152 .risk-conclusion{box-sizing:border-box;flex:0 0 100%;width:100%;font-family:var(--font-ui);font-size:8.4pt;line-height:10.2pt;text-align:center;color:var(--navy);padding-top:1mm;font-weight:700;}
+/* hard-floor and spread-consistency corrections */
+#pdf-145 .gate small,#pdf-145 .demand-circle small{font-size:7.1pt;line-height:8.2pt;}
+#pdf-148 .gate-step span{font-size:7.1pt;line-height:8.3pt;}
+#pdf-153 #table-015{font-size:7.9pt;line-height:9.45pt;}
+#pdf-155 #block-02746{font-size:19.2pt;line-height:22pt;}
+#pdf-155 #table-017{font-size:8.0pt;line-height:9.6pt;}
+/* P168 final air/readability normalization: consume excess tail with meaningful scale and spacing */
+#pdf-152 #block-02653{font-size:19.5pt;line-height:22.3pt;margin-bottom:5mm;}
+#pdf-152 #block-02654{margin-bottom:4mm;}
+#pdf-152 #block-02656{margin-bottom:5mm;}
+#pdf-152 #block-02657{margin-bottom:5mm;}
+#pdf-152 .execution-chain{margin-top:8mm;}
+#pdf-152 .risk-card{padding:5.5mm 1.5mm;}
+#pdf-152 .execution-note{margin-top:4mm;}
+#pdf-152 .execution-row span{padding:8.5mm 1mm;}
+#pdf-152 .risk-options{margin:6mm 0 4mm;}
+#pdf-152 .risk-card{padding:7.5mm 1.5mm;}
+#pdf-152 .execution-note{margin-top:5mm;}
+/* P162 tail normalization within table scale */
+#pdf-146 #table-010 th,#pdf-146 #table-010 td{padding:2.25mm 2.1mm;}
+/* Keep every canonical CID reader-visible: owner-check eyebrow was previously hidden. */
+#pdf-146 #block-02544{display:block;margin:0 0 1mm;padding:0;border:0;background:none;}
+#pdf-146 #block-02544 h3{font-size:7.8pt;line-height:9pt;letter-spacing:.06em;color:var(--muted);margin:0;}
+/* P164 four-gate geometry: force all six nodes onto one safe-area row. */
+#pdf-148 .gate-map{display:flex;gap:2.5mm;align-items:flex-start;justify-content:space-between;position:relative;margin:3mm 0;}
+#pdf-148 .gate-map:before{left:9mm;right:9mm;top:29mm;}
+#pdf-148 .gate-step{flex:0 0 19.5mm;min-width:0;}
+#pdf-148 .gate-step span{display:block;width:100%;font-size:7.0pt;line-height:8.2pt;overflow-wrap:anywhere;}
+#pdf-148 .endpoint.product{box-sizing:border-box;flex:0 0 19mm;margin-top:20mm;align-self:flex-start;}
+#pdf-148 .endpoint.patient{box-sizing:border-box;flex:0 0 18mm;width:18mm;height:18mm;margin-top:20mm;padding:0;display:flex;align-items:center;justify-content:center;align-self:flex-start;}
+#pdf-148 .gate-step{min-height:60mm;}
+#pdf-148 .gate-step:after{height:38mm;}
+#pdf-148 .gate-step{min-height:90mm;}
+#pdf-148 .gate-step:after{height:65mm;}
+
+/* user-approved final corrections: P161 collision + P169 production-plan overflow */
+/* P161: keep the access-boundary label fully clear of the red rule. */
+#pdf-145 .gate{align-items:flex-start;padding-left:3.2mm;overflow:visible;}
+#pdf-145 .gate span{white-space:nowrap;}
+#pdf-145 .gate small{width:15mm;text-align:left;}
+/* P169: preserve diagram-label scale and give the production-plan node enough live width. */
+#pdf-153 .loop-grid{grid-template-columns:31mm 8mm 31mm 8mm 36mm;}
+
+/* b060 geometry remediation: prevent card/title overflow and keep comparison grids centered */
+.std12-page .std12-grid{box-sizing:border-box;width:100%;margin-left:auto;margin-right:auto;}
+.std12-page .std12-grid>*{box-sizing:border-box;min-width:0;max-width:100%;}
+.std12-page .std12-card-title,.std12-page .std12-node{overflow-wrap:break-word;word-break:normal;hyphens:auto;}
+#std12-p187 .std12-attention-grid{max-width:42rem;justify-content:center;}
+#std12-p187 .std12-attention-grid .std12-node{display:flex;align-items:center;justify-content:center;min-height:4.4rem;}
+#std12-p193 .std12-team-grid{max-width:44rem;justify-content:center;}
+#std12-p193 .std12-team-grid .std12-card-title{font-size:1rem;line-height:1.28;text-align:center;}
+@media (max-width:56rem){
+  #std12-p187 .std12-attention-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:32rem;}
+  #std12-p193 .std12-team-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:38rem;}
+  #std12-p193 .std12-team-grid>.std12-card:last-child{grid-column:1 / -1;width:calc(50% - .375rem);justify-self:center;}
+}
+@media (max-width:34rem){
+  #std12-p187 .std12-attention-grid,#std12-p193 .std12-team-grid{grid-template-columns:1fr;max-width:28rem;}
+  #std12-p193 .std12-team-grid>.std12-card:last-child{grid-column:auto;width:auto;justify-self:stretch;}
+}
+
+/* b061 geometry/readability remediation: P201 numbered flow + P202 worksheet prompts */
+#std12-p194 .std12-flow{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:.55rem;
+  list-style:none;
+  counter-reset:step;
+  padding:0;
+  margin:.8rem 0;
+}
+#std12-p194 .std12-flow .std12-node{
+  position:relative;
+  min-width:0;
+  min-height:4.4rem;
+  padding:.8rem .8rem .8rem 2.15rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-sizing:border-box;
+}
+#std12-p194 .std12-flow .std12-node::before{
+  counter-increment:step;
+  content:counter(step) ".";
+  position:absolute;
+  left:.7rem;
+  top:50%;
+  transform:translateY(-50%);
+  font-family:"Noto Sans",sans-serif;
+  font-weight:700;
+  color:#12324A;
+}
+#std12-p194 .std12-flow .std12-node:nth-child(4){grid-column:1 / -1;min-height:3.2rem;}
+
+#std12-p195 .std12-workrow>strong{
+  display:block;
+  font-family:"Noto Sans",sans-serif;
+  font-weight:700;
+  color:#111;
+  margin:0 0 .55rem;
+}
+#std12-p195 .std12-worklabels{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:.4rem;
+}
+#std12-p195 .std12-worklabels span{
+  min-width:0;
+  min-height:2.55rem;
+  box-sizing:border-box;
+  border:1px solid #d9e0e2;
+  border-radius:.28rem;
+  background:#f8fafa;
+  padding:.42rem .5rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  line-height:1.2;
+  overflow-wrap:normal;
+  word-break:normal;
+  hyphens:none;
+}
+#std12-p195 .std12-worklabels span:nth-child(5){grid-column:1 / -1;}
+@media (max-width:38rem){
+  #std12-p194 .std12-flow{grid-template-columns:1fr;}
+  #std12-p194 .std12-flow .std12-node:nth-child(4){grid-column:auto;}
+  #std12-p195 .std12-worklabels{grid-template-columns:1fr;}
+  #std12-p195 .std12-worklabels span:nth-child(5){grid-column:auto;}
+}
+
+
+/* b062 optical-centering remediation: P173 stage-check labels + P204 numeric badges */
+#pdf-150 #table-013 th{font-size:7.6pt;line-height:9.15pt;text-align:center;vertical-align:middle;padding-left:.25mm;padding-right:.25mm;overflow-wrap:normal;word-break:normal;hyphens:none;}
+.std12-page .std12-action-num{display:flex;align-items:center;justify-content:center;text-align:center;line-height:1;padding:0;font-variant-numeric:tabular-nums;}
+
+
+/* b063: Chapter 20 internal IT dependency / capability insertion */
+.b063-it-page{max-width:132mm;margin:0 auto;}
+.b063-it-page .kicker{font-family:"Noto Sans",sans-serif;font-weight:700;letter-spacing:.02em;color:#7a8790;}
+.b063-it-page .h1{color:#12324A;}
+.b063-escalation{display:grid;gap:4mm;margin:6mm 0;}
+.b063-stage{border:1px solid #d8e0e3;border-radius:4mm;padding:4mm 5mm;}
+.b063-stage-1{background:#f8fafb;}
+.b063-stage-2{background:#fff8e8;border-color:#e6bf69;}
+.b063-stage-3{background:#fff1ef;border-color:#cf6b61;}
+.b063-stage h3,.b063-capability-flow h3{font-family:"Noto Sans",sans-serif;color:#12324A;margin:0 0 2mm;}
+.b063-stage p,.b063-capability-flow p{margin:.7mm 0;}
+.b063-evidence{background:#eef2f3;border-left:1.8mm solid #12324A;padding:4mm 5mm;}
+.b063-control-contrast{margin-top:5mm;padding:4mm 5mm;border-radius:4mm;background:#12324A;color:white;}
+.b063-control-contrast p{margin:0 0 1.5mm;}
+.b063-capability-flow{display:grid;gap:3mm;margin:5mm 0;}
+.b063-capability-flow section{border-left:1.8mm solid #1E918A;padding:2.5mm 4mm;background:#f8fbfb;}
+.b063-change-cost{background:#12324A;color:white;padding:5mm;border-radius:4mm;}
+.b063-change-cost h3{color:white;}
+.b063-it-role{background:#eef2f3;border-left:1.8mm solid #1E918A;padding:4mm 5mm;}
+.b063-it-page .conclusion{font-family:"Noto Serif",serif;font-weight:700;color:#12324A;margin-top:5mm;}

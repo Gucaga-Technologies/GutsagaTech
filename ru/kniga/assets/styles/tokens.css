@@ -1,0 +1,10 @@
+@charset "UTF-8";
+:root {
+  --navy:#12324A; --teal:#1E918A; --gold:#D3921F; --red:#C94D42;
+  --ink:#26333B; --muted:#52616B; --light-cool:#EEF2F3; --light-warm:#F6E8BD;
+  --rule:#C8D2D7; --paper:#FFFFFF; --green:#39755D;
+  --font-body:"Noto Serif"; --font-ui:"Noto Sans";
+  --body:9.8pt; --body-leading:13pt; --compact:9.15pt; --compact-leading:11.9pt;
+  --table:8.2pt; --table-leading:10.25pt; --diagram:7.8pt; --diagram-leading:9.5pt;
+  --s1:2mm; --s2:4mm; --s3:6mm; --s4:8mm; --s5:12mm; --s6:16mm;
+}

@@ -1,0 +1,71 @@
+/* P021 b099 live HTML/CSS source, scoped to canonical #pdf-026. */
+#pdf-026 .p021-live-figure{position:relative;width:167mm;height:240mm;margin:0;padding:0;overflow:hidden;background:#fff;font-family:"Noto Serif",serif;color:#243E55;--navy:#0D3857;--navy2:#0B3150;--ink:#243E55;--muted:#526D80;--teal:#129B94;--teal2:#0F8A83;--teal-soft:#EEF9F8;--gold:#E39410;--gold-soft:#FFF8EB;--red:#C93A36;--red-soft:#FFF2F2;--blue-soft:#F1F8FB;--line:#C8DCE3;--pale:#EEF7F8;}
+#pdf-026 .p021-live-figure,#pdf-026 .p021-live-figure *{box-sizing:border-box;}
+#pdf-026 .p021-live-figure .content{position:absolute;left:20mm;top:15.5mm;width:131.7mm;height:206.5mm}
+#pdf-026 .p021-live-figure .kicker{margin:0 0 2.6mm;padding-left:4mm;border-left:1.35mm solid var(--gold);font-family:"Noto Sans",sans-serif;font-weight:800;font-size:8.25pt;line-height:9.5pt;letter-spacing:.085em;color:var(--teal);text-transform:uppercase}
+#pdf-026 .p021-live-figure h1{margin:0 0 2.0mm;font-family:"Noto Sans",sans-serif;font-stretch:condensed;font-weight:800;font-size:19.2pt;line-height:21.3pt;letter-spacing:-.03em;color:var(--navy2)}
+#pdf-026 .p021-live-figure .deck{margin:0 0 2.6mm;font-size:10.5pt;line-height:12.4pt;font-stretch:semi-condensed;color:var(--muted);letter-spacing:-.012em}
+#pdf-026 .p021-live-figure .window{height:37mm;margin:0 0 2.2mm;padding:1.7mm 3.0mm 1.8mm;background:linear-gradient(90deg,#F2FAFA,#EEF7F9);border-radius:1.4mm;position:relative;overflow:hidden}
+#pdf-026 .p021-live-figure .window-title{margin:0;font-family:"Noto Sans",sans-serif;font-weight:800;font-size:10.5pt;line-height:12.0pt;color:var(--navy2)}
+#pdf-026 .p021-live-figure .timeline{position:absolute;left:3.0mm;right:3.0mm;top:8.6mm;height:26mm;display:grid;grid-template-columns:17mm 20mm 1fr 17mm;column-gap:3.1mm;align-items:start}
+#pdf-026 .p021-live-figure .node{text-align:center;position:relative;z-index:2}
+#pdf-026 .p021-live-figure .circle{width:8.8mm;height:8.8mm;border-radius:50%;margin:0 auto 1.2mm;display:flex;align-items:center;justify-content:center;background:#fff;border:.55mm solid currentColor}
+#pdf-026 .p021-live-figure .node.n0{color:var(--navy)}
+#pdf-026 .p021-live-figure .node.n20{color:var(--teal)}
+#pdf-026 .p021-live-figure .node.n60{color:var(--gold)}
+#pdf-026 .p021-live-figure .node h3{margin:0 0 .35mm;font-family:"Noto Sans",sans-serif;font-size:10pt;line-height:11.0pt;font-weight:800;color:var(--navy2)}
+#pdf-026 .p021-live-figure .node p{margin:0;font-size:7.8pt;line-height:9.0pt;font-stretch:semi-condensed;color:var(--ink)}
+#pdf-026 .p021-live-figure .flow{position:relative;height:25mm;margin-top:0}
+#pdf-026 .p021-live-figure .flow .line1{position:absolute;left:-2mm;right:10mm;top:7.6mm;height:1.6mm;background:linear-gradient(90deg,#C6DBE0 0%,#86D5CF 30%,#17A398 78%);border-radius:1mm}
+#pdf-026 .p021-live-figure .flow .line1:after{content:"";position:absolute;right:-2.2mm;top:-2.2mm;border-left:3mm solid #17A398;border-top:3mm solid transparent;border-bottom:3mm solid transparent}
+#pdf-026 .p021-live-figure .flow .caption{position:absolute;left:1mm;right:1mm;top:-1.5mm;text-align:center;font-family:"Noto Sans",sans-serif;font-stretch:semi-condensed;font-weight:800;font-size:9.6pt;line-height:10.5pt;color:var(--navy2)}
+#pdf-026 .p021-live-figure .flow .sub{position:absolute;left:1mm;right:1mm;top:10.9mm;text-align:center;font-size:7.8pt;line-height:8.8pt;font-stretch:semi-condensed;color:var(--ink)}
+#pdf-026 .p021-live-figure .small-arrow{position:absolute;top:6.7mm;width:7mm;height:0;border-top:.8mm solid #B5CCD2}
+#pdf-026 .p021-live-figure .small-arrow:after{content:"";position:absolute;right:-.8mm;top:-1.75mm;border-left:2mm solid #B5CCD2;border-top:1.6mm solid transparent;border-bottom:1.6mm solid transparent}
+#pdf-026 .p021-live-figure .sa1{left:15.8mm}
+#pdf-026 .p021-live-figure .sa2{left:37.5mm}
+#pdf-026 .p021-live-figure .ico{width:6.4mm;height:6.4mm}
+#pdf-026 .p021-live-figure .compare{margin:0 0 2.2mm;display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:stretch}
+#pdf-026 .p021-live-figure .case{border-radius:1.2mm;padding:2.2mm 2.8mm 2.1mm;overflow:hidden}
+#pdf-026 .p021-live-figure .case.fast{background:linear-gradient(145deg,#F3FBFA,#EAF7F6)}
+#pdf-026 .p021-live-figure .case.slow{background:linear-gradient(145deg,#FFF7F7,#FDEEEF);padding-bottom:3.5mm}
+#pdf-026 .p021-live-figure .case.slow h2{margin-bottom:1.1mm}
+#pdf-026 .p021-live-figure .case.slow .lead{margin-bottom:.8mm}
+#pdf-026 .p021-live-figure .case.slow .formula{min-height:7.7mm;padding-top:.8mm;padding-bottom:.8mm}
+#pdf-026 .p021-live-figure .case h2{margin:0 0 1.5mm;font-family:"Noto Sans",sans-serif;font-weight:800;font-size:10.0pt;line-height:10.8pt;font-stretch:semi-condensed;letter-spacing:.005em;text-transform:uppercase}
+#pdf-026 .p021-live-figure .case.fast h2{color:var(--teal2)}
+#pdf-026 .p021-live-figure .case.slow h2{color:var(--red)}
+#pdf-026 .p021-live-figure .case .lead{margin:0 0 1.2mm;font-size:8.8pt;line-height:9.8pt;font-stretch:semi-condensed;color:var(--ink)}
+#pdf-026 .p021-live-figure .formula{min-height:8.3mm;margin:0 0 1.3mm;padding:1.1mm 1.3mm;border-radius:.9mm;text-align:center;font-family:"Noto Sans",sans-serif;font-weight:800;font-size:8.0pt;line-height:9.0pt;font-stretch:semi-condensed;color:var(--navy2);display:flex;align-items:center;justify-content:center}
+#pdf-026 .p021-live-figure .fast .formula{background:#DFF3F1}
+#pdf-026 .p021-live-figure .slow .formula{background:#F7DEDF}
+#pdf-026 .p021-live-figure ul.points{list-style:none;margin:0;padding:0}
+#pdf-026 .p021-live-figure ul.points li{position:relative;margin:0 0 .7mm;padding-left:5.3mm;font-size:8.8pt;line-height:9.6pt;font-stretch:semi-condensed;color:var(--ink)}
+#pdf-026 .p021-live-figure ul.points li:last-child{margin-bottom:0}
+#pdf-026 .p021-live-figure ul.points li:before{content:"";position:absolute;left:0;top:.45mm;width:4.0mm;height:4.0mm;border-radius:50%;background:var(--teal)}
+#pdf-026 .p021-live-figure ul.points li:after{content:"";position:absolute;left:1.15mm;top:1.32mm;width:1.7mm;height:.85mm;border-left:.55mm solid #fff;border-bottom:.55mm solid #fff;transform:rotate(-45deg)}
+#pdf-026 .p021-live-figure .slow ul.points li:before{background:var(--red);top:50%;transform:translateY(-50%)}
+#pdf-026 .p021-live-figure .slow ul.points li:after{left:1.20mm;top:50%;width:1.6mm;height:1.6mm;border:0;transform:translateY(-50%);background:linear-gradient(45deg,transparent 42%,#fff 42%,#fff 58%,transparent 58%),linear-gradient(-45deg,transparent 42%,#fff 42%,#fff 58%,transparent 58%)}
+#pdf-026 .p021-live-figure .bottomgrid{margin:0 0 2.2mm;display:grid;grid-template-columns:78mm 1fr;gap:4mm;align-items:stretch}
+#pdf-026 .p021-live-figure .checklist{background:linear-gradient(145deg,#F1F8FA,#EAF5F7);border-radius:1.2mm;padding:1.9mm 3.0mm}
+#pdf-026 .p021-live-figure .checkhead{display:grid;grid-template-columns:6.8mm 1fr;gap:1.7mm;align-items:center;margin-bottom:.8mm}
+#pdf-026 .p021-live-figure .checkhead h2,#pdf-026 .p021-live-figure .remember h2{margin:0;font-family:"Noto Sans",sans-serif;font-weight:800;font-size:10pt;line-height:11.5pt;color:var(--navy2)}
+#pdf-026 .p021-live-figure .checkintro{margin:0 0 .8mm 8.5mm;font-size:8.8pt;line-height:9.6pt;font-stretch:semi-condensed}
+#pdf-026 .p021-live-figure .steps{display:grid;grid-template-rows:repeat(3,1fr);gap:.35mm}
+#pdf-026 .p021-live-figure .step{display:grid;grid-template-columns:6.3mm 1fr;gap:1.4mm;align-items:center;min-height:5.6mm}
+#pdf-026 .p021-live-figure .num{width:5.2mm;height:5.2mm;border-radius:50%;background:var(--teal2);color:#fff;font-family:"Noto Sans",sans-serif;font-weight:800;font-size:8.2pt;line-height:5.2mm;text-align:center}
+#pdf-026 .p021-live-figure .step p{margin:0;font-size:8.8pt;line-height:9.6pt;font-stretch:semi-condensed}
+#pdf-026 .p021-live-figure .remember{background:linear-gradient(145deg,#FFF9F0,#FFF5E4);border-left:1.3mm solid var(--gold);border-radius:0 1.2mm 1.2mm 0;padding:1.4mm 2.4mm 3.2mm 2.7mm}
+#pdf-026 .p021-live-figure .remhead{display:grid;grid-template-columns:6.0mm 1fr;gap:1.6mm;align-items:center;margin-bottom:.4mm}
+#pdf-026 .p021-live-figure .remember p{margin:0;font-size:8.8pt;line-height:9.6pt;font-stretch:semi-condensed;color:var(--ink)}
+#pdf-026 .p021-live-figure .final{min-height:14.5mm;padding:1.8mm 4mm 1.7mm 3.3mm;background:linear-gradient(90deg,#0E4465,#0A3150);border-radius:1mm;color:#fff;display:grid;grid-template-columns:15mm 1.2mm 1fr;gap:3.1mm;align-items:center}
+#pdf-026 .p021-live-figure .finalico{display:flex;align-items:flex-end;justify-content:center;gap:1.0mm;height:9mm}
+#pdf-026 .p021-live-figure .finalico i{display:block;width:2.1mm;background:#72C2DD}
+#pdf-026 .p021-live-figure .finalico i:nth-child(1){height:3mm}
+#pdf-026 .p021-live-figure .finalico i:nth-child(2){height:5.4mm}
+#pdf-026 .p021-live-figure .finalico i:nth-child(3){height:8.2mm}
+#pdf-026 .p021-live-figure .divider{height:12mm;background:var(--gold);width:1.2mm}
+#pdf-026 .p021-live-figure .final .label{margin:0 0 .7mm;font-family:"Noto Sans",sans-serif;font-size:7.8pt;line-height:9pt;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:#DCEAF0}
+#pdf-026 .p021-live-figure .final .text{margin:0;font-family:"Noto Sans",sans-serif;font-stretch:semi-condensed;font-size:9.15pt;line-height:10.4pt;font-weight:800}
+#pdf-026 .p021-live-figure .folio{position:absolute;right:15mm;bottom:8mm;font-family:"Noto Sans",sans-serif;font-size:7.4pt;line-height:8pt;color:#6D8594}
+#pdf-026 .p021-live-figure svg{display:block;overflow:visible}

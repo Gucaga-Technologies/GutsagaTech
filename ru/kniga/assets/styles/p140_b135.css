@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* b135 P140 semantic/digital companion to approved print authority. */
+#pdf-121 .p140-econ-shift{font-family:var(--ui-font,"Noto Sans",sans-serif);margin:1.4rem 0 1.2rem}
+#pdf-121 .p140-econ-title{font-family:var(--ui-font,"Noto Sans",sans-serif);font-size:.78rem;line-height:1.15;font-weight:800;color:#12324A;border-left:.28rem solid #1E918A;padding-left:.7rem;margin:0 0 .65rem;text-transform:uppercase}
+#pdf-121 .p140-causal-chain{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.55rem;margin:0 0 .7rem}
+#pdf-121 .p140-causal-chain>span{position:relative;min-height:3.55rem;display:flex;align-items:center;justify-content:center;text-align:center;padding:.35rem .28rem;border:1px solid #C8D5DA;border-radius:.25rem;background:#F5F8F9;font-family:"Noto Sans Condensed",var(--ui-font,"Noto Sans",sans-serif);font-size:.70rem;line-height:1.08;font-weight:700;color:#12324A}
+#pdf-121 .p140-causal-chain>span:nth-child(2){background:#EFF5F4;border-color:#BDD8D5}#pdf-121 .p140-causal-chain>span:nth-child(3){background:#EFF5F4;border-color:#BDD8D5}#pdf-121 .p140-causal-chain>span:nth-child(4){background:#E9F2F1;border-color:#A3CECA}#pdf-121 .p140-causal-chain>span:nth-child(5){background:#DFF0ED;border-color:#79BBB6}
+#pdf-121 .p140-causal-chain>span:not(:last-child)::after{content:"→";position:absolute;right:-.52rem;top:50%;transform:translateY(-50%);z-index:2;color:#1E918A;font-weight:800;background:#fff;line-height:1}
+#pdf-121 .p140-business-rows{border-top:1px solid #CFD9DE;border-bottom:1px solid #CFD9DE}
+#pdf-121 .p140-business-row{display:grid;grid-template-columns:1.05fr 1.7fr 1.55fr;border-top:1px solid #E0E7EA}
+#pdf-121 .p140-business-row:first-child{border-top:0}
+#pdf-121 .p140-business-row>*{display:flex;align-items:center;padding:.45rem .55rem;font-family:var(--ui-font,"Noto Sans",sans-serif);font-size:.73rem;line-height:1.18}
+#pdf-121 .p140-business-row>b{color:#12324A;padding-left:0}#pdf-121 .p140-business-row>span{color:#52636E;border-left:1px solid #E0E7EA}#pdf-121 .p140-business-row>strong{color:#12324A;border-left:1px solid #E0E7EA}
+#pdf-121 .p140-econ-statement{margin:.7rem 0 0;padding:.55rem .75rem;background:#F1F7F6;border-left:.28rem solid #1E918A;font-family:var(--ui-font,"Noto Sans",sans-serif);font-size:.76rem;line-height:1.18;font-weight:800;color:#12324A}
+@media(max-width:620px){#pdf-121 .p140-causal-chain{grid-template-columns:1fr}#pdf-121 .p140-causal-chain>span:not(:last-child)::after{content:"↓";right:auto;left:50%;top:auto;bottom:-.53rem;transform:translateX(-50%)}#pdf-121 .p140-business-row{grid-template-columns:1fr}#pdf-121 .p140-business-row>*{border-left:0!important;padding-left:0}}

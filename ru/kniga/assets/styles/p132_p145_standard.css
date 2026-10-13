@@ -1,0 +1,210 @@
+@charset "UTF-8";
+:root{
+  --navy:#12324A;--teal:#1E918A;--gold:#D3921F;--red:#C94D42;--ink:#26333B;--muted:#52616B;
+  --light-cool:#EEF2F3;--light-warm:#F6E8BD;--rule:#C8D2D7;--paper:#fff;--green:#39755D;
+  --body-font:"Noto Serif",serif;--ui-font:"Noto Sans",sans-serif;
+}
+@page leftpage{size:167mm 240mm;margin:15mm 20mm 18mm 15mm;background:#fff}
+@page rightpage{size:167mm 240mm;margin:15mm 15mm 18mm 20mm;background:#fff}
+.std-p132-145{box-sizing:border-box;width:132mm;height:207mm;position:relative;overflow:visible;margin:0;padding:0;break-after:page;page-break-after:always;color:var(--ink);font-family:var(--body-font);font-size:9.8pt;line-height:13pt}
+.std-p132-145.left-page{page:leftpage}.std-p132-145.right-page{page:rightpage}.std-p132-145:last-of-type{break-after:auto;page-break-after:auto}
+.std-p132-145 *{box-sizing:border-box}.std-p132-145 p,.std-p132-145 h1,.std-p132-145 h2,.std-p132-145 h3,.std-p132-145 h4,.std-p132-145 ul,.std-p132-145 ol,.std-p132-145 figure,.std-p132-145 table,.std-p132-145 aside{margin-top:0}
+.std-p132-145 p{margin-bottom:3.2mm;orphans:2;widows:2}.std-p132-145 .p{font-size:9.8pt;line-height:13pt}
+.std-p132-145 h1,.std-p132-145 h2,.std-p132-145 h3,.std-p132-145 h4,.std-p132-145 th,.std-p132-145 figcaption,.std-p132-145 .folio{font-family:var(--ui-font)}
+.std-p132-145 .chapter-title{font-size:21pt;line-height:23.5pt;color:var(--navy);font-weight:800;margin:0 0 2.5mm;letter-spacing:.005em}
+.std-p132-145 h2.h1,.std-p132-145 h2.h2,.std-p132-145>h2{font-size:19.5pt;line-height:22.5pt;color:var(--navy);font-weight:800;margin:0 0 3.5mm}
+.std-p132-145 h3{font-size:11.2pt;line-height:13.7pt;color:var(--navy);font-weight:800;margin:0 0 2mm}
+.std-p132-145 .folio{position:absolute;bottom:-11.2mm;font-size:7.2pt;line-height:8pt;letter-spacing:.04em;color:#829099;z-index:20}.std-p132-145.left-page .folio{left:0}.std-p132-145.right-page .folio{right:0}
+.std-p132-145 .callout{border-left:1.5mm solid var(--teal);padding:2.2mm 0 2.2mm 4mm;margin:3mm 0 4mm;background:linear-gradient(to right,var(--light-cool),#fff 82%)}
+.std-p132-145 .callout h3{font-size:9.8pt;line-height:12pt;margin:0;text-transform:uppercase;letter-spacing:.02em}
+.std-p132-145 .reference-only{display:none!important}
+.std-p132-145 table{width:100%;border-collapse:collapse;table-layout:fixed;font-family:var(--ui-font);font-size:8.05pt;line-height:10pt;color:var(--ink);margin:2.5mm 0 3.5mm}
+.std-p132-145 th{background:var(--navy);color:#fff;font-weight:700;text-align:left;padding:2mm 2.2mm;vertical-align:middle}.std-p132-145 td{padding:1.8mm 2.2mm;border-bottom:.45pt solid var(--rule);vertical-align:middle}.std-p132-145 tbody tr:nth-child(even) td{background:#F7F9FA}
+.std-p132-145 .live-figure{font-family:var(--ui-font);break-inside:avoid}.std-p132-145 .live-figure figcaption{font-size:9pt;line-height:11pt;font-weight:800;color:var(--navy);text-align:center;margin-bottom:2mm;text-transform:uppercase;letter-spacing:.02em}.std-p132-145 .figure-deck{font-family:var(--body-font);font-size:8.9pt;line-height:11.5pt;color:var(--muted);text-align:center;margin:-.5mm 6mm 2.5mm}.std-p132-145 .diagram-conclusion{font-family:var(--ui-font);font-size:8.5pt;line-height:10.4pt;font-weight:800;color:white;background:var(--navy);padding:2.5mm 4mm;text-align:center;border-radius:1.5mm;margin-top:2.5mm}
+
+/* P132 worksheet */
+#pdf-120.std-p132-145>h2{font-size:20.5pt;line-height:23pt;margin-bottom:2mm}#pdf-120 #block-01986{font-size:10.7pt;line-height:13.6pt;max-width:118mm;margin-bottom:3mm}
+#pdf-120 .capability-worksheet{font-size:7.75pt;line-height:9.5pt;margin:1.5mm 0 3mm}#pdf-120 .capability-worksheet th{font-size:7.6pt;line-height:9.2pt;text-align:center;padding:1.8mm 1.4mm}#pdf-120 .capability-worksheet td{padding:1.5mm 1.4mm;height:12.4mm}
+#pdf-120 .capability-worksheet th:nth-child(1){width:29%}#pdf-120 .capability-worksheet th:nth-child(2){width:13%}#pdf-120 .capability-worksheet th:nth-child(3){width:19%}#pdf-120 .capability-worksheet th:nth-child(4){width:19%}#pdf-120 .capability-worksheet th:nth-child(5){width:20%}
+#pdf-120 .need-now{text-align:center;white-space:nowrap}.check-label{display:inline-flex;align-items:center;gap:1mm;margin:0 .8mm}.check-label i{display:inline-block;width:3.6mm;height:3.6mm;border:.65pt solid #5F6D75;background:#fff}
+#pdf-120 #block-02024{font-family:var(--ui-font);font-weight:800;color:var(--navy);font-size:10.1pt;line-height:12.5pt;border-left:1.5mm solid var(--gold);padding-left:4mm;margin:3mm 0 0}
+
+/* KPI shared P133-P136 */
+.std-kpi-wrapper{display:contents}.std-kpi-page{font-family:var(--body-font);color:var(--ink);min-height:0!important;padding:0!important;margin:0!important}
+.std-kpi-page .kpi-kicker{font-family:var(--ui-font);font-size:8.1pt!important;line-height:9.8pt!important;font-weight:800;letter-spacing:.035em;color:var(--navy);background:var(--light-cool);border:.5pt solid #D5DDE0;padding:2.1mm 2.8mm;margin:0 0 2.8mm!important}
+.std-kpi-page .kpi-title{font-family:var(--ui-font)!important;color:var(--navy);font-size:19.5pt!important;line-height:22.5pt!important;font-weight:800;margin:0 0 3mm!important}.std-kpi-page .kpi-title .title-line{display:block;line-height:22.5pt!important;margin:0!important;padding:0!important}.std-kpi-page .kpi-lead{font-family:var(--body-font);font-size:9.8pt!important;line-height:13pt!important;margin:0 0 2.7mm!important;padding:0 0 0 4mm!important;border-left:1.4mm solid var(--gold)}
+.std-kpi-page .kpi-question{font-family:var(--ui-font)!important;color:var(--navy);font-size:10.2pt!important;line-height:12.6pt!important;font-weight:800;margin:2mm 0 1.4mm!important;padding:0 0 0 3.5mm!important}.std-kpi-page .accent-teal{border-left:1.4mm solid var(--teal)!important}.std-kpi-page .accent-sand{border-left:1.4mm solid var(--gold)!important}.std-kpi-page .accent-red{border-left:1.4mm solid var(--red)!important}.std-kpi-page .accent-orange{border-left:1.4mm solid #DD873C!important}
+.std-kpi-page p{font-size:9.15pt!important;line-height:11.9pt!important;margin:0 0 1.9mm!important}.std-kpi-page .kpi-muted{color:#6E7C85}.std-kpi-page .kpi-small{font-family:var(--ui-font);font-size:7.35pt!important;line-height:8.9pt!important;color:#74838C}.std-kpi-page .kpi-chart-label{font-family:var(--ui-font);font-weight:800;font-size:7.8pt!important;line-height:9.5pt!important;letter-spacing:.015em;margin-bottom:1mm!important}.std-kpi-page .teal{color:var(--teal)}.std-kpi-page .red{color:var(--red)}.std-kpi-page .red-text{color:var(--red)!important}
+.std-kpi-page .kpi-split,.std-kpi-page .kpi-metric-row,.std-kpi-page .kpi-financing-row,.std-kpi-page .kpi-two-col,.std-kpi-page .kpi-groups{display:grid;gap:5mm;align-items:center}.std-kpi-page .kpi-split{grid-template-columns:27mm 1fr}.std-kpi-page .kpi-metric-row{grid-template-columns:28mm 1fr;margin:1mm 0 2mm}.std-kpi-page .kpi-financing-row{grid-template-columns:28mm 1fr;margin:1mm 0}.std-kpi-page .kpi-two-col{grid-template-columns:1fr 1fr;align-items:start;gap:6mm}.std-kpi-page .kpi-groups{grid-template-columns:repeat(3,1fr);align-items:start;gap:4mm;margin:2.5mm 0 2.5mm}
+.std-kpi-page .kpi-number-block{border-left:1.5mm solid currentColor;padding:.5mm 0 .5mm 3mm}.std-kpi-page .kpi-number-block.teal{color:var(--teal)}.std-kpi-page .kpi-number-block.sand{color:var(--gold)}.std-kpi-page .kpi-number-block.orange{color:#DD873C}.std-kpi-page .kpi-number-block.red{color:var(--red)}
+.std-kpi-page .kpi-big-number{font-family:var(--ui-font);font-weight:800;font-size:28pt!important;line-height:29pt!important;color:var(--navy);margin:0!important}.std-kpi-page .kpi-number-label{font-family:var(--ui-font);font-weight:800;color:var(--navy);font-size:7.7pt!important;line-height:9.2pt!important;text-transform:uppercase;margin:.6mm 0!important}.std-kpi-page .kpi-formula-box,.std-kpi-page .kpi-foundation{background:var(--light-cool);padding:2.5mm 3.5mm;margin:2.4mm 0}.std-kpi-page .kpi-formula-box p{font-family:var(--ui-font);font-size:7.25pt!important;line-height:8.8pt!important;margin:.4mm 0!important}.std-kpi-page .kpi-formula-line{font-family:var(--ui-font);font-weight:800;color:var(--navy);font-size:8.15pt!important;line-height:10pt!important}.std-kpi-page .kpi-closing{font-family:var(--ui-font);font-weight:800;color:var(--navy);font-size:9.1pt!important;line-height:11.2pt!important;margin:2.2mm 0 0!important;padding:1.8mm 0 1.8mm 3.5mm}
+.std-kpi-page .kpi-action-box{background:var(--light-warm);padding:2.6mm 3.5mm;margin:2.5mm 0 0}.std-kpi-page .kpi-action{font-family:var(--ui-font);font-weight:800;color:var(--navy);font-size:7.7pt!important;line-height:9.4pt!important}.std-kpi-page .kpi-group{padding:2.2mm 1.5mm 1mm;border-top:1.4mm solid #ccc}.std-kpi-page .teal-top{border-color:var(--teal)}.std-kpi-page .sand-top{border-color:var(--gold)}.std-kpi-page .red-top{border-color:var(--red)}.std-kpi-page .kpi-group-title{font-family:var(--ui-font);font-weight:800;color:var(--navy);font-size:7.9pt!important;line-height:9.7pt!important}.std-kpi-page .kpi-group-body{font-family:var(--body-font);font-weight:700;font-size:8.25pt!important;line-height:10.1pt!important}.std-kpi-page .kpi-loop{display:grid;grid-template-columns:auto 5mm auto 5mm auto 5mm auto 5mm 1fr;align-items:center;gap:1mm;margin:2.5mm 0 1mm;font-family:var(--ui-font)}.std-kpi-page .kpi-loop p{margin:0!important}.std-kpi-page .kpi-loop-step{font-weight:800;color:var(--navy);font-size:7.6pt!important;line-height:9pt!important;white-space:nowrap;text-align:center}.std-kpi-page .kpi-loop-arrow{color:var(--teal);font-weight:800;font-size:11pt!important;text-align:center}.std-kpi-page .kpi-loop-sub{font-family:var(--ui-font);color:#74838C;font-size:7pt!important;line-height:8.6pt!important;text-align:center;margin-bottom:2.4mm!important}.std-kpi-page .kpi-foundation-title{font-family:var(--ui-font);font-weight:800;color:var(--navy);font-size:7.8pt!important;line-height:9.4pt!important}.std-kpi-page .kpi-foundation-body{font-family:var(--ui-font);font-size:7.2pt!important;line-height:8.9pt!important}.std-kpi-page .keep-together{white-space:nowrap}
+/* live charts */
+.live-chart{position:relative;margin:0 0 1.5mm!important}.chart-svg{display:block;width:100%;height:20mm}.chart-axis{stroke:#A7B6BD;stroke-width:.5}.chart-labels,.chart-values{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;font-family:var(--ui-font);font-size:7pt;line-height:8.5pt;color:#7D8B93;text-align:center;margin-top:.3mm}.chart-values{font-size:7.1pt;font-weight:800;color:var(--red);margin-bottom:-1.2mm}.fig107 .chart-svg{height:23mm}.fig108 .chart-svg,.fig112 .chart-svg{height:18mm}
+.finance-bar{margin:0!important}.finance-ticks{display:flex;justify-content:space-between;font-family:var(--ui-font);font-size:7pt;color:#65757D;margin-bottom:.8mm}.finance-track{display:grid;grid-template-columns:46fr 22fr;height:11mm;border:.6pt solid #768991}.finance-track>div{display:flex;align-items:center;justify-content:center;font-family:var(--ui-font);font-size:7.2pt;font-weight:800}.finance-supplier{background:#F7EBC6;color:var(--navy)}.finance-own{background:#F5D6BE;color:#B5652E;border-left:.6pt solid #768991}.finance-foot{font-family:var(--ui-font);font-size:7pt;color:#839098;text-align:center;margin-top:1mm}
+.age-finance{margin:0 0 1.5mm!important}.mini-caption{font-family:var(--ui-font);font-size:7pt;font-weight:800;color:#71818A;text-align:right;margin-bottom:.7mm}.age-segments{display:grid;grid-template-columns:repeat(6,1fr);height:10mm}.age-segments>div{position:relative;border-right:.5pt solid #fff}.age-segments span{position:absolute;top:11mm;left:0;right:0;text-align:center;font-family:var(--ui-font);font-size:7pt;font-weight:700;color:#40515B}.age-s1{background:#1E918A}.age-s2{background:#64AAA5}.age-s3{background:#A5C0B8}.age-s4{background:#D39A25}.age-s5{background:#D98535}.age-s6{background:#C94D42}.finance-caption{margin-top:7mm;text-align:left}.age-ticks{display:flex;justify-content:space-between;font-family:var(--ui-font);font-size:7pt;color:#65757D}.age-fin-track{display:grid;grid-template-columns:90fr 60fr;height:5mm;border-bottom:1.3mm solid var(--gold);margin-top:.8mm}.age-fin-track>div{font-family:var(--ui-font);font-size:7pt;text-align:center;padding-top:6mm}.age-supplier{color:#7B8990}.age-own{color:#D0782F}
+.risk-note{font-family:var(--ui-font);font-size:7pt;line-height:8.5pt;color:#77868E;text-align:center;margin-bottom:1mm}.risk-bar-grid{height:42mm;display:flex;align-items:flex-end;justify-content:center;gap:3mm}.risk-bar{width:9mm;text-align:center}.risk-bar i{display:block;width:100%;height:var(--h);background:#C94D42}.risk-bar:nth-child(3) i{background:#D97B35}.risk-bar:nth-child(4) i{background:#DE8B31}.risk-bar:nth-child(5) i{background:#D3921F}.risk-bar span{display:block;font-family:var(--ui-font);font-size:7pt;font-weight:800;color:#31434E;margin-top:1mm;white-space:nowrap}
+.kpi-matrix-live{margin:1mm 0 2mm!important}.matrix-x{font-family:var(--ui-font);font-size:7pt;font-weight:800;color:#74848C;text-align:center;margin-bottom:1mm}.matrix-body{display:grid;grid-template-columns:8mm 1fr;gap:1mm;align-items:stretch}.matrix-y{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--ui-font);font-size:7pt;font-weight:800;color:#74848C;text-align:center}.matrix-grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;height:48mm}.matrix-q{padding:4mm 3mm;text-align:center;display:flex;flex-direction:column;justify-content:center;gap:1.5mm}.matrix-q b{font-family:var(--ui-font);font-size:8.1pt;line-height:9.8pt;color:var(--navy)}.matrix-q span{font-size:7pt;line-height:8.5pt;color:#65757D}.matrix-q.strong{background:#DCEEEB}.matrix-q.service{background:#F5E8B9}.matrix-q.client{background:#F4DFCC}.matrix-q.double{background:#F3D7D4}
+#v2-kpi-page-01-result .kpi-lost-row{margin:1mm 0 1.5mm}#v2-kpi-page-01-result .kpi-formula-box{margin-top:1.5mm}#v2-kpi-page-02-capital .kpi-question{margin-top:2.2mm!important}#v2-kpi-page-03-inventory-quality .kpi-two-col{margin-top:1.5mm}#v2-kpi-page-03-inventory-quality .kpi-big-number{font-size:26pt!important}#v2-kpi-page-04-system .kpi-title{margin-bottom:2.5mm!important}#v2-kpi-page-04-system .kpi-question{margin-top:1.8mm!important;margin-bottom:1.2mm!important}#v2-kpi-page-04-system .kpi-foundation{margin-top:2mm}
+
+/* P137 transition */
+#pdf-121.retail-transition{padding-top:9mm}#pdf-121 #block-02026{font-size:21pt;line-height:24pt;margin-bottom:5mm}#pdf-121 #block-02027,#pdf-121 #block-02028{max-width:110mm;font-size:10.1pt;line-height:13.3pt;margin-bottom:3mm}#pdf-121 #block-02029{font-family:var(--ui-font);font-size:9pt;line-height:11pt;letter-spacing:.04em;color:var(--teal);font-weight:800;margin:8mm 0 3mm}#pdf-121 #block-02030{font-family:var(--ui-font);font-size:16pt;line-height:19.2pt;color:var(--navy);font-weight:800;max-width:116mm;margin-bottom:6mm}#pdf-121 #block-02035{font-family:var(--body-font);font-size:10.4pt;line-height:13.5pt;color:var(--muted);font-weight:400;margin-bottom:2mm}#pdf-121 #block-02036{font-family:var(--ui-font);font-size:16.5pt;line-height:19.5pt;color:var(--navy);font-weight:800;margin-bottom:7mm}#pdf-121 #block-02037{font-family:var(--ui-font);font-size:10pt;line-height:12pt;letter-spacing:.06em;color:#fff;background:var(--navy);font-weight:800;padding:3mm 4mm;width:87mm;margin:0}
+
+/* P138 */
+#pdf-122 .chapter-title{font-size:20.5pt;line-height:23pt;margin-bottom:1.5mm}#pdf-122 #block-02042{font-family:var(--ui-font);font-size:8.2pt;line-height:10pt;color:var(--muted);margin-bottom:3.5mm}#pdf-122 #block-02043{font-family:var(--ui-font);font-size:11pt;line-height:13.5pt;font-weight:800;color:var(--navy);border-left:1.5mm solid var(--teal);padding-left:4mm;margin-bottom:2mm}#pdf-122 #block-02044,#pdf-122 #block-02045,#pdf-122 #block-02046,#pdf-122 #block-02047,#pdf-122 #block-02051,#pdf-122 #block-02052,#pdf-122 #block-02056{font-size:9.4pt;line-height:12.2pt;margin-bottom:2.5mm}#pdf-122 #block-02048{font-size:10.8pt;line-height:13.2pt;border-left:1.5mm solid var(--gold);padding:2mm 0 2mm 4mm;margin:3mm 0}#pdf-122 #block-02053{font-size:10.8pt;line-height:13.2pt;border-left:1.5mm solid var(--teal);padding:2mm 0 2mm 4mm;margin:3mm 0 2mm}
+
+/* P139 */
+#pdf-123 #block-02057{font-size:20pt;line-height:23pt;margin-bottom:1mm}#pdf-123 .callout{margin:1.5mm 0 3mm}#pdf-123 #block-02061{font-weight:700;margin-bottom:1.5mm}#pdf-123 ul{margin:0 0 3mm;padding-left:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:1.4mm 5mm}#pdf-123 ul li{font-family:var(--ui-font);font-size:8.8pt;line-height:11pt;padding:1.8mm 2.5mm;background:var(--light-cool);border-left:1mm solid var(--gold);margin:0}#pdf-123 #block-02063,#pdf-123 #block-02064,#pdf-123 #block-02065,#pdf-123 #block-02071{font-size:9.5pt;line-height:12.4pt;margin-bottom:2.3mm}#pdf-123 #block-02066,#pdf-123 #block-02068,#pdf-123 #block-02070{font-size:10.1pt;line-height:12.4pt;margin:1.6mm 0;padding:1.8mm 0 1.8mm 4mm;border-left:1.4mm solid var(--teal)}#pdf-123 #block-02072{font-size:12.3pt;line-height:15pt;border-left:1.5mm solid var(--teal);padding:2.4mm 0 2.4mm 4mm;margin:3.2mm 0 0;background:linear-gradient(to right,var(--light-cool),#fff 78%)}
+
+/* P140 */
+#pdf-124 #block-02074{font-size:20.5pt;line-height:23.5pt;margin-bottom:1mm}#pdf-124 .callout{margin:1.5mm 0 4mm}#pdf-124 #block-02077{font-family:var(--ui-font);font-size:11pt;line-height:13.4pt;font-weight:800;color:var(--navy);margin-bottom:2mm}#pdf-124 #block-02078,#pdf-124 #block-02081,#pdf-124 #block-02082,#pdf-124 #block-02087{max-width:116mm;font-size:9.6pt;line-height:12.5pt;margin-bottom:3mm}#pdf-124 #block-02079{font-size:11.2pt;line-height:13.8pt;border-left:1.5mm solid var(--teal);padding:2.4mm 0 2.4mm 4mm;margin:3mm 0}#pdf-124 #block-02083{font-family:var(--ui-font);font-size:8.3pt;line-height:10pt;text-transform:uppercase;color:var(--muted);font-weight:800;margin:4mm 0 1.5mm}#pdf-124 #block-02084{font-size:12pt;line-height:14.8pt;border:1pt solid #BCCBD1;border-radius:2mm;padding:4mm;background:#F7FAFA;margin:0 0 3mm}
+
+/* P141 FIG057 */
+#pdf-125{padding-top:2mm}#pdf-125 .callout{margin:0 0 3mm}#pdf-125 .logic-contrast{margin:0 0 3mm}#pdf-125 #block-02123{font-size:9.9pt;line-height:13pt;color:var(--muted);font-style:italic;margin:3mm 3mm 0}
+.logic-cols{display:grid;grid-template-columns:1fr 1fr;gap:5mm}.logic-col{border:1pt solid #C3CED2;border-radius:2mm;padding:3.5mm;background:#fff}.logic-col h4{font-family:var(--ui-font);font-size:8.4pt;line-height:10pt;text-align:center;color:var(--navy);margin:0 0 2.5mm}.logic-origin{width:31mm;margin:0 auto 2mm;text-align:center;border:1pt solid currentColor;border-radius:2mm;padding:2.2mm 1mm;font-family:var(--ui-font);font-size:7.7pt;line-height:9pt;font-weight:800}.logic-origin.gold{color:var(--gold)}.logic-origin.teal{color:var(--teal)}.logic-note{text-align:center;font-family:var(--ui-font);font-size:7.1pt;line-height:8.6pt;color:#6D7C84;min-height:13mm}.logic-flow{display:grid;grid-template-columns:1fr 1.25fr 1fr;gap:1.5mm;margin:3mm 0}.logic-flow span{position:relative;background:var(--light-cool);border:.6pt solid #B6C5CB;border-radius:1.5mm;padding:2.3mm 1mm;text-align:center;font-family:var(--ui-font);font-size:7pt;line-height:8.3pt;font-weight:800;color:var(--navy);display:flex;align-items:center;justify-content:center}.logic-flow span+span:before{content:'›';position:absolute;left:-2.2mm;color:var(--teal);font-size:10pt}.logic-foot{border-top:.7pt solid #C2CDD2;padding-top:2mm;text-align:center;font-family:var(--ui-font);font-size:7.2pt;line-height:8.7pt;color:#40545E;font-weight:800;min-height:12mm}
+
+/* P142 */
+#pdf-126 #block-02124{font-size:20pt;line-height:23pt;margin-bottom:1mm}#pdf-126 .callout{margin:1.5mm 0 4mm}#pdf-126 #block-02127,#pdf-126 #block-02128,#pdf-126 #block-02130,#pdf-126 #block-02133,#pdf-126 #block-02136,#pdf-126 #block-02137,#pdf-126 #block-02138{font-size:9.6pt;line-height:12.5pt;margin-bottom:2.4mm}#pdf-126 #block-02129{font-size:11.2pt;line-height:13.5pt;border-left:1.5mm solid var(--gold);padding:2mm 0 2mm 4mm;margin:2mm 0 2mm}#pdf-126 #block-02131{font-family:var(--ui-font);font-size:18pt;line-height:21pt;color:var(--navy);font-weight:800;text-align:center;background:var(--light-warm);border-top:1.3mm solid var(--gold);padding:5mm 3mm;margin:3.5mm 0}#pdf-126 #block-02134{font-size:11.4pt;line-height:13.9pt;border-left:1.5mm solid var(--red);padding:2.4mm 0 2.4mm 4mm;margin:3mm 0}#pdf-126 #block-02138{font-family:var(--ui-font);font-weight:800;color:var(--navy);font-size:10.2pt;line-height:12.5pt;margin-top:4mm}
+
+/* P143 */
+#pdf-127 #block-02139{font-size:20pt;line-height:23pt;margin-bottom:1mm}#pdf-127 .callout{margin:1.5mm 0 3mm}#pdf-127 #block-02142{font-size:9.5pt;line-height:12.3pt;margin-bottom:2.4mm}#pdf-127 .store-contrast{width:94mm;margin:1mm auto 3mm}.store-cols{display:grid;grid-template-columns:1fr 1fr;gap:3mm}.store-box{border:1pt solid #A9BAC1;border-radius:4mm;padding:3mm 2.5mm;text-align:center;min-height:54mm}.store-box h4{font-family:var(--ui-font);font-size:7.4pt;line-height:8.9pt;color:var(--navy);margin:0 0 3mm}.shelves{display:flex;gap:2.8mm;justify-content:center;align-items:flex-end;height:26mm}.shelves i{width:7mm;height:22mm;border:1pt solid #8B9BA3;background:#fff}.store-box p{font-family:var(--ui-font);white-space:pre-line;font-size:7pt!important;line-height:8.3pt!important;color:#7A878E;margin:2mm 0 0!important}.categories{display:flex;gap:1mm;justify-content:center;margin-bottom:5mm}.categories span{font-family:var(--ui-font);font-size:7pt;line-height:8.2pt;padding:2mm 1mm;border:.6pt solid currentColor;background:#fff}.categories .med{color:var(--teal)}.categories .health{color:var(--gold)}.categories .vit{color:#C57B65}.client-path{font-family:var(--ui-font);font-size:7pt;color:var(--teal);font-weight:800;border-bottom:1pt solid var(--teal);padding-bottom:2mm;margin:4mm 4mm 2mm}#pdf-127 #block-02155{font-size:10.8pt;line-height:13.2pt;border-left:1.5mm solid var(--teal);padding-left:4mm;margin:2.5mm 0 2mm}#pdf-127 #block-02156,#pdf-127 #block-02157,#pdf-127 #block-02161{font-size:9.1pt;line-height:11.8pt;margin-bottom:2mm}#pdf-127 .robotics-echo{background:var(--light-cool);border-left:1mm solid var(--teal);padding:2mm 3mm;margin:2mm 0}#pdf-127 .robotics-echo p{font-family:var(--ui-font);font-size:7.5pt!important;line-height:9.3pt!important;margin:0!important;color:#475A64}#pdf-127 #block-02158{font-size:10.5pt;line-height:12.8pt;border-left:1.5mm solid var(--teal);padding-left:4mm;margin:2.5mm 0 2mm}
+
+/* P144 */
+#pdf-128>.callout{margin:0 0 1.5mm}#pdf-128 #block-02163{font-size:20pt;line-height:23pt;margin-bottom:2.5mm}#pdf-128 #block-02165,#pdf-128 #block-02166,#pdf-128 #block-02182,#pdf-128 #block-02183,#pdf-128 #block-02184{font-size:9.05pt;line-height:11.7pt;margin-bottom:2mm}#pdf-128 #table-005{font-size:8pt;line-height:9.8pt;margin:2mm 0 2.5mm}#pdf-128 #table-005 th{padding:1.8mm 2.2mm}#pdf-128 #table-005 td{padding:1.65mm 2.2mm}#pdf-128 #block-02185{font-size:10.7pt;line-height:13.2pt;border-left:1.5mm solid var(--red);padding:2.4mm 0 2.4mm 4mm;margin:3mm 0 0;background:linear-gradient(to right,#F8EEEA,#fff 82%)}
+
+/* P145 */
+#pdf-129 #block-02188{font-size:20pt;line-height:23pt;margin-bottom:1mm}#pdf-129 .callout{margin:1.5mm 0 3mm}#pdf-129 .owner-check-list{counter-reset:none;list-style:none;padding:0;margin:0}#pdf-129 .owner-check-list li{font-size:9pt;line-height:11.7pt;margin:0 0 2mm;padding:2.6mm 3mm 2.6mm 10mm;border:1pt solid #D1DADC;border-radius:2mm;position:relative;background:#fff}#pdf-129 .owner-check-list li:before{content:'□';position:absolute;left:3.2mm;top:2.4mm;font-family:var(--ui-font);font-size:11pt;color:var(--teal)}#pdf-129 .owner-check-list .inline-continuation{display:inline;font-size:inherit;line-height:inherit;margin:0;padding:0}#pdf-129 #block-02200{font-size:10.5pt;line-height:13pt;border-left:1.5mm solid var(--gold);padding:2.4mm 0 2.4mm 4mm;margin:3.5mm 0 3mm}#pdf-129 #block-02202{font-family:var(--ui-font);font-size:15pt;line-height:18pt;color:var(--navy);font-weight:800;border-top:.7pt solid #C4D0D4;padding-top:4mm;margin:0;max-width:110mm}
+
+/* Final print-floor and P135 fit remediation */
+#pdf-120 .check-label i{width:4mm;height:4mm}
+.std-kpi-page .kpi-formula-box p{font-size:10pt!important;line-height:12pt!important}
+.std-kpi-page .kpi-action{font-size:8.6pt!important;line-height:10.5pt!important}
+.categories span{font-size:7.2pt;line-height:8.5pt}
+
+#v2-kpi-page-03-inventory-quality .kpi-title{font-size:18.3pt!important;line-height:20.6pt!important;margin-bottom:2.1mm!important}
+#v2-kpi-page-03-inventory-quality .kpi-lead{font-size:9.25pt!important;line-height:11.8pt!important;margin-bottom:2mm!important}
+#v2-kpi-page-03-inventory-quality .kpi-question{margin-top:1.2mm!important;margin-bottom:1mm!important}
+#v2-kpi-page-03-inventory-quality .age-finance{margin-bottom:1mm!important}
+#v2-kpi-page-03-inventory-quality .age-segments{height:7.5mm}
+#v2-kpi-page-03-inventory-quality .age-segments span{top:8.2mm}
+#v2-kpi-page-03-inventory-quality .finance-caption{margin-top:5.2mm;margin-bottom:.5mm}
+#v2-kpi-page-03-inventory-quality .age-ticks{font-size:7pt;line-height:8pt}
+#v2-kpi-page-03-inventory-quality .age-fin-track{height:7mm;border-bottom:0;border-top:1.1mm solid var(--gold);margin-top:.5mm}
+#v2-kpi-page-03-inventory-quality .age-fin-track>div{font-size:7pt;line-height:8pt;padding:1.5mm .5mm 0;display:flex;align-items:flex-start;justify-content:center;white-space:nowrap}
+#v2-kpi-page-03-inventory-quality>p:not(.kpi-kicker):not(.kpi-lead){font-size:8.9pt!important;line-height:11.25pt!important;margin-bottom:1.2mm!important}
+#v2-kpi-page-03-inventory-quality .kpi-two-col{margin-top:.7mm;gap:5mm}
+#v2-kpi-page-03-inventory-quality .kpi-col>p{font-size:8.9pt!important;line-height:11.2pt!important;margin-bottom:1mm!important}
+#v2-kpi-page-03-inventory-quality .risk-note{margin-bottom:.5mm}
+#v2-kpi-page-03-inventory-quality .risk-bar-grid{height:29mm;gap:2.3mm}
+#v2-kpi-page-03-inventory-quality .risk-bar{width:7.5mm}
+#v2-kpi-page-03-inventory-quality .risk-bar.b1 i{height:24mm!important}
+#v2-kpi-page-03-inventory-quality .risk-bar.b2 i{height:21mm!important}
+#v2-kpi-page-03-inventory-quality .risk-bar.b3 i{height:17mm!important}
+#v2-kpi-page-03-inventory-quality .risk-bar.b4 i{height:14mm!important}
+#v2-kpi-page-03-inventory-quality .risk-bar.b5 i{height:11mm!important}
+#v2-kpi-page-03-inventory-quality .kpi-big-number{font-size:24pt!important;line-height:25pt!important}
+#v2-kpi-page-03-inventory-quality .fig112 .chart-svg{height:13mm}
+#v2-kpi-page-03-inventory-quality .live-chart{margin-bottom:.5mm!important}
+#v2-kpi-page-03-inventory-quality .kpi-action-box{padding:2mm 3mm;margin:1.5mm 0 0}
+#v2-kpi-page-03-inventory-quality .kpi-action-box p:first-child{font-size:8.8pt!important;line-height:11.1pt!important;margin-bottom:1mm!important}
+#v2-kpi-page-03-inventory-quality .kpi-action-box .kpi-action{font-size:8.6pt!important;line-height:10.5pt!important;margin-bottom:0!important}
+/* P133 vertical fit with formula at 10pt */
+#v2-kpi-page-01-result .fig107 .chart-svg{height:17mm}
+#v2-kpi-page-01-result .fig108 .chart-svg{height:14mm}
+#v2-kpi-page-01-result .kpi-title{margin-bottom:2.2mm!important}
+#v2-kpi-page-01-result .kpi-lead{margin-bottom:2mm!important}
+#v2-kpi-page-01-result .kpi-question{margin-top:1.4mm!important;margin-bottom:1mm!important}
+#v2-kpi-page-01-result .kpi-split{margin-bottom:.8mm}
+#v2-kpi-page-01-result .kpi-formula-box{padding:2.2mm 3.5mm;margin:1.4mm 0}
+#v2-kpi-page-01-result .kpi-closing{margin-top:1.2mm!important;padding-top:1.2mm;padding-bottom:1.2mm}
+/* Preserve split canonical CIDs while rendering P145 as one checklist item */
+#pdf-129 #block-02196{margin-bottom:0}
+#pdf-129 #block-02196 li:last-child{margin-bottom:0;border-bottom:0;border-radius:2mm 2mm 0 0;padding-bottom:.8mm}
+#pdf-129 #block-02197.split-check-continuation{font-size:9pt!important;line-height:11.7pt!important;margin:-.1mm 0 2mm!important;padding:.2mm 3mm 2.6mm 10mm;border:1pt solid #D1DADC;border-top:0;border-radius:0 0 2mm 2mm;background:#fff}
+/* Robust print-safe vertical axis for FIG_113 */
+.matrix-y{writing-mode:horizontal-tb;transform:none;position:relative;overflow:visible;font-family:var(--ui-font);font-size:7pt;font-weight:800;color:#74848C;text-align:center}
+.matrix-y>span{position:absolute;left:50%;top:50%;width:47mm;transform:translate(-50%,-50%) rotate(-90deg);transform-origin:center;white-space:nowrap;text-align:center;font:inherit;color:inherit}
+
+/* Final rhythm balancing for standard active-height / bottom-tail targets */
+/* P138 narrative: use available depth for readable paragraph cadence */
+#pdf-122 #block-02044,#pdf-122 #block-02045,#pdf-122 #block-02046,#pdf-122 #block-02047,#pdf-122 #block-02051,#pdf-122 #block-02052,#pdf-122 #block-02056{margin-bottom:3.2mm}
+#pdf-122 #block-02048,#pdf-122 #block-02053{margin-top:3.7mm;margin-bottom:3mm}
+
+/* P139 comparison: larger vertical rhythm without changing text scale */
+#pdf-123 ul{gap:2.2mm 5mm;margin-bottom:3.8mm}
+#pdf-123 #block-02063,#pdf-123 #block-02064,#pdf-123 #block-02065,#pdf-123 #block-02071{margin-bottom:3.1mm}
+#pdf-123 #block-02066,#pdf-123 #block-02068,#pdf-123 #block-02070{margin-top:2.6mm;margin-bottom:2.6mm;padding-top:2.2mm;padding-bottom:2.2mm}
+#pdf-123 #block-02072{padding-top:3.2mm;padding-bottom:3.2mm;margin-top:4mm}
+
+/* P140 mechanism: balance the lower owner-decision block */
+#pdf-124 .callout{margin-bottom:5.5mm}
+#pdf-124 #block-02078,#pdf-124 #block-02081,#pdf-124 #block-02082,#pdf-124 #block-02087{margin-bottom:4mm}
+#pdf-124 #block-02079{margin-top:4.5mm;margin-bottom:4.5mm;padding-top:2.8mm;padding-bottom:2.8mm}
+#pdf-124 #block-02083{margin-top:6mm;margin-bottom:2mm}
+#pdf-124 #block-02084{padding:5mm 4mm;margin-bottom:4mm}
+
+/* P141 concept page: diagram is the substantive page body, not a small inset */
+#pdf-125 .logic-cols{height:120mm;align-items:stretch}
+#pdf-125 .logic-col{height:100%;padding:5.5mm 4mm;display:flex;flex-direction:column}
+#pdf-125 .logic-col h4{margin-bottom:4mm}
+#pdf-125 .logic-origin{padding-top:3mm;padding-bottom:3mm;margin-bottom:4mm}
+#pdf-125 .logic-note{min-height:22mm;display:flex;align-items:center;justify-content:center}
+#pdf-125 .logic-flow{margin:7mm 0}
+#pdf-125 .logic-flow span{min-height:15mm;padding-top:3mm;padding-bottom:3mm}
+#pdf-125 .logic-foot{margin-top:auto;padding-top:3mm;min-height:16mm;display:flex;align-items:center;justify-content:center}
+#pdf-125 .diagram-conclusion{padding-top:3.5mm;padding-bottom:3.5mm;margin-top:3mm}
+
+/* P142 case page: deliberate breathing room around the case steps */
+#pdf-126 #block-02127,#pdf-126 #block-02128,#pdf-126 #block-02130,#pdf-126 #block-02133,#pdf-126 #block-02136,#pdf-126 #block-02137,#pdf-126 #block-02138{margin-bottom:3.2mm}
+#pdf-126 #block-02129{margin-top:3mm;margin-bottom:3mm;padding-top:2.5mm;padding-bottom:2.5mm}
+#pdf-126 #block-02131{padding-top:6.5mm;padding-bottom:6.5mm;margin-top:4mm;margin-bottom:4mm}
+#pdf-126 #block-02134{margin-top:4mm;margin-bottom:4mm;padding-top:3mm;padding-bottom:3mm}
+#pdf-126 #block-02138{margin-top:5.5mm}
+
+/* P145 close: give the final forward question a stronger landing */
+#pdf-129 #block-02202{padding-top:6mm}
+/* Final sub-threshold tail polish */
+#pdf-122 #block-02044,#pdf-122 #block-02045,#pdf-122 #block-02046,#pdf-122 #block-02047,#pdf-122 #block-02051,#pdf-122 #block-02052,#pdf-122 #block-02056{margin-bottom:3.6mm}
+#pdf-123 #block-02072{padding-top:4.7mm}
+#pdf-124 #block-02084{margin-bottom:5.5mm}
+#pdf-129 #block-02202{padding-top:7.5mm}
+
+
+/* Proposed P137-P138 management rhythm insert */
+.management-pack-page .kpi-title,.operating-rhythm-page .kpi-title{font-size:18.8pt!important;line-height:21.5pt!important;margin-bottom:2.4mm!important}
+.management-pack-page .kpi-lead,.operating-rhythm-page .kpi-lead{font-size:9.35pt!important;line-height:12pt!important;margin-bottom:2mm!important}
+.management-pack-page .kpi-question{margin-top:1.3mm!important;margin-bottom:1mm!important}
+.management-pack-summary{font-size:7.15pt!important;line-height:8.5pt!important;margin:1mm 0 1.8mm!important}
+.management-pack-summary th{font-size:6.9pt;line-height:8.2pt;padding:1.3mm 1.5mm;text-align:left}
+.management-pack-summary th:nth-child(1){width:35%}.management-pack-summary th:nth-child(2){width:16%}.management-pack-summary th:nth-child(3){width:18%}.management-pack-summary th:nth-child(4){width:31%}
+.management-pack-summary td{padding:1.15mm 1.5mm;vertical-align:middle}.management-pack-summary td:nth-child(2),.management-pack-summary td:nth-child(3){text-align:center;color:#65757D}.management-pack-summary td:nth-child(4){font-size:6.9pt}
+.exception-cards{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin:1mm 0 1.5mm}.exception-card{background:#F8FAFA;border:.7pt solid #CAD5D9;border-left:1.4mm solid var(--teal);padding:2.2mm 2.5mm;min-height:28mm}.exception-card.red-edge{border-left-color:var(--red)}.exception-card.gold-edge{border-left-color:var(--gold)}
+.exception-title{font-family:var(--ui-font);font-weight:800;color:var(--navy);font-size:7.6pt!important;line-height:9.2pt!important;margin-bottom:1.4mm!important}.exception-flow{font-family:var(--ui-font);font-size:7.05pt!important;line-height:9.1pt!important;margin:0!important;color:#40545E}
+.pack-note{font-size:7.7pt!important;line-height:9.6pt!important;margin:0 0 1.3mm!important}.pack-deadline{padding:2.2mm 3.2mm!important;margin:1.3mm 0 0!important}.pack-deadline p:first-child{font-size:8.15pt!important;line-height:10.2pt!important;margin-bottom:1mm!important}.pack-deadline .kpi-action{font-size:7.8pt!important;line-height:9.6pt!important}
+.rhythm-columns{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin:1.5mm 0 3mm}.rhythm-card{border:1pt solid #C5D1D5;border-radius:2mm;padding:3.2mm 3.3mm;background:#fff;min-height:88mm}.rhythm-card.monthly{border-top:1.6mm solid var(--teal)}.rhythm-card.daily{border-top:1.6mm solid var(--gold)}
+.rhythm-eyebrow{font-family:var(--ui-font);font-size:7.2pt!important;line-height:8.7pt!important;font-weight:800;letter-spacing:.025em;color:#65757D;margin-bottom:1.5mm!important}.rhythm-card h3{font-size:11pt;line-height:13.2pt;margin-bottom:2mm}.rhythm-card ul{margin:0 0 2.5mm;padding-left:4.5mm}.rhythm-card li{font-size:8.25pt;line-height:10.8pt;margin-bottom:1.55mm;padding-left:.5mm}.rhythm-foot{font-family:var(--ui-font);font-weight:700;color:var(--navy);font-size:7.6pt!important;line-height:9.5pt!important;border-top:.6pt solid #D2DBDE;padding-top:2.2mm;margin:0!important}
+.management-loop{margin:0 0 2.4mm}.management-loop figcaption{text-align:left!important;margin-bottom:1.3mm!important}.management-loop-track{display:grid;grid-template-columns:1.15fr 4mm 1.1fr 4mm 1.15fr 4mm 1fr 4mm 1fr;gap:1mm;align-items:center}.management-loop-track span{font-family:var(--ui-font);font-size:6.55pt;line-height:8pt;font-weight:800;color:var(--navy);background:var(--light-cool);border:.6pt solid #C7D2D6;border-radius:1.5mm;padding:2mm .7mm;text-align:center;min-height:13mm;display:flex;align-items:center;justify-content:center}.management-loop-track b{font-family:var(--ui-font);color:var(--teal);text-align:center;font-size:10pt}.rhythm-owner{margin:1.5mm 0!important;padding:2.2mm 3.2mm!important}.rhythm-owner .kpi-foundation-title{margin-bottom:.8mm!important}.rhythm-owner .kpi-foundation-body{font-size:7.45pt!important;line-height:9.2pt!important;margin:0!important}.operating-rhythm-page .kpi-closing{font-size:8.4pt!important;line-height:10.4pt!important;margin-top:1.2mm!important;padding-top:1.6mm!important;padding-bottom:1.6mm!important}
+
+/* Revised P137-P138 management rhythm insert v2 */
+.supply-chain-owner-page .kpi-title,.root-cause-page .kpi-title{font-size:18.6pt!important;line-height:21.2pt!important;margin-bottom:2.2mm!important}
+.supply-chain-owner-page .kpi-lead,.root-cause-page .kpi-lead{font-size:9.2pt!important;line-height:11.8pt!important;margin-bottom:2.2mm!important}
+.supply-chain-owner-page .kpi-question,.root-cause-page .kpi-question{margin-top:1.8mm!important;margin-bottom:1.2mm!important}
+.supply-chain-flow{margin:1.2mm 0 2.2mm!important}.supply-chain-flow figcaption{text-align:left!important;margin-bottom:1.2mm!important}
+.supply-track{display:grid;grid-template-columns:1fr 3.5mm 1.18fr 3.5mm 1.28fr 3.5mm .88fr 3.5mm 1.08fr;gap:.8mm;align-items:center}
+.supply-track span{font-family:var(--ui-font);font-size:7pt;line-height:8.4pt;font-weight:800;color:var(--navy);background:var(--light-cool);border:.6pt solid #C7D2D6;border-radius:1.5mm;padding:2.1mm .7mm;text-align:center;min-height:14mm;display:flex;align-items:center;justify-content:center}
+.supply-track b{font-family:var(--ui-font);color:var(--teal);text-align:center;font-size:10pt}
+.chain-owner{margin:1mm 0 1.7mm!important;padding:2.4mm 3.2mm!important}.chain-owner .kpi-foundation-title{margin-bottom:.8mm!important}.chain-owner .kpi-foundation-body{font-size:7.8pt!important;line-height:9.8pt!important;margin:0!important}
+.role-split{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin:1mm 0 1.8mm}.role-card{border:.7pt solid #CDD7DA;background:#fff;padding:2.3mm 2.5mm;min-height:27mm}.role-card:first-child{border-top:1.1mm solid var(--gold)}.role-card:last-child{border-top:1.1mm solid var(--teal)}
+.role-title{font-family:var(--ui-font);font-weight:800;color:var(--navy);font-size:7.25pt!important;line-height:8.7pt!important;margin-bottom:1.2mm!important}.role-card p:last-child{font-size:7.35pt!important;line-height:9.3pt!important;margin:0!important}
+.pack-steps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm;margin:1mm 0 1.6mm}.pack-steps>div{background:#F8FAFA;border:.6pt solid #CBD5D8;border-radius:1.4mm;padding:2.1mm 2.2mm;min-height:27mm}.pack-steps b{display:block;font-family:var(--ui-font);font-size:7pt;line-height:8.4pt;color:var(--navy);margin-bottom:1mm}.pack-steps span{display:block;font-size:7pt;line-height:8.9pt;color:#40545E}.supply-chain-owner-page .kpi-closing{font-size:8.15pt!important;line-height:10.2pt!important;margin-top:1.3mm!important;padding-top:1.8mm!important;padding-bottom:1.8mm!important}
+
+.top-exceptions{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin:1.2mm 0 2.2mm}.top-card{border:.8pt solid #CCD6D9;border-radius:1.6mm;padding:2.6mm 2.8mm;background:#fff;min-height:34mm}.top-card.loss{border-top:1.3mm solid var(--red)}.top-card.excess{border-top:1.3mm solid var(--gold)}
+.top-label{font-family:var(--ui-font);font-size:7pt!important;line-height:8.4pt!important;font-weight:800;letter-spacing:.025em;color:#65757D;margin-bottom:1.2mm!important}.top-card h3{font-size:10.2pt;line-height:12.4pt;margin-bottom:1.5mm}.top-card p:last-child{font-size:7.2pt!important;line-height:9pt!important;margin:0!important;color:#40545E}
+.why-chain{display:grid;grid-template-columns:.75fr 3mm .82fr 3mm .82fr 3mm .82fr 3mm 1.06fr 3mm 1.12fr;gap:.7mm;align-items:center;margin:1.2mm 0 2.3mm}.why-chain span{font-family:var(--ui-font);font-size:7pt;line-height:8.2pt;font-weight:800;color:var(--navy);background:var(--light-cool);border:.6pt solid #C7D2D6;border-radius:1.4mm;padding:2.2mm .6mm;text-align:center;min-height:13mm;display:flex;align-items:center;justify-content:center}.why-chain .why{background:#FFF7E8;border-color:#E4C77A}.why-chain .decision{background:#E9F4F1;border-color:#8AB8AE}.why-chain b{font-family:var(--ui-font);color:var(--teal);text-align:center;font-size:9pt}
+.root-examples{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin:1.1mm 0 2.2mm}.root-examples section{background:#F9FAFA;border-left:1.2mm solid var(--teal);padding:2.5mm 2.8mm;min-height:58mm}.root-examples section:last-child{border-left-color:var(--gold)}.example-kicker{font-family:var(--ui-font);font-size:7pt!important;line-height:8.4pt!important;font-weight:800;color:#65757D;margin-bottom:1.2mm!important}.root-examples section>p:not(.example-kicker):not(.example-action){font-size:7.6pt!important;line-height:9.7pt!important;margin-bottom:1.5mm!important}.example-action{font-family:var(--ui-font);font-weight:700;color:var(--navy);font-size:7.2pt!important;line-height:9.1pt!important;margin:0!important;border-top:.6pt solid #D3DCDE;padding-top:1.5mm}
+.decision-strip{display:grid;grid-template-columns:37mm 1fr;gap:2mm;align-items:center;background:var(--navy);color:#fff;border-radius:1.4mm;padding:2.3mm 3mm;margin:1mm 0 2.1mm}.decision-strip b{font-family:var(--ui-font);font-size:7pt;line-height:8.4pt}.decision-strip span{font-size:7pt;line-height:8.8pt}
+.two-rhythms{display:grid;grid-template-columns:1fr 1fr;gap:4mm}.two-rhythms>div{border-top:.8pt solid #BFCBCD;padding-top:1.8mm}.two-rhythms b{display:block;font-family:var(--ui-font);font-size:7pt;line-height:8.4pt;color:var(--navy);margin-bottom:.8mm}.two-rhythms span{display:block;font-size:7pt;line-height:8.9pt;color:#40545E}
+
+/* User-approved final P134 collision correction */
+#v2-kpi-page-02-capital .kpi-financing-row{grid-template-columns:32mm 1fr;gap:6mm}
+#v2-kpi-page-02-capital .kpi-financing-row .kpi-number-label{font-size:7.35pt!important;line-height:8.9pt!important}

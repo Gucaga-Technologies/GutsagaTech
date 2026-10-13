@@ -1,0 +1,249 @@
+:root{
+  --rca-navy:#12324A;--rca-teal:#1E918A;--rca-gold:#D3921F;--rca-red:#C94D42;
+  --rca-orange:#E38335;--rca-ink:#26333B;--rca-muted:#52616B;--rca-rule:#C8D2D7;
+  --rca-cool:#EEF2F3;--rca-soft:#F7F9F9;--rca-warm:#F6E8BD;
+  --rca-body:"Noto Serif",serif;--rca-ui:"Noto Sans",sans-serif;
+}
+@page rca-left{size:167mm 240mm;margin:15mm 20mm 18mm 15mm;background:#fff}
+@page rca-right{size:167mm 240mm;margin:15mm 15mm 18mm 20mm;background:#fff}
+html,body{background:#fff!important}
+body{margin:0!important;padding:0!important;max-width:none!important}
+body>main,body>main>#tool-root-cause{margin:0!important;padding:0!important;max-width:none!important}
+#tool-root-cause>h1{display:none!important}
+#pdf-032,#pdf-033,#pdf-034,#pdf-035,#pdf-036,#pdf-037{
+  display:block!important;box-sizing:border-box!important;width:132mm!important;height:207mm!important;
+  margin:0!important;padding:0!important;max-width:none!important;position:relative!important;
+  break-after:page!important;page-break-after:always!important;overflow:visible!important;
+  font-family:var(--rca-body)!important;font-size:9.8pt!important;line-height:13pt!important;
+  color:var(--rca-ink)!important;hyphens:none!important;
+}
+#pdf-032,#pdf-034,#pdf-036{page:rca-left}
+#pdf-033,#pdf-035,#pdf-037{page:rca-right}
+#pdf-037{break-after:auto!important;page-break-after:auto!important}
+#pdf-032 *,#pdf-033 *,#pdf-034 *,#pdf-035 *,#pdf-036 *,#pdf-037 *{box-sizing:border-box!important;hyphens:none!important}
+#pdf-032 p,#pdf-033 p,#pdf-034 p,#pdf-035 p,#pdf-036 p,#pdf-037 p{orphans:2!important;widows:2!important}
+
+/* Shared hierarchy */
+.rca-v2-page .rca-v2-kicker{border:0!important;border-left:1.35mm solid var(--rca-gold)!important;padding:.25mm 0 .25mm 3mm!important;margin:0 0 2.8mm!important}
+.rca-v2-page .rca-v2-kicker h3{font-family:var(--rca-ui)!important;font-size:8.1pt!important;line-height:9.6pt!important;font-weight:800!important;letter-spacing:.045em!important;color:var(--rca-teal)!important;margin:0!important;text-transform:uppercase!important}
+.rca-v2-page .rca-v2-title{font-family:var(--rca-ui)!important;font-size:20.2pt!important;line-height:22.8pt!important;font-weight:800!important;letter-spacing:-.015em!important;color:var(--rca-navy)!important;margin:0 0 3mm!important}
+.rca-v2-page .rca-v2-question{font-family:var(--rca-body)!important;font-size:11.4pt!important;line-height:14pt!important;font-weight:700!important;color:var(--rca-navy)!important;border:0!important;border-left:1.35mm solid var(--rca-gold)!important;padding:0 0 0 3mm!important;margin:0 0 1.4mm!important}
+.rca-v2-page .rca-v2-answer{font-family:var(--rca-body)!important;font-size:9.8pt!important;line-height:13pt!important;color:var(--rca-ink)!important;margin:0 0 4mm!important}
+.rca-v2-page .rca-v2-body{font-family:var(--rca-body)!important;font-size:9.8pt!important;line-height:13pt!important;color:var(--rca-ink)!important;margin:0 0 2.3mm!important}
+.rca-v2-page .rca-v2-small{font-family:var(--rca-body)!important;font-size:8.8pt!important;line-height:11.4pt!important;color:var(--rca-muted)!important;margin:0!important}
+.rca-v2-page .rca-v2-callout{font-family:var(--rca-body)!important;font-size:9.2pt!important;line-height:11.8pt!important;font-weight:700!important;color:var(--rca-navy)!important;border:0!important;border-left:1.35mm solid var(--rca-gold)!important;padding:0 0 0 3mm!important;margin:3.7mm 0!important}
+.rca-v2-page .rca-v2-bottom{font-family:var(--rca-body)!important;font-size:9.4pt!important;line-height:12.1pt!important;font-weight:700!important;color:var(--rca-navy)!important;border:0!important;border-left:1.35mm solid var(--rca-gold)!important;padding:0 0 0 3mm!important;margin:4.2mm 0 0!important}
+.rca-v2-page .rca-v2-bottom-title{font-size:10.3pt!important;line-height:12.5pt!important}
+
+/* P032 — diagnostic opener: two symptoms, one process. */
+#pdf-032 .rca-v2-title{font-size:20.4pt!important;line-height:22.7pt!important;margin-bottom:1.5mm!important}
+#pdf-032>p.rca-v2-small{font-size:8.8pt!important;line-height:10.8pt!important;color:#7B8992!important;margin:0 0 2.8mm!important}
+#pdf-032 .rca-v2-question{margin-bottom:1.4mm!important}
+#pdf-032 .rca-v2-answer{margin-bottom:3.8mm!important}
+#pdf-032 .rca-v2-symptom-grid{display:grid!important;grid-template-columns:1fr 1fr!important;gap:4mm!important;margin:0 0 3.2mm!important}
+#pdf-032 .rca-v2-symptom{background:var(--rca-soft)!important;border:0!important;border-top:1.2mm solid var(--rca-teal)!important;padding:4.2mm 4mm!important;min-height:29mm!important}
+#pdf-032 .rca-v2-symptom-red{border-top-color:var(--rca-red)!important}
+#pdf-032 .rca-v2-symptom-gold{border-top-color:var(--rca-orange)!important}
+#pdf-032 .rca-v2-symptom h3{font-family:var(--rca-ui)!important;font-size:10.6pt!important;line-height:12.5pt!important;font-weight:800!important;color:var(--rca-navy)!important;margin:0 0 2.2mm!important}
+#pdf-032 .rca-v2-symptom p{font-family:var(--rca-body)!important;font-size:9.0pt!important;line-height:11.5pt!important;color:var(--rca-ink)!important;margin:.7mm 0!important}
+#pdf-032 .rca-v2-cause{margin:0 0 4mm!important;text-align:center!important}
+#pdf-032 .rca-v2-cause h3:first-child{font-family:var(--rca-ui)!important;font-size:10.1pt!important;line-height:12pt!important;color:var(--rca-navy)!important;margin:0 0 1.7mm!important;font-weight:800!important}
+#pdf-032 .rca-v2-cause h3:last-child{font-family:var(--rca-ui)!important;font-size:9.7pt!important;line-height:11.8pt!important;color:var(--rca-navy)!important;border:.8pt solid var(--rca-teal)!important;background:#fff!important;padding:2.8mm 3mm!important;margin:0 auto!important;max-width:none!important;font-weight:800!important}
+#pdf-032 .rca-v2-note{display:grid!important;grid-template-columns:1fr 1fr!important;gap:0!important;background:var(--rca-warm)!important;margin:4mm 0!important;padding:0!important}
+#pdf-032 .rca-v2-note h3,#pdf-032 .rca-v2-note p{padding:3.2mm 3.8mm!important;margin:0!important}
+#pdf-032 .rca-v2-note h3{font-family:var(--rca-ui)!important;font-size:8.7pt!important;line-height:10.8pt!important;color:var(--rca-navy)!important;font-weight:800!important;border-right:.7pt solid #E3C77A!important}
+#pdf-032 .rca-v2-note p{font-family:var(--rca-body)!important;font-size:9.0pt!important;line-height:11.5pt!important;color:var(--rca-ink)!important}
+#pdf-032 .rca-v2-bottom{margin-top:3.6mm!important;font-size:10.1pt!important;line-height:12.8pt!important}
+
+/* P033 — live investigation path. */
+#pdf-033 .rca-v2-title{margin-bottom:2.5mm!important}
+#pdf-033 .rca-v2-answer{margin-bottom:3.2mm!important}
+#pdf-033 .rca-v2-callout{margin:2.7mm 0 3.2mm!important}
+#pdf-033 .rca-v2-figure-title{font-family:var(--rca-ui)!important;font-size:8.2pt!important;line-height:10pt!important;font-weight:800!important;color:var(--rca-muted)!important;margin:0 0 1.8mm!important}
+#pdf-033 .rca-v2-figure{margin:0 0 3mm!important;padding:0!important}
+#pdf-033 .rca-v2-figure>img{display:none!important}
+#pdf-033 .rca-v2-figure .longdesc-link{display:none!important}
+#pdf-033 .rca-fig11-live{position:relative!important;display:grid!important;grid-template-columns:1fr 8mm 1fr 8mm 1fr 8mm 1fr 8mm 1.18fr!important;align-items:center!important;background:var(--rca-soft)!important;border-radius:1.3mm!important;padding:4mm 3.5mm 7mm!important;min-height:43mm!important}
+#pdf-033 .rca-fig11-node{display:flex!important;align-items:center!important;justify-content:center!important;min-height:20mm!important;padding:2mm 1.4mm!important;background:#fff!important;border:.9pt solid var(--rca-teal)!important;text-align:center!important;font-family:var(--rca-ui)!important;font-size:7.8pt!important;line-height:9.2pt!important;font-weight:800!important;color:var(--rca-navy)!important}
+#pdf-033 .rca-fig11-node.is-gold{border-color:var(--rca-gold)!important}
+#pdf-033 .rca-fig11-node.is-orange{border-color:var(--rca-orange)!important}
+#pdf-033 .rca-fig11-arrow{font-family:var(--rca-ui)!important;font-size:12pt!important;line-height:12pt!important;color:#7C8A93!important;text-align:center!important;font-weight:700!important}
+#pdf-033 .rca-fig11-return{position:absolute!important;left:37mm!important;right:4mm!important;bottom:1.8mm!important;height:5mm!important;border-left:.8pt solid #B9C5CB!important;border-bottom:.8pt solid #B9C5CB!important;padding-left:44mm!important;font-family:var(--rca-ui)!important;font-size:7.2pt!important;line-height:8.6pt!important;color:#7C8A93!important;display:flex!important;align-items:flex-end!important;white-space:nowrap!important}
+#pdf-033 .rca-v2-small-list{font-family:var(--rca-ui)!important;font-size:8.8pt!important;line-height:11.1pt!important;color:var(--rca-muted)!important;margin:0 0 2mm!important}
+#pdf-033 .rca-v2-small-list strong{font-family:var(--rca-ui)!important;font-size:8.4pt!important;line-height:10.6pt!important;font-weight:800!important;color:var(--rca-muted)!important}
+#pdf-033 .rca-v2-note{background:var(--rca-cool)!important;border-left:1.2mm solid var(--rca-teal)!important;padding:3mm 3.5mm!important;margin:3.4mm 0!important}
+#pdf-033 .rca-v2-note h3{font-family:var(--rca-ui)!important;font-size:8.4pt!important;line-height:10pt!important;font-weight:800!important;color:var(--rca-navy)!important;margin:0 0 1mm!important}
+#pdf-033 .rca-v2-note p{font-family:var(--rca-body)!important;font-size:9.0pt!important;line-height:11.5pt!important;color:var(--rca-ink)!important;margin:0!important}
+#pdf-033 .rca-v2-bottom{font-size:9.6pt!important;line-height:12.2pt!important;margin-top:3.6mm!important}
+
+/* P034 — equal comparison -> combined model. */
+#pdf-034 .rca-v2-answer{margin-bottom:2.7mm!important}
+#pdf-034>.rca-v2-body{margin-bottom:4mm!important}
+#pdf-034 .rca-v2-two-view{position:relative!important;display:grid!important;grid-template-columns:1fr 1fr!important;gap:4mm!important;margin:0 0 6mm!important}
+#pdf-034 .rca-v2-view{background:var(--rca-soft)!important;border:0!important;border-top:1.2mm solid var(--rca-teal)!important;padding:4.2mm 4mm!important;min-height:61mm!important}
+#pdf-034 .rca-v2-view-gold{border-top-color:var(--rca-gold)!important}
+#pdf-034 .rca-v2-view h3{font-family:var(--rca-ui)!important;font-size:10.5pt!important;line-height:12.5pt!important;font-weight:800!important;color:var(--rca-navy)!important;margin:0 0 3mm!important}
+#pdf-034 .rca-v2-view p{font-family:var(--rca-body)!important;font-size:8.9pt!important;line-height:11.4pt!important;color:var(--rca-ink)!important;margin:0 0 2.2mm!important}
+#pdf-034 .rca-v2-view p strong{font-family:var(--rca-ui)!important;color:var(--rca-navy)!important;font-weight:800!important;font-size:8.5pt!important}
+#pdf-034 .rca-v2-model-title{font-family:var(--rca-ui)!important;font-size:8.2pt!important;line-height:10pt!important;font-weight:800!important;color:var(--rca-muted)!important;margin:0 0 1.7mm!important}
+#pdf-034 .rca-v2-model{position:relative!important;font-family:var(--rca-ui)!important;font-size:10.0pt!important;line-height:12.3pt!important;font-weight:800!important;color:var(--rca-navy)!important;border:.9pt solid var(--rca-teal)!important;background:#fff!important;padding:4mm 5mm!important;text-align:center!important;margin:0!important}
+#pdf-034 .rca-v2-model:before,#pdf-034 .rca-v2-model:after{content:none!important;display:none!important}
+#pdf-034 .rca-v2-bottom{font-size:10pt!important;line-height:12.8pt!important;margin-top:5mm!important}
+
+/* P035 — mandate / investigation / ownership system. */
+#pdf-035 .rca-v2-title{font-size:19.6pt!important;line-height:22pt!important;margin-bottom:2.6mm!important}
+#pdf-035 .rca-v2-answer{margin-bottom:3.1mm!important}
+#pdf-035 .rca-v2-flow-title,#pdf-035 .rca-v2-rights-title{font-family:var(--rca-ui)!important;font-size:8.2pt!important;line-height:9.8pt!important;font-weight:800!important;color:var(--rca-muted)!important;margin:0 0 1.5mm!important}
+#pdf-035 .rca-v2-mandate-flow{display:grid!important;grid-template-columns:1fr 1fr!important;grid-template-areas:"sponsor sponsor" "lead lead" "rights rights" "facts independent" "factsub indepsub" "root root" "owner owner" "action action"!important;gap:1.4mm 3mm!important;background:var(--rca-soft)!important;padding:3mm 3.6mm!important;margin:0 0 3.3mm!important;min-height:76mm!important;align-content:center!important}
+#pdf-035 .rca-v2-flow-box,#pdf-035 .rca-v2-flow-result{max-width:none!important;width:auto!important;margin:0!important;text-align:center!important}
+#pdf-035 #block-03321{grid-area:sponsor!important;border:.9pt solid var(--rca-gold)!important;background:#FFFCF5!important;padding:2.3mm 2.5mm!important;font-family:var(--rca-body)!important;font-size:8.8pt!important;line-height:10.7pt!important;color:var(--rca-ink)!important}
+#pdf-035 #block-03321 strong{font-family:var(--rca-ui)!important;font-size:8.6pt!important;line-height:10.5pt!important;color:var(--rca-navy)!important}
+#pdf-035 #block-03324{grid-area:lead!important;border:.9pt solid var(--rca-teal)!important;background:#fff!important;padding:2.4mm!important;font-family:var(--rca-ui)!important;font-size:9.2pt!important;line-height:10.8pt!important;font-weight:800!important;color:var(--rca-navy)!important}
+#pdf-035 #block-03322{grid-area:rights!important;font-family:var(--rca-ui)!important;font-size:7.8pt!important;line-height:9.3pt!important;color:var(--rca-muted)!important;text-align:center!important;margin:0!important}
+#pdf-035 #b023-cidclose-035-facts{grid-area:facts!important}
+#pdf-035 #b023-cidclose-035-independent{grid-area:independent!important}
+#pdf-035 #b023-cidclose-035-facts,#pdf-035 #b023-cidclose-035-independent{border:.8pt solid var(--rca-rule)!important;background:#fff!important;padding:2.4mm 2mm!important;font-family:var(--rca-ui)!important;font-size:8.4pt!important;line-height:10.1pt!important;font-weight:800!important;color:var(--rca-navy)!important}
+#pdf-035 #b023-cidclose-035-facts-sub{grid-area:factsub!important}
+#pdf-035 #b023-cidclose-035-independent-sub{grid-area:indepsub!important}
+#pdf-035 #b023-cidclose-035-facts-sub,#pdf-035 #b023-cidclose-035-independent-sub{font-family:var(--rca-body)!important;font-size:7.8pt!important;line-height:9.5pt!important;color:var(--rca-muted)!important;text-align:center!important;margin:0!important}
+#pdf-035 #block-03326{grid-area:root!important;font-family:var(--rca-ui)!important;font-size:8.5pt!important;line-height:10pt!important;font-weight:800!important;color:var(--rca-navy)!important;border-top:.8pt solid var(--rca-gold)!important;padding-top:1.6mm!important}
+#pdf-035 #block-03327{grid-area:owner!important;font-family:var(--rca-ui)!important;font-size:9.3pt!important;line-height:10.9pt!important;font-weight:800!important;color:var(--rca-navy)!important;margin:0!important}
+#pdf-035 #block-03328{grid-area:action!important;font-family:var(--rca-ui)!important;font-size:7.8pt!important;line-height:9.4pt!important;color:var(--rca-muted)!important;text-align:center!important;margin:0!important}
+#pdf-035 .rca-v2-rights{display:grid!important;grid-template-columns:1fr 1fr!important;gap:1.4mm 5mm!important;margin:0 0 3.2mm!important}
+#pdf-035 .rca-v2-rights p{font-family:var(--rca-body)!important;font-size:8.8pt!important;line-height:10.9pt!important;color:var(--rca-ink)!important;margin:0!important}
+#pdf-035 .rca-v2-rights strong{font-family:var(--rca-ui)!important;font-size:8.4pt!important;line-height:10pt!important;color:var(--rca-gold)!important;font-weight:800!important;margin-right:1.5mm!important}
+#pdf-035 .rca-v2-rights p:last-child{grid-column:1 / span 2!important}
+#pdf-035 .rca-v2-two-state{display:grid!important;grid-template-columns:1fr 1fr!important;gap:3mm!important;margin:0 0 3.3mm!important}
+#pdf-035 .rca-v2-two-state p{font-family:var(--rca-body)!important;font-size:8.8pt!important;line-height:10.9pt!important;color:var(--rca-ink)!important;background:var(--rca-soft)!important;border:0!important;border-left:1mm solid var(--rca-teal)!important;padding:2.8mm 3mm!important;margin:0!important}
+#pdf-035 .rca-v2-two-state .rca-v2-state-bad{border-left-color:var(--rca-red)!important}
+#pdf-035 .rca-v2-two-state strong{font-family:var(--rca-ui)!important;font-size:8.2pt!important;color:var(--rca-navy)!important}
+#pdf-035 .rca-v2-callout{font-size:9.0pt!important;line-height:11.3pt!important;margin:3mm 0!important}
+#pdf-035 .rca-v2-bottom{font-size:9.5pt!important;line-height:11.8pt!important;margin-top:3mm!important}
+
+/* P036 — three-day operating map. */
+#pdf-036 .rca-v2-title{margin-bottom:2.7mm!important}
+#pdf-036 .rca-v2-answer{margin-bottom:3mm!important}
+#pdf-036 .rca-v2-map-first{display:grid!important;grid-template-columns:1fr 1fr!important;gap:4mm!important;align-items:center!important;margin:0 0 2.8mm!important;font-family:var(--rca-ui)!important;font-size:9.0pt!important;line-height:11pt!important}
+#pdf-036 .rca-v2-map-first strong{font-family:var(--rca-ui)!important;color:var(--rca-navy)!important;font-weight:800!important}
+#pdf-036 .rca-v2-map-first span{font-family:var(--rca-body)!important;color:var(--rca-gold)!important;text-align:right!important}
+#pdf-036 .rca-v2-days{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:3mm!important;margin:0 0 3mm!important}
+#pdf-036 .rca-v2-day{position:relative!important;border:.9pt solid var(--rca-teal)!important;padding:0 3.6mm 3.5mm!important;min-height:67mm!important;background:#fff!important}
+#pdf-036 .rca-v2-day-gold{border-color:var(--rca-gold)!important}.rca-v2-day-orange{border-color:var(--rca-orange)!important}
+#pdf-036 .rca-v2-day h3:first-child{font-family:var(--rca-ui)!important;font-size:8.5pt!important;line-height:10pt!important;font-weight:800!important;color:#fff!important;background:var(--rca-teal)!important;margin:0 -3.6mm 3.2mm!important;padding:2.4mm 3.4mm!important}
+#pdf-036 .rca-v2-day-gold h3:first-child{background:var(--rca-gold)!important}#pdf-036 .rca-v2-day-orange h3:first-child{background:var(--rca-orange)!important}
+#pdf-036 .rca-v2-day h3:nth-of-type(2){font-family:var(--rca-ui)!important;font-size:10.1pt!important;line-height:12pt!important;font-weight:800!important;color:var(--rca-navy)!important;margin:0 0 2.2mm!important}
+#pdf-036 .rca-v2-day p{font-family:var(--rca-body)!important;font-size:8.8pt!important;line-height:10.9pt!important;color:var(--rca-ink)!important;margin:0 0 1.1mm!important}
+#pdf-036 .rca-v2-day p:first-of-type{font-weight:700!important;color:var(--rca-muted)!important;margin-bottom:2mm!important}
+#pdf-036 .rca-v2-practice-title{font-family:var(--rca-ui)!important;font-size:8.0pt!important;line-height:9.6pt!important;font-weight:800!important;color:var(--rca-navy)!important;margin:0 0 1.2mm!important}
+#pdf-036 .rca-v2-practice{font-family:var(--rca-body)!important;font-size:8.9pt!important;line-height:11.3pt!important;color:var(--rca-ink)!important;background:var(--rca-warm)!important;padding:3mm 3.5mm!important;margin:0 0 3mm!important}
+#pdf-036 .rca-v2-callout{font-size:9.4pt!important;line-height:11.8pt!important;margin:0 0 2.6mm!important}
+#pdf-036 .rca-v2-result{font-family:var(--rca-body)!important;font-size:9.0pt!important;line-height:11.4pt!important;color:var(--rca-ink)!important;margin:0 0 2mm!important}
+#pdf-036 .rca-v2-result strong{color:var(--rca-navy)!important}
+#pdf-036>p.rca-v2-small{font-family:var(--rca-ui)!important;font-size:8.8pt!important;line-height:10.9pt!important;color:var(--rca-muted)!important;margin:0!important}
+
+/* P037 — visible loop, then cadence rule. */
+#pdf-037 .rca-v2-title{margin-bottom:2.6mm!important}
+#pdf-037 .rca-v2-answer{margin-bottom:3mm!important}
+#pdf-037 .rca-v2-body{margin-bottom:2.4mm!important}
+#pdf-037 .rca-v2-cycle-title{font-family:var(--rca-ui)!important;font-size:8.2pt!important;line-height:9.8pt!important;font-weight:800!important;color:var(--rca-muted)!important;margin:3.2mm 0 1.6mm!important}
+#pdf-037 .rca-v2-cycle{position:relative!important;display:grid!important;grid-template-columns:repeat(3,1fr)!important;grid-template-rows:1fr 1fr!important;gap:3mm 3.5mm!important;background:var(--rca-soft)!important;padding:4mm 5mm!important;margin:0 0 2.5mm!important;min-height:56mm!important;align-items:stretch!important}
+#pdf-037 .rca-v2-cycle>*{display:flex!important;align-items:center!important;justify-content:center!important;border:.9pt solid var(--rca-teal)!important;background:#fff!important;padding:2.2mm 2mm!important;min-width:0!important;text-align:center!important;font-family:var(--rca-ui)!important;font-size:7.8pt!important;line-height:9.3pt!important;font-weight:800!important;color:var(--rca-navy)!important;margin:0!important;position:relative!important}
+#pdf-037 .rca-v2-cycle>*:nth-child(3),#pdf-037 .rca-v2-cycle>*:nth-child(5){border-color:var(--rca-gold)!important}
+#pdf-037 .rca-v2-cycle>*:nth-child(1){grid-column:1;grid-row:1}#pdf-037 .rca-v2-cycle>*:nth-child(2){grid-column:2;grid-row:1}#pdf-037 .rca-v2-cycle>*:nth-child(3){grid-column:3;grid-row:1}
+#pdf-037 .rca-v2-cycle>*:nth-child(4){grid-column:3;grid-row:2}#pdf-037 .rca-v2-cycle>*:nth-child(5){grid-column:2;grid-row:2}#pdf-037 .rca-v2-cycle>*:nth-child(6){grid-column:1;grid-row:2}
+#pdf-037 .rca-v2-cycle>*:nth-child(1):after,#pdf-037 .rca-v2-cycle>*:nth-child(2):after{content:"›"!important;position:absolute!important;right:-3.3mm!important;top:50%!important;transform:translateY(-50%)!important;font-family:var(--rca-ui)!important;font-size:15pt!important;color:#7C8A93!important}
+#pdf-037 .rca-v2-cycle>*:nth-child(3):after{content:"↓"!important;position:absolute!important;bottom:-4mm!important;left:50%!important;transform:translateX(-50%)!important;font-family:var(--rca-ui)!important;font-size:12pt!important;color:#7C8A93!important}
+#pdf-037 .rca-v2-cycle>*:nth-child(4):after,#pdf-037 .rca-v2-cycle>*:nth-child(5):after{content:"‹"!important;position:absolute!important;left:-3.3mm!important;top:50%!important;transform:translateY(-50%)!important;font-family:var(--rca-ui)!important;font-size:15pt!important;color:#7C8A93!important}
+#pdf-037 .rca-v2-cycle:after{content:""!important;position:absolute!important;left:2.2mm!important;top:10mm!important;bottom:10mm!important;width:3mm!important;border-left:.8pt solid #9BA9B0!important;border-top:.8pt solid #9BA9B0!important;border-bottom:.8pt solid #9BA9B0!important;border-radius:3mm 0 0 3mm!important}
+#pdf-037 .rca-v2-muted{font-family:var(--rca-body)!important;font-size:8.8pt!important;line-height:11pt!important;color:var(--rca-muted)!important;margin:0 0 3mm!important}
+#pdf-037 .rca-v2-calendar-title{font-family:var(--rca-ui)!important;font-size:8.5pt!important;line-height:10.2pt!important;font-weight:800!important;color:var(--rca-navy)!important;background:var(--rca-warm)!important;padding:3mm 3.5mm 1.1mm!important;margin:0!important}
+#pdf-037 .rca-v2-calendar{font-family:var(--rca-body)!important;font-size:9.0pt!important;line-height:11.5pt!important;color:var(--rca-ink)!important;background:var(--rca-warm)!important;padding:1.3mm 3.5mm 3.2mm!important;margin:0!important}
+#pdf-037 .rca-v2-bottom{font-size:9.7pt!important;line-height:12.3pt!important;margin-top:4mm!important}
+
+/* Folios: current internal folio mapping 28-33. */
+#pdf-032:after,#pdf-033:after,#pdf-034:after,#pdf-035:after,#pdf-036:after,#pdf-037:after{position:absolute!important;bottom:-11mm!important;font-family:var(--rca-ui)!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important}
+#pdf-032:after{content:"28"!important;left:0!important}#pdf-033:after{content:"29"!important;right:0!important}#pdf-034:after{content:"30"!important;left:0!important}#pdf-035:after{content:"31"!important;right:0!important}#pdf-036:after{content:"32"!important;left:0!important}#pdf-037:after{content:"33"!important;right:0!important}
+/* P033 flex correction for deterministic WeasyPrint sizing. */
+#pdf-033 .rca-fig11-live{display:flex!important;flex-wrap:nowrap!important;gap:0!important;align-items:center!important;padding:4mm 3.2mm 7mm!important}
+#pdf-033 .rca-fig11-node{flex:1 1 0!important;width:0!important;min-width:0!important;min-height:20mm!important;padding:2mm 1mm!important}
+#pdf-033 .rca-fig11-node:last-of-type{flex:1.22 1 0!important}
+#pdf-033 .rca-fig11-arrow{flex:0 0 5mm!important;width:5mm!important}
+#pdf-033 .rca-fig11-return{left:35mm!important;right:5mm!important;padding-left:42mm!important}
+/* P034 uses more of the page through meaningful comparison content, not padding-only boxes. */
+#pdf-034 .rca-v2-view{min-height:67mm!important;padding-top:5mm!important;padding-bottom:5mm!important}
+#pdf-034 .rca-v2-bottom{margin-top:6.5mm!important}
+/* P033 exact node widths; nested spans force semantic line breaks. */
+#pdf-033 .rca-fig11-live{padding-left:3mm!important;padding-right:3mm!important}
+#pdf-033 .rca-fig11-node{flex:0 0 20.5mm!important;width:20.5mm!important;min-width:20.5mm!important;white-space:normal!important;flex-direction:column!important}
+#pdf-033 .rca-fig11-node:last-of-type{flex-basis:25mm!important;width:25mm!important;min-width:25mm!important}
+#pdf-033 .rca-fig11-node>span{display:block!important;width:100%!important;text-align:center!important;white-space:nowrap!important}
+#pdf-033 .rca-fig11-arrow{flex:0 0 4mm!important;width:4mm!important;overflow:hidden!important}
+#pdf-033 .rca-fig11-return{left:31mm!important;right:4mm!important;padding-left:41mm!important;white-space:normal!important;font-size:7.2pt!important;line-height:8.4pt!important}
+#pdf-034 .rca-v2-bottom{margin-top:9mm!important}
+/* Final rhythm pass: keep diagram-led pages inside profile active-height targets. */
+#pdf-033 .rca-fig11-live{min-height:38mm!important;padding-top:3mm!important;padding-bottom:6mm!important}
+#pdf-033 .rca-fig11-node{min-height:18mm!important}
+#pdf-033 .rca-v2-figure{margin-bottom:2mm!important}
+#pdf-033 .rca-v2-small-list{margin-bottom:1.5mm!important}
+#pdf-033 .rca-v2-note{margin-top:2.8mm!important;margin-bottom:2.8mm!important;padding-top:2.6mm!important;padding-bottom:2.6mm!important}
+#pdf-033 .rca-v2-bottom{margin-top:3mm!important}
+#pdf-033 .rca-fig11-return:before{content:""!important;position:absolute!important;left:-2.2mm!important;bottom:-1.0mm!important;width:0!important;height:0!important;border-top:1.4mm solid transparent!important;border-bottom:1.4mm solid transparent!important;border-right:2.3mm solid #B9C5CB!important}
+#pdf-037 .rca-v2-cycle{min-height:50mm!important;padding-top:3.2mm!important;padding-bottom:3.2mm!important;margin-bottom:2mm!important}
+#pdf-037 .rca-v2-cycle-title{margin-top:2.5mm!important;margin-bottom:1.3mm!important}
+#pdf-037 .rca-v2-muted{margin-bottom:2.5mm!important}
+#pdf-037 .rca-v2-bottom{margin-top:3.3mm!important}
+#pdf-037 .rca-v2-cycle:before{content:""!important;position:absolute!important;left:3.5mm!important;top:8.7mm!important;width:0!important;height:0!important;border-top:1.4mm solid transparent!important;border-bottom:1.4mm solid transparent!important;border-left:2.2mm solid #9BA9B0!important}
+/* Final profile calibration. */
+#pdf-033 .rca-fig11-live{min-height:36mm!important}
+#pdf-033 .rca-fig11-node{min-height:17mm!important}
+#pdf-037 .rca-v2-cycle{min-height:45mm!important;padding-top:3mm!important;padding-bottom:3mm!important}
+#pdf-037 .rca-v2-cycle-title{margin-top:2mm!important;margin-bottom:1.2mm!important}
+#pdf-037 .rca-v2-muted{margin-bottom:2mm!important}
+#pdf-037 .rca-v2-calendar-title{padding-top:2.5mm!important}
+#pdf-037 .rca-v2-calendar{padding-bottom:2.5mm!important}
+#pdf-037 .rca-v2-bottom{margin-top:2.5mm!important}
+/* Keep the cycle path explicit and uncluttered: arrows between six nodes carry the loop; no decorative bracket. */
+#pdf-037 .rca-v2-cycle:before,#pdf-037 .rca-v2-cycle:after{content:none!important;display:none!important}
+/* Final safe-area fix: keep the right-hand P036 stage caption inside the 20 mm inner margin. */
+#pdf-036 .rca-v2-map-first{padding-right:4mm!important}
+
+/* b082 P026 approved root-cause entry live rebuild */
+#pdf-032.rca-entry-page{font-family:var(--rca-body)!important;color:var(--rca-ink)!important;overflow:visible!important}
+#pdf-032 .rca-entry-kicker{margin-bottom:2.2mm!important}
+#pdf-032 .rca-entry-title{font-size:20.6pt!important;line-height:22.8pt!important;letter-spacing:-.018em!important;text-transform:none!important;margin:0 0 2.6mm!important}
+#pdf-032 .rca-entry-deck{font-family:var(--rca-body)!important;font-size:9.8pt!important;line-height:12.8pt!important;color:var(--rca-ink)!important;margin:0 0 4.1mm!important;max-width:124mm!important}
+#pdf-032 .rca-entry-mechanism{display:grid!important;grid-template-columns:1fr .86fr 1fr!important;gap:6.5mm!important;align-items:stretch!important;margin:0 0 3.2mm!important;min-height:47mm!important}
+#pdf-032 .rca-entry-symptom{position:relative!important;border-radius:1.5mm!important;padding:4mm 4mm 3.5mm!important;background:#fbf5f5!important;display:flex!important;flex-direction:column!important;justify-content:flex-start!important}
+#pdf-032 .rca-entry-symptom-red{background:#fcf3f4!important;color:#b92635!important}
+#pdf-032 .rca-entry-symptom-orange{background:#fff7ec!important;color:#d97713!important}
+#pdf-032 .rca-entry-symptom h3{font-family:var(--rca-ui)!important;font-size:10.7pt!important;line-height:12.4pt!important;font-weight:800!important;color:inherit!important;margin:0 0 2.4mm!important;padding-bottom:1.8mm!important;border-bottom:.6pt solid currentColor!important}
+#pdf-032 .rca-entry-symptom p{display:flex!important;align-items:center!important;gap:2.2mm!important;font-family:var(--rca-ui)!important;font-size:8.9pt!important;line-height:10.6pt!important;font-weight:700!important;color:var(--rca-navy)!important;margin:0 0 2.1mm!important}
+#pdf-032 .rca-entry-icon{display:flex!important;flex:0 0 9.5mm!important;width:9.5mm!important;height:9.5mm!important;border-radius:50%!important;align-items:center!important;justify-content:center!important;font-family:var(--rca-ui)!important;font-size:12.2pt!important;line-height:1!important;font-weight:800!important;color:#fff!important;background:#dd1833!important}
+#pdf-032 .rca-entry-symptom-orange .rca-entry-icon{background:#f08a16!important}
+#pdf-032 .rca-entry-symptom-red:after{content:"→"!important;position:absolute!important;right:-6mm!important;top:20.5mm!important;font-family:var(--rca-ui)!important;font-size:18pt!important;line-height:1!important;font-weight:900!important;color:#e51938!important}
+#pdf-032 .rca-entry-symptom-orange:before{content:"←"!important;position:absolute!important;left:-6mm!important;top:20.5mm!important;font-family:var(--rca-ui)!important;font-size:18pt!important;line-height:1!important;font-weight:900!important;color:#e6a31c!important}
+#pdf-032 .rca-entry-process{border-radius:1.8mm!important;background:#eaf4fb!important;padding:3.3mm 2.5mm!important;text-align:center!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important}
+#pdf-032 .rca-entry-gear{font-family:var(--rca-ui)!important;font-size:22pt!important;line-height:22pt!important;color:#0d4679!important;margin:0 0 1.3mm!important}
+#pdf-032 .rca-entry-process h3{font-family:var(--rca-ui)!important;font-size:10.7pt!important;line-height:12.1pt!important;font-weight:800!important;color:#123d66!important;margin:0 0 2.1mm!important}
+#pdf-032 .rca-entry-process p{font-family:var(--rca-ui)!important;font-size:8.3pt!important;line-height:10.2pt!important;color:#365b74!important;margin:0!important}
+#pdf-032 .rca-entry-distinction{background:#eaf4fb!important;border-radius:1.2mm!important;text-align:center!important;padding:3mm 4mm 2.7mm!important;margin:0 0 2.6mm!important}
+#pdf-032 .rca-entry-distinction h3{font-family:var(--rca-ui)!important;font-size:15.2pt!important;line-height:17pt!important;font-weight:800!important;color:var(--rca-navy)!important;margin:0 0 .8mm!important}
+#pdf-032 .rca-entry-distinction p{font-family:var(--rca-body)!important;font-size:9.1pt!important;line-height:11.2pt!important;color:#426074!important;margin:0!important}
+#pdf-032 .rca-entry-question-grid{display:grid!important;grid-template-columns:1fr 1fr!important;gap:3mm!important;margin:0 0 3mm!important}
+#pdf-032 .rca-entry-question-card{position:relative!important;border-radius:1.2mm!important;min-height:32mm!important;padding:3.5mm 3.5mm 3.2mm 14mm!important}
+#pdf-032 .rca-entry-wrong{background:#fcf2f4!important}
+#pdf-032 .rca-entry-right{background:#eef8f3!important}
+#pdf-032 .rca-entry-qmark{position:absolute!important;left:3.5mm!important;top:4mm!important;width:8mm!important;height:8mm!important;border-radius:50%!important;display:flex!important;align-items:center!important;justify-content:center!important;font-family:var(--rca-ui)!important;font-size:13pt!important;line-height:1!important;font-weight:900!important;color:#fff!important;background:#e4223d!important}
+#pdf-032 .rca-entry-right .rca-entry-qmark{background:#149664!important}
+#pdf-032 .rca-entry-question-card h3{font-family:var(--rca-ui)!important;font-size:11.1pt!important;line-height:13pt!important;font-weight:800!important;color:var(--rca-navy)!important;margin:0 0 2mm!important}
+#pdf-032 .rca-entry-question-card h3 span{display:block!important;font-size:7.9pt!important;line-height:9.2pt!important;font-weight:500!important;letter-spacing:.025em!important;margin-bottom:1mm!important}
+#pdf-032 .rca-entry-wrong h3 span{color:#d7253c!important}
+#pdf-032 .rca-entry-right h3 span{color:#158a5c!important}
+#pdf-032 .rca-entry-question-card p{font-family:var(--rca-ui)!important;font-size:8.3pt!important;line-height:10.3pt!important;color:#3d5a70!important;margin:0!important}
+#pdf-032 .rca-entry-body{font-family:var(--rca-body)!important;font-size:9.2pt!important;line-height:11.8pt!important;color:var(--rca-ink)!important;margin:0 0 3mm!important}
+#pdf-032 .rca-entry-warning{display:grid!important;grid-template-columns:10mm 1fr!important;gap:3mm!important;align-items:center!important;background:#fff5d8!important;border-radius:1.2mm!important;padding:3.1mm 4mm!important;margin:0 0 3mm!important}
+#pdf-032 .rca-entry-warning-icon{width:9mm!important;height:9mm!important;border-radius:50%!important;background:#f4b400!important;color:#fff!important;display:flex!important;align-items:center!important;justify-content:center!important;font-family:var(--rca-ui)!important;font-size:13pt!important;line-height:1!important;font-weight:900!important}
+#pdf-032 .rca-entry-warning p{font-family:var(--rca-body)!important;font-size:8.7pt!important;line-height:10.9pt!important;color:var(--rca-ink)!important;margin:0!important}
+#pdf-032 .rca-entry-warning strong{font-family:var(--rca-ui)!important;font-size:8.9pt!important;color:var(--rca-navy)!important}
+#pdf-032 .rca-entry-bottom{font-family:var(--rca-ui)!important;font-size:10.2pt!important;line-height:12.5pt!important;font-weight:800!important;color:#fff!important;background:#0f426a!important;border:0!important;border-radius:1.2mm!important;padding:4mm 5mm!important;margin:0!important;min-height:20mm!important;display:flex!important;align-items:center!important}
+#pdf-032 .rca-entry-next{position:absolute!important;bottom:-11mm!important;right:0!important;max-width:108mm!important;text-align:right!important;font-family:var(--rca-ui)!important;font-size:7.2pt!important;line-height:8.3pt!important;font-weight:700!important;color:#6d8290!important;margin:0!important;text-transform:uppercase!important}

@@ -14,6 +14,13 @@
 > historical data) plus daily monitoring dashboards on current data. No integration project.
 > Contact: info@gutsaga.tech
 
+## Leadership (since September 2026)
+- Augustas Gutsaga — Chief Executive Officer of Gutsaga Technologies. 7 years at the company; led the implementation of its largest client projects and new-market entries. Two-time European youth chess champion.
+- Serzas Gutsaga — Founder; Chair of the Board of Directors; leads R&D at Gutsaga Technologies; Director of Gutsaga Consulting. Author of "Evolution of the Pharmaceutical Market".
+- Board of Directors: three members — the founder as Chair and two external members; responsible for strategy and vision.
+- Two companies under the Gutsaga name: Gutsaga Technologies (Horizon: product, technology development, implementation, results) and Gutsaga Consulting (business audits and consulting).
+- Details: https://gutsaga.tech/about-us/
+
 ## Key pages
 - [Complete company & product brief for AI assistants](https://gutsaga.tech/ai.html)
 - [Home](https://gutsaga.tech/)
@@ -28,7 +35,8 @@
 - [Contact](https://gutsaga.tech/contact/)
 
 ## Book by the founder
-- [The Evolution of the Pharmaceutical Market — Serzas Gutsaga (EN page, 12-question self-check)](https://gutsaga.tech/book/)
+- [Evolution of the Pharmaceutical Market — Serzas Gutsaga, 2nd edition (book page, 12-question self-check)](https://gutsaga.tech/en/evolution/)
+- [Read the book online — all 24 chapters](https://gutsaga.tech/en/evolution/read/)
 - [Читать книгу онлайн (русское веб-издание)](https://gutsaga.tech/ru/kniga/)
 - [Страница книги по-русски](https://gutsaga.tech/ru/evolution/)
 - [Книги Gutsaga](https://gutsaga.tech/ru/books/)

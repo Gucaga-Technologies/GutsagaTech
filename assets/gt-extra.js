@@ -73,7 +73,7 @@
     li.appendChild(panel);
   });
 
-  /* ---------- contact forms (formsubmit.co) ---------- */
+  /* ---------- contact forms (Netlify Forms) ---------- */
   document.querySelectorAll('form.gtx-form').forEach(function (f) {
     f.addEventListener('submit', function () {
       var b = f.querySelector('button[type="submit"]');
@@ -331,14 +331,14 @@
     });
     if(note){
       var n=document.createElement('a');
-      n.href=root+'book/index.html'; n.className='gtx-dd-note';
+      n.href=root+'en/evolution/index.html'; n.className='gtx-dd-note';
       n.innerHTML=note; d.appendChild(n);
     }
     return d;
   }
   panel.appendChild(col('Problem guides',GUIDES));
   panel.appendChild(col('Pharmacy chains, stage by stage',SERIES,
-    'From our founder&#8217;s book &rarr;'));
+    'Read our founder&#8217;s book online &rarr;'));
   li.appendChild(panel);
 })();
 

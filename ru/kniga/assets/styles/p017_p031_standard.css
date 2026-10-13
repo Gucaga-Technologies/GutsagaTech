@@ -1,0 +1,167 @@
+:root{
+ --pb-navy:#12324A;--pb-teal:#1E918A;--pb-gold:#D3921F;--pb-orange:#E38335;--pb-red:#C94D42;
+ --pb-ink:#26333B;--pb-muted:#52616B;--pb-rule:#C8D2D7;--pb-cool:#EEF2F3;--pb-soft:#F7F9F9;--pb-warm:#F6E8BD;
+ --pb-body:"Noto Serif",serif;--pb-ui:"Noto Sans",sans-serif;
+}
+@page pb-left{size:167mm 240mm;margin:15mm 20mm 18mm 15mm;background:#fff}
+@page pb-right{size:167mm 240mm;margin:15mm 15mm 18mm 20mm;background:#fff}
+@page pb-p025-full{size:167mm 240mm;margin:0;background:#fff}
+html,body{background:#fff!important} body{margin:0!important;padding:0!important;max-width:none!important}
+body>main{margin:0!important;padding:0!important;max-width:none!important}
+body>main>#ch-05{margin:0!important;padding:0!important;max-width:none!important}
+#ch-05>h1{display:none!important}
+#pdf-017,#pdf-018,#pdf-019,#pdf-020,#pdf-021,#pdf-022,#pdf-023,#pdf-024,#pdf-025,#pdf-026,#pdf-027,#pdf-028,#pdf-029,#pdf-030,#pdf-031{
+ display:block!important;box-sizing:border-box!important;width:132mm!important;height:207mm!important;margin:0!important;padding:0!important;max-width:none!important;
+ position:relative!important;break-after:page!important;page-break-after:always!important;overflow:visible!important;
+ font-family:var(--pb-body)!important;font-size:9.2pt!important;line-height:12.2pt!important;color:var(--pb-ink)!important;hyphens:none!important;
+}
+#pdf-017,#pdf-019,#pdf-021,#pdf-023,#pdf-025,#pdf-027,#pdf-029,#pdf-031{page:pb-right}
+#pdf-018,#pdf-020,#pdf-022,#pdf-024,#pdf-026,#pdf-028,#pdf-030{page:pb-left}
+#pdf-031{break-after:auto!important;page-break-after:auto!important}
+#pdf-017 *,#pdf-018 *,#pdf-019 *,#pdf-020 *,#pdf-021 *,#pdf-022 *,#pdf-023 *,#pdf-024 *,#pdf-025 *,#pdf-026 *,#pdf-027 *,#pdf-028 *,#pdf-029 *,#pdf-030 *,#pdf-031 *{box-sizing:border-box!important;hyphens:none!important}
+
+/* XHTML sections are imported with an XML namespace; make structural boxes explicit because
+   WeasyPrint's HTML UA display rules do not reliably apply to those namespaced nodes. */
+.sig02-page .sig02-kicker,.sig02-page .sig02-title,.sig02-page .sig02-deck,.sig02-page .sig02-p,
+.sig02-page .sig02-card-title,.sig02-page .sig02-card-body,.sig02-page .sig02-section-title,.sig02-page .sig02-subtitle,
+.sig02-page .sig02-callout,.sig02-page .sig02-emphasis,.sig02-page .sig02-metric,.sig02-page .sig02-metric-small,
+.sig02-page .sig02-formula,.sig02-page .sig02-warning,.sig02-page .sig02-question,.sig02-page .sig02-quote,
+.sig02-page .sig02-timeline,.sig02-page .sig02-timeline-note,.sig02-page .sig02-scenario-result{
+ display:block!important;float:none!important;clear:both!important;width:auto!important;position:static!important;
+}
+.sig02-page ul,.sig02-page ol{display:block!important;float:none!important;clear:both!important}
+.sig02-page li{display:list-item!important;float:none!important;position:static!important}
+.sig02-page .sig02-grid{float:none!important}
+.sig02-page .sig02-card,.sig02-page .sig02-role,.sig02-page .sig02-scenario,.sig02-page .sig02-quadrant{display:block!important;float:none!important}
+.sig02-page{max-width:none!important;margin:0!important;padding:0!important}
+.sig02-page .sig02-kicker{font-family:var(--pb-ui)!important;font-size:8.0pt!important;line-height:9.5pt!important;font-weight:800!important;letter-spacing:.055em!important;text-transform:uppercase!important;color:var(--pb-teal)!important;margin:0 0 2.2mm!important;border-left:1.2mm solid var(--pb-gold)!important;padding-left:2.8mm!important}
+.sig02-page .sig02-title{font-family:var(--pb-ui)!important;font-size:18.6pt!important;line-height:21pt!important;font-weight:800!important;color:var(--pb-navy)!important;letter-spacing:-.012em!important;margin:0 0 2.3mm!important}
+.sig02-page .sig02-deck{font-family:var(--pb-body)!important;font-size:9.3pt!important;line-height:12.2pt!important;color:var(--pb-muted)!important;margin:0 0 3.2mm!important}
+.sig02-page .sig02-p,.sig02-page .sig02-card-body,.sig02-page .sig02-li,.sig02-page .sig02-timeline-note{font-family:var(--pb-body)!important;font-size:8.9pt!important;line-height:11.4pt!important;color:var(--pb-ink)!important}
+.sig02-page .sig02-p{margin:0 0 2.2mm!important}
+.sig02-page .sig02-grid{display:grid!important;gap:3.2mm!important;margin:2.7mm 0 3.2mm!important}
+.sig02-page .sig02-grid-2{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.sig02-page .sig02-grid-3{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.sig02-page .sig02-card,.sig02-page .sig02-role,.sig02-page .sig02-scenario,.sig02-page .sig02-quadrant{border:0!important;border-top:.9mm solid var(--pb-teal)!important;border-radius:0!important;background:var(--pb-soft)!important;padding:3.0mm 3.2mm!important;margin:0!important}
+.sig02-page .sig02-role:nth-child(2),.sig02-page .sig02-card:nth-child(2){border-top-color:var(--pb-gold)!important}
+.sig02-page .sig02-role:nth-child(3){border-top-color:var(--pb-red)!important}.sig02-page .sig02-role:nth-child(4){border-top-color:var(--pb-orange)!important}
+.sig02-page .sig02-card-title{font-family:var(--pb-ui)!important;font-size:10.0pt!important;line-height:11.8pt!important;font-weight:800!important;color:var(--pb-navy)!important;margin:0 0 1.4mm!important}
+.sig02-page .sig02-section-title,.sig02-page .sig02-subtitle{font-family:var(--pb-ui)!important;font-size:8.2pt!important;line-height:9.8pt!important;font-weight:800!important;letter-spacing:.04em!important;color:var(--pb-muted)!important;text-transform:uppercase!important;margin:3.2mm 0 1.6mm!important}
+.sig02-page .sig02-callout{border:0!important;border-left:1.2mm solid var(--pb-gold)!important;padding:2.6mm 3.2mm!important;margin:3mm 0!important;background:var(--pb-soft)!important;font-size:8.9pt!important;line-height:11.5pt!important}
+.sig02-page .sig02-callout-navy{background:var(--pb-navy)!important;color:#fff!important;border-left-color:var(--pb-teal)!important;font-family:var(--pb-body)!important;font-weight:700!important}
+.sig02-page .sig02-callout-navy *{color:#fff!important}
+.sig02-page .sig02-callout-light{background:var(--pb-cool)!important;border-left-color:var(--pb-teal)!important}
+.sig02-page .sig02-callout-beige{background:var(--pb-warm)!important;border-left-color:var(--pb-gold)!important}
+.sig02-page .sig02-emphasis{font-family:var(--pb-body)!important;font-size:9.2pt!important;line-height:11.8pt!important;font-weight:700!important;color:var(--pb-navy)!important;text-align:left!important;border-left:1.2mm solid var(--pb-gold)!important;padding-left:3mm!important;margin:3mm 0!important}
+.sig02-page .sig02-metric{font-family:var(--pb-ui)!important;font-size:16pt!important;line-height:17.4pt!important;font-weight:800!important;color:var(--pb-navy)!important;margin:1.3mm 0!important}
+.sig02-page .sig02-metric-small,.sig02-page .sig02-formula{font-family:var(--pb-ui)!important;font-size:9.0pt!important;line-height:11.3pt!important;font-weight:800!important;color:var(--pb-navy)!important;margin:1.2mm 0!important}
+.sig02-page .sig02-formula{background:var(--pb-cool)!important;padding:2mm 2.6mm!important}
+.sig02-page ul,.sig02-page ol{margin:1.3mm 0 1.8mm 4.8mm!important;padding:0!important}
+.sig02-page li{margin:0 0 .9mm!important}
+.sig02-page .sig02-warning{font-family:var(--pb-body)!important;font-size:8.8pt!important;line-height:11.2pt!important;color:var(--pb-ink)!important;background:#fff!important;border:0!important;border-left:1.2mm solid var(--pb-red)!important;padding:2.2mm 2.8mm!important;margin:2.5mm 0!important}
+.sig02-page .sig02-question{font-family:var(--pb-body)!important;font-size:9.2pt!important;line-height:11.6pt!important;font-weight:700!important;color:var(--pb-navy)!important;margin:2mm 0!important}
+.sig02-page .sig02-quote{font-family:var(--pb-body)!important;font-size:10.0pt!important;line-height:12.4pt!important;font-weight:700!important;color:var(--pb-navy)!important;margin:2mm 0!important}
+.sig02-page .sig02-timeline{font-family:var(--pb-ui)!important;font-size:9.0pt!important;line-height:11pt!important;font-weight:800!important;color:var(--pb-navy)!important;background:var(--pb-cool)!important;padding:2.4mm 3mm!important;text-align:center!important;margin:2mm 0!important}
+.sig02-page .sig02-list-2col{columns:2!important;column-gap:5mm!important}
+.sig02-page .deferred-figure{display:none!important}
+/* P017: live rebuild of FIG_003 via the canonical scenario sequence. */
+#pdf-017 .sig02-grid-3{position:relative!important;grid-template-columns:repeat(3,1fr)!important;grid-template-rows:auto auto!important;gap:1.8mm 4mm!important;margin-top:3.6mm!important}
+#pdf-017 .sig02-grid-3>*{margin:0!important}
+#pdf-017 .sig02-grid-3>:nth-child(1){grid-column:1;grid-row:1}#pdf-017 .sig02-grid-3>:nth-child(2){grid-column:1;grid-row:2}
+#pdf-017 .sig02-grid-3>:nth-child(3){grid-column:2;grid-row:1}#pdf-017 .sig02-grid-3>:nth-child(4){grid-column:2;grid-row:2}
+#pdf-017 .sig02-grid-3>:nth-child(5){grid-column:3;grid-row:1}#pdf-017 .sig02-grid-3>:nth-child(6){grid-column:3;grid-row:2}
+#pdf-017 .sig02-scenario{min-height:29mm!important;position:relative!important;padding-top:4mm!important}
+#pdf-017 .sig02-scenario-result{font-size:8.8pt!important;line-height:10.9pt!important;color:var(--pb-muted)!important;padding:1.5mm 1mm 0!important}
+#pdf-017 .sig02-grid-3>:nth-child(1):after,#pdf-017 .sig02-grid-3>:nth-child(3):after{content:"›"!important;position:absolute!important;right:-3.5mm!important;top:12mm!important;color:#8A989F!important;font:800 15pt/1 var(--pb-ui)!important}
+#pdf-017 .sig02-callout-navy{margin-top:4mm!important}
+/* P019 current source styling moved to sig02.css in b092. */
+/* P021-P022 management drilldowns. */
+#pdf-021 .sig02-card-large,#pdf-022 .sig02-card-large{padding:3.2mm 3.5mm!important;margin:0 0 3.4mm!important}
+#pdf-021 .sig02-metric{font-size:15pt!important}
+#pdf-022 .sig02-timeline{letter-spacing:.01em!important}
+/* P023: live FIG_006 role map. */
+#pdf-023 .sig02-grid-2{position:relative!important;gap:3mm!important;margin:4mm 0!important}
+#pdf-023 .sig02-role{min-height:39mm!important}
+#pdf-023 .sig02-callout-beige{margin-top:3mm!important}
+/* P024: explicit service x capital matrix. */
+#pdf-024 .sig02-grid-2{gap:3mm!important;margin:3mm 0!important}
+#pdf-024 .sig02-card{min-height:34mm!important;padding:3mm!important}
+/* P025-P027 capital mechanics. */
+#pdf-025 .sig02-formula{font-size:9.2pt!important;margin:2.2mm 0!important}
+#pdf-026 .sig02-grid-2{margin:2.8mm 0!important}#pdf-026 .sig02-card{min-height:42mm!important}
+#pdf-026 .sig02-callout-light{margin:2.5mm 0!important}
+#pdf-027 .sig02-metric{color:var(--pb-teal)!important;font-size:18pt!important}
+#pdf-027 .sig02-grid-2{margin:2.8mm 0!important}#pdf-027 .sig02-card{padding:2.8mm!important}
+/* P028 dense management page. */
+#pdf-028 .sig02-card-large{padding:2.5mm 3mm!important;margin:0 0 2.5mm!important}
+#pdf-028 .sig02-card-body,#pdf-028 .sig02-li{font-size:8.8pt!important;line-height:10.7pt!important}
+#pdf-028 .sig02-subtitle{margin-top:2mm!important;margin-bottom:1mm!important}
+#pdf-028 .sig02-emphasis{margin:2mm 0!important}
+/* P029 drilldown. */
+#pdf-029 .sig02-steps{list-style:none!important;margin:2.5mm 0 3mm!important;padding:0!important;counter-reset:step!important}
+#pdf-029 .sig02-steps li{counter-increment:step!important;position:relative!important;background:var(--pb-soft)!important;border-left:1mm solid var(--pb-teal)!important;padding:2mm 2.5mm 2mm 9mm!important;margin:0 0 1.4mm!important;font-size:8.8pt!important;line-height:10.8pt!important}
+#pdf-029 .sig02-steps li:before{content:counter(step)!important;position:absolute!important;left:3mm!important;top:1.7mm!important;font:800 8pt/1 var(--pb-ui)!important;color:var(--pb-teal)!important}
+/* P030: live vector/grid rebuild of FIG_009; no sub-7pt diagram text. */
+#pdf-030 .sig02-steps-8{list-style:none!important;margin:3mm 0 3.2mm!important;padding:4mm!important;display:grid!important;grid-template-columns:repeat(4,1fr)!important;gap:2.3mm!important;background:var(--pb-soft)!important;counter-reset:none!important}
+#pdf-030 .sig02-steps-8 li{display:flex!important;align-items:center!important;justify-content:center!important;text-align:center!important;min-height:18mm!important;margin:0!important;padding:2.2mm 1.6mm!important;background:#fff!important;border:.8pt solid var(--pb-teal)!important;font-family:var(--pb-ui)!important;font-size:7.4pt!important;line-height:8.8pt!important;font-weight:800!important;color:var(--pb-navy)!important;position:relative!important}
+#pdf-030 .sig02-steps-8 li:nth-child(3),#pdf-030 .sig02-steps-8 li:nth-child(7){border-color:var(--pb-gold)!important}
+#pdf-030 .sig02-steps-8 li:nth-child(4),#pdf-030 .sig02-steps-8 li:nth-child(8){border-color:var(--pb-orange)!important}
+#pdf-030 .sig02-steps-8 li:not(:nth-child(4)):not(:nth-child(8)):after{content:"›"!important;position:absolute!important;right:-2.25mm!important;color:#8A989F!important;font:800 12pt/1 var(--pb-ui)!important}
+#pdf-030 .sig02-callout-navy{font-size:9.4pt!important;text-align:center!important;margin:2.6mm 0 1.8mm!important}
+#pdf-030 .sig02-emphasis{text-align:center!important;border-left:0!important;padding-left:0!important;margin:1.8mm 0 3mm!important}
+#pdf-030 .sig02-section-title{margin-top:2.5mm!important}
+/* P031: stage-check / FIG_010 live mechanism. */
+#pdf-031 .sig02-grid-3{gap:2.4mm!important;margin:3mm 0!important}
+#pdf-031 .sig02-role{padding:2.6mm!important;min-height:30mm!important}
+#pdf-031 .sig02-grid-2{gap:2.8mm!important;margin:2.5mm 0!important}
+#pdf-031 .sig02-timeline{border-top:.8pt solid var(--pb-teal)!important;border-bottom:.8pt solid var(--pb-gold)!important;background:#fff!important;font-size:9.4pt!important;padding:3mm!important;margin:2.2mm 0 3mm!important}
+#pdf-031 .sig02-callout-beige{margin:2.5mm 0!important}
+#pdf-031 .sig02-callout-navy{margin-top:2.2mm!important}
+/* Folios 13-27. */
+#pdf-017:after,#pdf-018:after,#pdf-019:after,#pdf-020:after,#pdf-021:after,#pdf-022:after,#pdf-023:after,#pdf-024:after,#pdf-025:after,#pdf-026:after,#pdf-027:after,#pdf-028:after,#pdf-029:after,#pdf-030:after,#pdf-031:after{position:absolute!important;bottom:-11mm!important;font-family:var(--pb-ui)!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important}
+#pdf-017:after{content:"13"!important;right:0!important}#pdf-018:after{content:"14"!important;left:0!important}#pdf-019:after{content:"15"!important;right:0!important}#pdf-020:after{content:"16"!important;left:0!important}#pdf-021:after{content:"17"!important;right:0!important}#pdf-022:after{content:"18"!important;left:0!important}#pdf-023:after{content:"19"!important;right:0!important}#pdf-024:after{content:"20"!important;left:0!important}#pdf-025:after{content:"21"!important;right:0!important}#pdf-026:after{content:"22"!important;left:0!important}#pdf-027:after{content:"23"!important;right:0!important}#pdf-028:after{content:"24"!important;left:0!important}#pdf-029:after{content:"25"!important;right:0!important}#pdf-030:after{content:"26"!important;left:0!important}#pdf-031:after{content:"27"!important;right:0!important}
+
+/* Block rhythm: readable separation with no namespaced-inline collisions. */
+.sig02-page .sig02-title{clear:both!important;margin:0 0 3mm!important}
+.sig02-page .sig02-deck{clear:both!important;margin:0 0 4mm!important}
+.sig02-page .sig02-section-title,.sig02-page .sig02-subtitle{clear:both!important;margin:3.5mm 0 1.8mm!important}
+.sig02-page .sig02-callout,.sig02-page .sig02-emphasis{clear:both!important;width:100%!important}
+#pdf-030 .sig02-steps-8 li{display:flex!important;position:relative!important;min-height:28mm!important}
+#pdf-030 .sig02-steps-8{margin:3.5mm 0 4mm!important;padding:3.5mm!important;gap:2.4mm!important}
+#pdf-030 .sig02-callout-navy{display:block!important;clear:both!important;width:100%!important;margin:3mm 0 2.2mm!important}
+#pdf-030 .sig02-emphasis{display:block!important;clear:both!important;width:100%!important;margin:2.2mm 0 4mm!important}
+#pdf-030 .sig02-section-title{display:block!important;clear:both!important;margin:3.5mm 0 1.8mm!important}
+#pdf-017 .sig02-grid-3>:nth-child(1),#pdf-017 .sig02-grid-3>:nth-child(2),#pdf-017 .sig02-grid-3>:nth-child(3),#pdf-017 .sig02-grid-3>:nth-child(4),#pdf-017 .sig02-grid-3>:nth-child(5),#pdf-017 .sig02-grid-3>:nth-child(6){position:relative!important}
+
+/* b077 ch05 physical parity/folio correction. IDs pdf-024..pdf-031 map to physical 023..030. */
+#pdf-024{page:pb-right!important}#pdf-025{page:pb-left!important}#pdf-027{page:pb-left!important}#pdf-028{page:pb-right!important}#pdf-029{page:pb-left!important}#pdf-030{page:pb-right!important}#pdf-031{page:pb-left!important}
+#pdf-024:after,#pdf-025:after,#pdf-026:after{content:none!important;display:none!important}
+#pdf-027:after{content:"22"!important;left:0!important;right:auto!important;display:block!important}
+#pdf-028:after{content:"23"!important;right:0!important;left:auto!important;display:block!important}
+#pdf-029:after{content:"24"!important;left:0!important;right:auto!important;display:block!important}
+#pdf-030:after{content:"25"!important;right:0!important;left:auto!important;display:block!important}
+#pdf-031:after{content:"26"!important;left:0!important;right:auto!important;display:block!important}
+
+/* b077 P025 integration: exact trim-sized, in-flow page surface. */
+#pdf-026{page:pb-p025-full!important;width:167mm!important;height:240mm!important;overflow:hidden!important;margin:0!important;padding:0!important;break-after:page!important;page-break-after:always!important;}
+#pdf-026 .p025-approved-art{display:block!important;position:static!important;width:167mm!important;height:240mm!important;margin:0!important;padding:0!important;overflow:hidden!important;break-inside:avoid!important;page-break-inside:avoid!important;}
+#pdf-026 .p025-approved-art img{display:block!important;width:167mm!important;height:240mm!important;max-width:none!important;margin:0!important;padding:0!important;}
+#pdf-026 .semantic-source{display:none!important;}
+#pdf-026:after{content:none!important;display:none!important;}
+
+
+/* b079 approved P022-P023 handoff integration: exact trim full-page surfaces. */
+#pdf-027,#pdf-028{page:pb-p025-full!important;width:167mm!important;height:240mm!important;overflow:hidden!important;margin:0!important;padding:0!important;break-after:page!important;page-break-after:always!important;}
+#pdf-027 .approved-full-art,#pdf-028 .approved-full-art{display:block!important;position:static!important;width:167mm!important;height:240mm!important;margin:0!important;padding:0!important;overflow:hidden!important;break-inside:avoid!important;page-break-inside:avoid!important;}
+#pdf-027 .approved-full-art img,#pdf-028 .approved-full-art img{display:block!important;width:167mm!important;height:240mm!important;max-width:none!important;margin:0!important;padding:0!important;}
+#pdf-027 .semantic-source,#pdf-028 .semantic-source{display:none!important;}
+#pdf-027:after,#pdf-028:after{content:none!important;display:none!important;}
+
+/* b080 approved P024/P025 merge: P024 is a finite exact-trim page surface. */
+#pdf-029{page:pb-p025-full!important;width:167mm!important;height:240mm!important;overflow:hidden!important;margin:0!important;padding:0!important;break-after:page!important;page-break-after:always!important;}
+#pdf-029 .approved-full-art{display:block!important;position:static!important;width:167mm!important;height:240mm!important;margin:0!important;padding:0!important;overflow:hidden!important;break-inside:avoid!important;page-break-inside:avoid!important;}
+#pdf-029 .approved-full-art img{display:block!important;width:167mm!important;height:240mm!important;max-width:none!important;margin:0!important;padding:0!important;}
+#pdf-029 .semantic-source{display:none!important;}
+#pdf-029:after{content:none!important;display:none!important;}
+
+/* b098 P022/physical P026: #pdf-027 uses approved vector SVG source; semantic CID shadow unchanged. */

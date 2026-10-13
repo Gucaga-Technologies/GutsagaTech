@@ -431,7 +431,7 @@ div[style*="background:#F1F2FF"] .elementor-widget-image-box .elementor-widget-c
 .gtx-card h3,.gtx-news h3,.gtx-quote h3,.gtx-metric h3,.gtx-issue h3{
   font-family:"Poppins",sans-serif;font-size:1.12rem !important;line-height:1.25 !important;font-weight:700;color:#001D2B;margin:6px 0 8px}
 .gtx-card p,.gtx-metric p,.gtx-issue p{font-family:"Poppins",sans-serif;font-size:.92rem;line-height:1.6}
-.gtx-card h3{hyphens:auto}
+.gtx-card h3{hyphens:manual;overflow-wrap:break-word}
 
 /* v29b: phones — two-column blocks must actually collapse */
 .gtx-vc2>*,.gtx-vc2-in .row>*,.gtx-calc>*{min-width:0}
@@ -652,6 +652,94 @@ div[style*="background:#F1F2FF"] .elementor-widget-image-box .elementor-widget-c
 .gtx-dd-know a.gtx-dd-note{font-size:.76rem !important;color:#1AB4DF !important;font-weight:600;margin-top:4px;
   border-top:1px solid #eef2f8;border-radius:0;padding-top:9px}
 @media(max-width:1199px){.gtx-dd-panel.gtx-dd-know{min-width:0;grid-template-columns:1fr}}
+
+/* v39: web-book contents (ru/kniga) */
+.gtx-bktoc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:20px}
+.gtx-bktoc-part{background:#fff;border:1px solid #e2e8f2;border-radius:16px;padding:20px 20px 12px;box-shadow:0 2px 10px rgba(0,29,43,.04)}
+.gtx-bktoc-wide{grid-column:1/-1}
+.gtx-bktoc-head{display:block;text-decoration:none;margin-bottom:10px;border-bottom:1px solid #eef2f8;padding-bottom:10px}
+.gtx-bktoc-head b{display:block;font-family:Poppins,sans-serif;font-size:1.05rem;line-height:1.3;color:#001D2B;margin-top:4px}
+a.gtx-bktoc-head:hover b{color:#1AB4DF}
+.gtx-bktoc-part ol{list-style:none;margin:0;padding:0}
+.gtx-bktoc-cols{columns:2 300px;column-gap:26px}
+.gtx-bktoc-part li{break-inside:avoid;margin:0}
+.gtx-bktoc-part li a{display:flex;gap:10px;align-items:baseline;padding:7px 6px;border-radius:8px;text-decoration:none;
+  color:#243b4d;font-family:Poppins,sans-serif;font-size:.9rem;line-height:1.4}
+.gtx-bktoc-part li a:hover{background:#F1F2FF;color:#001D2B}
+.gtx-bktoc-n{flex:0 0 auto;min-width:26px;height:22px;border-radius:6px;background:#001D2B;color:#fff;font-size:.72rem;
+  font-weight:700;display:inline-flex;align-items:center;justify-content:center;padding:0 5px}
+.gtx-bktoc-dot{background:transparent;border:2px solid #cfdbe6;min-width:10px;width:10px;height:10px;border-radius:50%;padding:0;margin:0 8px}
+.gtx-bktoc-new{font-style:normal;font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  background:#1AB4DF;color:#fff;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:1px;white-space:nowrap}
+.gtx-bktoc-newnote{font-family:Poppins,sans-serif;font-size:.86rem !important;color:#41586b;margin-top:14px !important}
+.gtx-bktoc-newnote .gtx-bktoc-new{margin:0 6px 0 0}
+@media(max-width:520px){.gtx-bktoc-grid{grid-template-columns:1fr}.gtx-bktoc-cols{columns:1}}
+
+/* v39: Our Story — phase, leadership, board, companies */
+.gtx-phase{background:#001D2B;border-radius:22px;padding:30px;display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch;
+  box-shadow:0 20px 50px rgba(0,29,43,.18)}
+.gtx-phase-step{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:20px}
+.gtx-phase-step.on{background:#1AB4DF;border-color:#1AB4DF}
+.gtx-phase-step span{display:block;font-family:Poppins,sans-serif;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:#8fc9e2;font-weight:700}
+.gtx-phase-step.on span{color:#e6f7fd}
+.gtx-phase-step b{display:block;font-family:Poppins,sans-serif;font-size:1.2rem;color:#fff;margin:6px 0 8px;line-height:1.25}
+.gtx-phase-step p{margin:0;color:#a9c3d4;font-size:.86rem !important;line-height:1.55 !important}
+.gtx-phase-step.on p{color:#f1fbff}
+.gtx-phase-arrow{align-self:center;color:#1AB4DF;font-size:1.8rem;font-weight:700}
+.gtx-phase-note{grid-column:1/-1;margin:6px 0 0;text-align:center;color:#8fc9e2;font-family:Poppins,sans-serif;font-size:.86rem !important;font-weight:600}
+.gtx-leaders{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:36px}
+.gtx-leader{display:grid;grid-template-columns:170px 1fr;gap:24px;background:#fff;border:1px solid #e2e8f2;border-radius:20px;padding:26px;
+  box-shadow:0 10px 30px rgba(0,29,43,.06);align-items:start}
+.gtx-leader figure{margin:0}
+.gtx-leader img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:16px;display:block;box-shadow:0 10px 24px rgba(0,29,43,.14)}
+.gtx-leader h3{font-family:Poppins,sans-serif;font-size:1.45rem !important;line-height:1.2 !important;color:#001D2B;margin:6px 0 8px}
+.gtx-leader-lead{font-family:Poppins,sans-serif;color:#243b4d;font-size:.98rem !important;line-height:1.55 !important;margin:0 0 12px}
+.gtx-leader .gtx-story-list{margin:0}
+.gtx-leader .gtx-story-list li{font-size:.9rem;line-height:1.55;margin-bottom:6px}
+.gtx-leader .gtx-story-list a{color:#1AB4DF;font-weight:600}
+.gtx-leader-role{margin:14px 0 0;padding-top:12px;border-top:1px solid #eef2f8;font-family:Poppins,sans-serif;font-size:.84rem !important;
+  line-height:1.5 !important;color:#41586b;font-weight:600}
+.gtx-board{margin-top:24px;background:#F1F2FF;border:1px solid #e2e8f2;border-radius:20px;padding:26px 28px;display:grid;
+  grid-template-columns:1.1fr 1.4fr;gap:26px;align-items:center}
+.gtx-board h3{font-family:Poppins,sans-serif;font-size:1.3rem !important;color:#001D2B;margin:6px 0 8px}
+.gtx-board p{margin:0;color:#41586b;font-size:.93rem !important;line-height:1.6 !important}
+.gtx-board-seats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.gtx-seat{background:#fff;border:1px solid #e2e8f2;border-radius:14px;padding:16px 14px;text-align:center}
+.gtx-seat.on{border-color:#1AB4DF;box-shadow:0 0 0 3px rgba(26,180,223,.12)}
+.gtx-seat-dot{display:block;width:34px;height:34px;border-radius:50%;margin:0 auto 10px;background:#dfe7ef}
+.gtx-seat.on .gtx-seat-dot{background:#001D2B}
+.gtx-seat b{display:block;font-family:Poppins,sans-serif;font-size:.9rem;color:#001D2B;line-height:1.3}
+.gtx-seat small{display:block;font-size:.76rem;color:#5b6b7c;margin-top:3px}
+.gtx-cos{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:34px}
+.gtx-co{background:#fff;border:1px solid #e2e8f2;border-radius:20px;padding:28px;box-shadow:0 6px 20px rgba(0,29,43,.05)}
+.gtx-co-tag{display:inline-flex;width:48px;height:48px;border-radius:12px;background:#001D2B;color:#1AB4DF;font-family:Poppins,sans-serif;
+  font-weight:800;align-items:center;justify-content:center;letter-spacing:.04em}
+.gtx-co-tag.alt{background:#1AB4DF;color:#fff}
+.gtx-co h3{font-family:Poppins,sans-serif;font-size:1.3rem !important;color:#001D2B;margin:14px 0 6px}
+.gtx-co-job{font-family:Poppins,sans-serif;color:#243b4d;font-weight:600;font-size:.98rem !important;line-height:1.5 !important;margin:0 0 12px}
+.gtx-co .gtx-story-list li{font-size:.9rem;line-height:1.55}
+.gtx-co-lead{margin:14px 0 0;padding-top:12px;border-top:1px solid #eef2f8;font-family:Poppins,sans-serif;font-size:.84rem !important;color:#1AB4DF;font-weight:700}
+@media(max-width:1100px){.gtx-leaders{grid-template-columns:1fr}}
+@media(max-width:900px){.gtx-board{grid-template-columns:1fr}.gtx-cos{grid-template-columns:1fr}}
+@media(max-width:620px){.gtx-leader{grid-template-columns:1fr;padding:22px}.gtx-leader figure{max-width:200px}
+  .gtx-phase{grid-template-columns:1fr;padding:22px}.gtx-phase-arrow{transform:rotate(90deg);justify-self:center}
+  .gtx-board-seats{grid-template-columns:1fr}}
+
+/* v43: EU funding — trust line centred between the stats and the next section */
+.gtx-eu{display:flex;align-items:center;justify-content:center;gap:11px;margin:44px auto 0;font-family:Poppins,sans-serif;color:#fff}
+.gtx-eu,.gtx-eu span,.gtx-eu b{font-size:1.02rem !important;line-height:1.45 !important;color:#fff}
+.gtx-eu b{font-weight:700}
+.gtx-eu-flag{width:27px;height:18px;flex:0 0 auto;border-radius:2px;display:block}
+@media(max-width:600px){.gtx-eu{flex-wrap:wrap;text-align:center;margin-top:36px}.gtx-eu,.gtx-eu span,.gtx-eu b{font-size:.92rem !important}}
+
+/* v43: company and leader cards — footer line no longer hugs the last bullet */
+.gtx-co{display:flex;flex-direction:column}
+.gtx-co .gtx-story-list{margin:0 0 22px}
+.gtx-co-lead{margin-top:auto !important;padding-top:16px !important}
+.gtx-leader .gtx-story-list{margin:0 0 18px}
+.gtx-leader-role{padding-top:14px !important}
+/* v43: the play/pause control sat on top of the chart's last date label — move it under the chart */
+.gtx-motion-toggle{position:static !important;display:block;margin:10px 0 0 auto}
 </style>
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTermSet", "name": "Inventory-flow control glossary", "url": "https://gutsaga.tech/knowledge/glossary.html", "hasDefinedTerm": [{"@type": "DefinedTerm", "name": "Adequate Inventory", "url": "https://gutsaga.tech/knowledge/glossary.html#adequate-inventory"}, {"@type": "DefinedTerm", "name": "Stock zones (Zones &amp; Decisions)", "url": "https://gutsaga.tech/knowledge/glossary.html#stock-zones"}, {"@type": "DefinedTerm", "name": "Target level (replenishment level)", "url": "https://gutsaga.tech/knowledge/glossary.html#target-level"}, {"@type": "DefinedTerm", "name": "Replenishment time", "url": "https://gutsaga.tech/knowledge/glossary.html#replenishment-time"}, {"@type": "DefinedTerm", "name": "Reorder point", "url": "https://gutsaga.tech/knowledge/glossary.html#reorder-point"}, {"@type": "DefinedTerm", "name": "Target penetration (TP)", "url": "https://gutsaga.tech/knowledge/glossary.html#target-penetration"}, {"@type": "DefinedTerm", "name": "Lost sales &amp; lost margin", "url": "https://gutsaga.tech/knowledge/glossary.html#lost-sales"}, {"@type": "DefinedTerm", "name": "Aggregation", "url": "https://gutsaga.tech/knowledge/glossary.html#aggregation"}, {"@type": "DefinedTerm", "name": "Pull-based replenishment", "url": "https://gutsaga.tech/knowledge/glossary.html#pull-replenishment"}, {"@type": "DefinedTerm", "name": "Safety stock", "url": "https://gutsaga.tech/knowledge/glossary.html#safety-stock"}]}</script>
@@ -736,7 +824,7 @@ div[style*="background:#F1F2FF"] .elementor-widget-image-box .elementor-widget-c
 <h1>Inventory-flow control, term by term</h1>
 <p class="gtx-lead">The vocabulary behind Horizon and behind every serious replenishment conversation &#8212; defined in plain language. Taken from the fundamentals we teach in client training.</p>
 </div></section>
-<section class="gtx-section light"><div class="gtx-wrap"><div class="gtx-card" id="adequate-inventory" style="margin-bottom:16px"><h3>Adequate Inventory</h3><p style="color:#243b4d">Ordering logic in which target stock levels respond to how adequate current inventory actually is &#8212; nudged up when stock runs low, down when it lingers high &#8212; instead of being computed from demand forecasts. Developed by Gutsaga Technologies as the core of the Horizon platform; it goes beyond classic TOC buffer management.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Because it reacts to reality instead of predicting it, it cannot be poisoned by out-of-stock history and works even for slow movers where forecasts fail.</p></div><div class="gtx-card" id="stock-zones" style="margin-bottom:16px"><h3>Stock zones (Zones &amp; Decisions)</h3><p style="color:#243b4d">A classification of every SKU at every location into bands around the target: unwanted / tolerated / allowed overstock above; the OK &#8220;Horizon&#8221; zone in the middle; low-inventory, urgent, ground (zero stock) and safety-stock below. Each zone carries a defined action.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Zones turn thousands of stock numbers into a short list of decisions: leave alone, order, expedite, transfer, promote, or clear out.</p></div><div class="gtx-card" id="target-level" style="margin-bottom:16px"><h3>Target level (replenishment level)</h3><p style="color:#243b4d">The stock level the system maintains per SKU-location: enough to cover maximum regular consumption during the replenishment time, excluding one-off spikes. Orders simply fill the gap: target minus stock on hand and in transit, rounded to packs.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Managing targets instead of individual orders is the philosophical shift that makes ordering automatic and controllable at the same time.</p></div><div class="gtx-card" id="replenishment-time" style="margin-bottom:16px"><h3>Replenishment time</h3><p style="color:#243b4d">The full cycle from deciding to order until goods are sellable: order frequency + production time (if any) + delivery and shelving time. The stock a system needs equals maximum consumption during this window.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Every day cut from replenishment time cuts required inventory &#8212; often the cheapest stock reduction available.</p></div><div class="gtx-card" id="reorder-point" style="margin-bottom:16px"><h3>Reorder point</h3><p style="color:#243b4d">A trigger line, usually set as a share of the target level: when stock on hand plus in transit falls to it, the scheduled order fires. Positioned higher when locations are busy, lower when inventory turns are the priority.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> It makes ordering event-driven and systematic instead of depending on someone noticing.</p></div><div class="gtx-card" id="target-penetration" style="margin-bottom:16px"><h3>Target penetration (TP)</h3><p style="color:#243b4d">How much of the target is missing, expressed as a percentage: 100% means completely out of stock, 0% means at target, negative values mean overstock. Viewable against stock on hand only, or including in-transit quantities.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> TP creates a fair priority queue: scarce supply and picking capacity go to the products and locations missing the largest share of their target.</p></div><div class="gtx-card" id="lost-sales" style="margin-bottom:16px"><h3>Lost sales &amp; lost margin</h3><p style="color:#243b4d">The sales and margin missed while a product was unavailable: average daily sales &#215; price (or margin) for each out-of-stock day, computed per product per location.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Recorded daily and kept as history, it turns availability from an opinion into a KPI usable in supplier reviews and bonus schemes. Almost no system keeps this history; Horizon does.</p></div><div class="gtx-card" id="aggregation" style="margin-bottom:16px"><h3>Aggregation</h3><p style="color:#243b4d">The statistical effect that combined demand fluctuates less than individual demand: one warehouse serving 100 stores sees far smoother consumption than any single store. The further upstream a stock point sits, the calmer its demand.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> It is why central stock plus fast replenishment beats pushing inventory into stores &#8212; the warehouse absorbs the noise the stores cannot.</p></div><div class="gtx-card" id="pull-replenishment" style="margin-bottom:16px"><h3>Pull-based replenishment</h3><p style="color:#243b4d">Each layer of the chain &#8212; store, regional warehouse, central warehouse &#8212; independently orders only what it needs to return to its own target, based on real consumption. Nothing is pushed downstream on a forecast.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Pull keeps inventory matched to actual demand at every layer and stops the bullwhip of push-based planning.</p></div><div class="gtx-card" id="safety-stock" style="margin-bottom:16px"><h3>Safety stock</h3><p style="color:#243b4d">A deliberate extra layer below the target held for specific reasons: seasonal preparation, shelf presentation, protection against unreliable supply. It is a conscious, priced decision &#8212; not a default cushion on everything.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Named reasons and sizes keep safety stock honest; unnamed 'just in case' stock is how overstock begins.</p></div>
+<section class="gtx-section light"><div class="gtx-wrap"><div class="gtx-card" id="adequate-inventory" style="margin-bottom:16px"><h3>Adequate Inventory</h3><p style="color:#243b4d">Ordering logic in which target stock levels respond to how adequate current inventory actually is &#8212; nudged up when stock runs low, down when it lingers high &#8212; instead of being computed from demand forecasts. Developed by Gutsaga Technologies as the core of the Horizon platform.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Because it reacts to reality instead of predicting it, it cannot be poisoned by out-of-stock history and works even for slow movers where forecasts fail.</p></div><div class="gtx-card" id="stock-zones" style="margin-bottom:16px"><h3>Stock zones (Zones &amp; Decisions)</h3><p style="color:#243b4d">A classification of every SKU at every location into bands around the target: unwanted / tolerated / allowed overstock above; the OK &#8220;Horizon&#8221; zone in the middle; low-inventory, urgent, ground (zero stock) and safety-stock below. Each zone carries a defined action.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Zones turn thousands of stock numbers into a short list of decisions: leave alone, order, expedite, transfer, promote, or clear out.</p></div><div class="gtx-card" id="target-level" style="margin-bottom:16px"><h3>Target level (replenishment level)</h3><p style="color:#243b4d">The stock level the system maintains per SKU-location: enough to cover maximum regular consumption during the replenishment time, excluding one-off spikes. Orders simply fill the gap: target minus stock on hand and in transit, rounded to packs.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Managing targets instead of individual orders is the philosophical shift that makes ordering automatic and controllable at the same time.</p></div><div class="gtx-card" id="replenishment-time" style="margin-bottom:16px"><h3>Replenishment time</h3><p style="color:#243b4d">The full cycle from deciding to order until goods are sellable: order frequency + production time (if any) + delivery and shelving time. The stock a system needs equals maximum consumption during this window.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Every day cut from replenishment time cuts required inventory &#8212; often the cheapest stock reduction available.</p></div><div class="gtx-card" id="reorder-point" style="margin-bottom:16px"><h3>Reorder point</h3><p style="color:#243b4d">A trigger line, usually set as a share of the target level: when stock on hand plus in transit falls to it, the scheduled order fires. Positioned higher when locations are busy, lower when inventory turns are the priority.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> It makes ordering event-driven and systematic instead of depending on someone noticing.</p></div><div class="gtx-card" id="target-penetration" style="margin-bottom:16px"><h3>Target penetration (TP)</h3><p style="color:#243b4d">How much of the target is missing, expressed as a percentage: 100% means completely out of stock, 0% means at target, negative values mean overstock. Viewable against stock on hand only, or including in-transit quantities.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> TP creates a fair priority queue: scarce supply and picking capacity go to the products and locations missing the largest share of their target.</p></div><div class="gtx-card" id="lost-sales" style="margin-bottom:16px"><h3>Lost sales &amp; lost margin</h3><p style="color:#243b4d">The sales and margin missed while a product was unavailable: average daily sales &#215; price (or margin) for each out-of-stock day, computed per product per location.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Recorded daily and kept as history, it turns availability from an opinion into a KPI usable in supplier reviews and bonus schemes. Almost no system keeps this history; Horizon does.</p></div><div class="gtx-card" id="aggregation" style="margin-bottom:16px"><h3>Aggregation</h3><p style="color:#243b4d">The statistical effect that combined demand fluctuates less than individual demand: one warehouse serving 100 stores sees far smoother consumption than any single store. The further upstream a stock point sits, the calmer its demand.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> It is why central stock plus fast replenishment beats pushing inventory into stores &#8212; the warehouse absorbs the noise the stores cannot.</p></div><div class="gtx-card" id="pull-replenishment" style="margin-bottom:16px"><h3>Pull-based replenishment</h3><p style="color:#243b4d">Each layer of the chain &#8212; store, regional warehouse, central warehouse &#8212; independently orders only what it needs to return to its own target, based on real consumption. Nothing is pushed downstream on a forecast.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Pull keeps inventory matched to actual demand at every layer and stops the bullwhip of push-based planning.</p></div><div class="gtx-card" id="safety-stock" style="margin-bottom:16px"><h3>Safety stock</h3><p style="color:#243b4d">A deliberate extra layer below the target held for specific reasons: seasonal preparation, shelf presentation, protection against unreliable supply. It is a conscious, priced decision &#8212; not a default cushion on everything.</p><p style="margin-top:10px"><b style="color:#1AB4DF">Why it matters:</b> Named reasons and sizes keep safety stock honest; unnamed 'just in case' stock is how overstock begins.</p></div>
 <p style="font-family:Poppins,sans-serif;font-size:.9rem;margin-top:8px">Go deeper: <a href="index.html">Knowledge hub</a> &#183; <a href="../technologies/index.html">The 18 technologies</a> &#183; <a href="horizon-vs-alternatives.html">Horizon vs the alternatives</a></p>
 </div></section>
 <section class="gtx-section"><div class="gtx-wrap"><div class="gtx-cta">
@@ -765,14 +853,12 @@ div[style*="background:#F1F2FF"] .elementor-widget-image-box .elementor-widget-c
 <div><h4 style="color:#fff;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px">Company</h4>
 <a href="../about-us/index.html" style="display:block;color:#c9d8ee;padding:3px 0">Our Story</a>
 <a href="../partners/index.html" style="display:block;color:#c9d8ee;padding:3px 0">Partners</a>
-<a href="../book/index.html" style="display:block;color:#c9d8ee;padding:3px 0">The book</a>
+<a href="../en/evolution/index.html" style="display:block;color:#c9d8ee;padding:3px 0">The book</a>
 <a href="../blog/index.html" style="display:block;color:#c9d8ee;padding:3px 0">Blog</a>
 <a href="../contact/index.html" style="display:block;color:#c9d8ee;padding:3px 0">Contact</a><a href="../es-projektai/index.html" style="display:block;color:#c9d8ee;padding:3px 0">ES projektai</a><a href="https://store.gutsaga.tech/" style="display:block;color:#c9d8ee;padding:3px 0">E-Comm store</a></div>
 </div>
 <div style="margin-top:34px;padding-top:22px;border-top:1px solid #12405c;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap">
-<form class="gtx-form" action="https://formsubmit.co/info@gutsaga.tech" method="POST" style="display:flex;gap:10px;flex-wrap:wrap">
-<input type="hidden" name="_subject" value="Newsletter subscription — gutsaga.tech">
-<input type="hidden" name="_captcha" value="true">
+<form name="newsletter" action="/thanks/" data-netlify="true" netlify-honeypot="bot-field" class="gtx-form" method="POST" style="display:flex;gap:10px;flex-wrap:wrap"><input type="hidden" name="form-name" value="newsletter"><input type="hidden" name="subject" data-remove-prefix value="New newsletter subscriber — gutsaga.tech"><input type="hidden" name="page" value="https://gutsaga.tech/knowledge/glossary.html"><p hidden style="display:none"><label>Leave empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
 <input required type="email" name="email" placeholder="Your work email" style="padding:11px 14px;border-radius:8px;border:1px solid #12405c;background:#06304a;color:#fff;font-family:Poppins,sans-serif;min-width:240px">
 <button type="submit" class="gtx-btn" style="border:0;cursor:pointer;padding:11px 22px">Subscribe to News</button>
 </form>

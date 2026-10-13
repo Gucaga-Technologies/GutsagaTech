@@ -1,0 +1,11 @@
+/* P195-P205 approved practicum block v9. Scoped canonical styling; approved trim proof remains visual authority. */
+.sig07-page{max-width:46rem;margin:0 auto 2.5rem;padding:1rem 0}
+.sig07-page .sig07-three-questions,.sig07-page .sig07-evidence-list,.sig07-page .sig07-note-list,.sig07-page .sig07-defense-list,.sig07-page .sig07-market-configs,.sig07-page .sig07-final-seven{margin:1rem 0;padding-left:1.4rem}
+.sig07-page .sig07-three-questions{padding-left:0;display:grid;gap:.75rem}
+.sig07-page .sig07-three-questions p,.sig07-page .key-statement,.sig07-page .sig07-thresholds,.sig07-page .sig07-worksheet-head{margin:.8rem 0;padding:.8rem;border-left:.25rem solid currentColor}
+.sig07-page .sig07-worksheet{width:100%;border-collapse:collapse;margin:1rem 0}
+.sig07-page .sig07-worksheet th,.sig07-page .sig07-worksheet td{padding:.45rem;border:1px solid #bbb;vertical-align:top}
+.sig07-page .sig07-worksheet td{height:2rem}
+.sig07-page .sig07-market-configs,.sig07-page .sig07-final-seven{display:grid;gap:.7rem}
+.sig07-page .sig07-market-configs li,.sig07-page .sig07-final-seven li{padding:.7rem;border:1px solid #bbb;border-radius:.5rem}
+@media(max-width:44rem){.sig07-page .sig07-worksheet{font-size:.82rem}.sig07-page .sig07-worksheet th,.sig07-page .sig07-worksheet td{padding:.3rem}}

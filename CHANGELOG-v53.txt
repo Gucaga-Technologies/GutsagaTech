@@ -1,0 +1,26 @@
+GUTSAGA SITE — v53 (from v51; v52 changes withdrawn)
+====================================================
+- v52 withdrawn: no clickable areas on the book pages, no separate
+  technology pages. QR codes work only by scanning, through the sub-domain
+  redirects (all technologies -> /technologies/).
+- Kept from v52: glossary no longer mentions TOC.
+
+CONTACT / DEMO / NEWSLETTER FORMS (all 59 pages)
+- Still sent by FormSubmit to info@gutsaga.tech. Added to every form:
+    _url       the page's full address (FormSubmit needs this to accept the
+               form; it also lets a form opened from a folder be tested)
+    _next      after sending, the visitor lands on the new "Thank you" page
+               /thanks/ instead of FormSubmit's page
+    _template  emails arrive as a clean table
+    _honey     hidden spam trap
+- New page: /thanks/
+
+TO MAKE EMAILS ARRIVE (one-time)
+  1. Upload v53. Open https://gutsaga.tech/contact/ and send one message.
+  2. FormSubmit sends an ACTIVATION email to info@gutsaga.tech. The mailbox is
+     at mailbox.org — check Inbox AND the Junk / Spam folder (and wait a few
+     minutes: mailbox.org may delay first mails from a new sender).
+  3. Click "Activate Form" in that email. From then on every form arrives.
+     The message sent before activation is delivered too.
+  If no activation email comes at all: send a test mail from Gmail to
+  info@gutsaga.tech to confirm the mailbox receives outside mail.

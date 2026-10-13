@@ -1,0 +1,484 @@
+:root{
+  --p48-navy:#12324A;--p48-teal:#1E918A;--p48-gold:#D3921F;--p48-red:#C94D42;
+  --p48-ink:#26333B;--p48-muted:#52616B;--p48-rule:#CED8DC;--p48-soft:#F7F9F9;
+  --p48-cool:#EEF2F3;--p48-warm:#F6E8BD;--p48-warm2:#FBF8F0;--p48-redp:#FAEFED;--p48-tealp:#EDF6F5;
+  --p48-body:"Noto Serif",Georgia,serif;--p48-ui:"Noto Sans",Arial,sans-serif;
+}
+@page p48-left{size:167mm 240mm;margin:15mm 20mm 18mm 15mm;background:#fff}
+@page p48-right{size:167mm 240mm;margin:15mm 15mm 18mm 20mm;background:#fff}
+html,body{background:#fff!important}
+body{margin:0!important;padding:0!important;max-width:none!important}
+body>main,body>main>#ch-07{margin:0!important;padding:0!important;max-width:none!important}
+#ch-07>h1{display:none!important}
+#pdf-048,#pdf-049,#pdf-050,#pdf-051,#pdf-052,#pdf-053,#pdf-054,#pdf-055,#pdf-056,#pdf-057,#pdf-058,#pdf-059{
+  display:block!important;box-sizing:border-box!important;width:132mm!important;height:207mm!important;max-width:none!important;
+  margin:0!important;padding:0!important;position:relative!important;overflow:visible!important;
+  break-after:page!important;page-break-after:always!important;
+  font-family:var(--p48-body)!important;font-size:9.8pt!important;line-height:13pt!important;color:var(--p48-ink)!important;
+  hyphens:none!important;
+}
+#pdf-048,#pdf-050,#pdf-052,#pdf-054,#pdf-056,#pdf-058{page:p48-left}
+#pdf-049,#pdf-051,#pdf-053,#pdf-055,#pdf-057,#pdf-059{page:p48-right}
+#pdf-059{break-after:auto!important;page-break-after:auto!important}
+#pdf-048 *,#pdf-049 *,#pdf-050 *,#pdf-051 *,#pdf-052 *,#pdf-053 *,#pdf-054 *,#pdf-055 *,#pdf-056 *,#pdf-057 *,#pdf-058 *,#pdf-059 *{box-sizing:border-box!important;hyphens:none!important}
+.sig04-legacy-figure{display:none!important}
+
+/* shared book-native typography */
+.sig04-page .sig04-kicker{font-family:var(--p48-ui)!important;font-size:8.1pt!important;line-height:9.7pt!important;font-weight:800!important;letter-spacing:.045em!important;color:#829199!important;text-transform:uppercase!important;margin:0 0 3mm!important;padding:0!important}
+.sig04-page .sig04-title{font-family:var(--p48-ui)!important;font-size:19.8pt!important;line-height:22.6pt!important;font-weight:800!important;letter-spacing:-.015em!important;color:var(--p48-navy)!important;margin:0 0 3.1mm!important}
+.sig04-page .sig04-deck{font-family:var(--p48-body)!important;font-size:10.8pt!important;line-height:13.8pt!important;color:var(--p48-muted)!important;font-weight:400!important;margin:0 0 3.4mm!important}
+.sig04-page .sig04-p{font-family:var(--p48-body)!important;font-size:9.5pt!important;line-height:12.7pt!important;color:var(--p48-ink)!important;margin:0 0 2.6mm!important;orphans:2!important;widows:2!important}
+.sig04-page .sig04-section-title,.sig04-page .sig04-panel-title{font-family:var(--p48-ui)!important;font-size:10.3pt!important;line-height:12.2pt!important;font-weight:800!important;color:var(--p48-navy)!important;letter-spacing:.01em!important;margin:3.5mm 0 2mm!important}
+.sig04-page .sig04-card-title{font-family:var(--p48-ui)!important;font-size:9.2pt!important;line-height:11pt!important;font-weight:800!important;color:var(--p48-navy)!important;margin:0 0 1.4mm!important}
+.sig04-page .sig04-card-body{font-family:var(--p48-body)!important;font-size:8.9pt!important;line-height:11.4pt!important;color:var(--p48-ink)!important;margin:0!important}
+.sig04-page .sig04-emphasis{font-family:var(--p48-body)!important;font-size:9.1pt!important;line-height:11.8pt!important;font-weight:700!important;color:var(--p48-navy)!important;margin:2.2mm 0!important}
+.sig04-page .sig04-callout{font-family:var(--p48-body)!important;font-size:9.2pt!important;line-height:11.8pt!important;font-weight:700!important;color:var(--p48-navy)!important;border:0!important;border-left:1.35mm solid var(--p48-gold)!important;padding:0 0 0 3.3mm!important;margin:3.2mm 0!important}
+.sig04-page .sig04-teal{border-left-color:var(--p48-teal)!important}
+.sig04-page .sig04-navy{border:0!important;border-left:1.35mm solid var(--p48-navy)!important;border-radius:0!important;text-align:left!important}
+.sig04-page .sig04-list{margin:0 0 2.5mm!important;padding:0 0 0 4.2mm!important}
+.sig04-page .sig04-li{font-family:var(--p48-body)!important;font-size:8.9pt!important;line-height:11.3pt!important;color:var(--p48-ink)!important;margin:0 0 1.15mm!important;padding-left:.6mm!important}
+.sig04-page .sig04-label{font-family:var(--p48-ui)!important;font-size:8.0pt!important;line-height:9.6pt!important;color:var(--p48-muted)!important;font-weight:700!important;margin:0!important;text-align:center!important}
+.sig04-page .sig04-footnote{font-family:var(--p48-body)!important;font-size:7.2pt!important;line-height:8.8pt!important;color:#7D8A91!important;margin:1.8mm 0 0!important;text-align:left!important}
+.sig04-page .sig04-metric{font-family:var(--p48-ui)!important;font-size:30pt!important;line-height:32pt!important;color:var(--p48-navy)!important;font-weight:800!important;margin:1mm 0!important;text-align:center!important}
+.sig04-page .sig04-metric-line{font-family:var(--p48-ui)!important;font-size:11.0pt!important;line-height:13.3pt!important;color:var(--p48-navy)!important;font-weight:800!important;margin:0!important;text-align:center!important}
+.sig04-page .sig04-question{font-family:var(--p48-body)!important;font-size:10.4pt!important;line-height:13pt!important;color:var(--p48-navy)!important;font-weight:700!important;margin:1mm 0 3mm!important;text-align:center!important}
+.sig04-page .sig04-grid{display:grid!important;margin:0!important;gap:4mm!important}
+.sig04-page .sig04-grid-2{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.sig04-page .sig04-grid-3{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.sig04-page .sig04-grid-5{grid-template-columns:repeat(5,minmax(0,1fr))!important}
+.sig04-page .sig04-panel,.sig04-page .sig04-card,.sig04-page .sig04-mini-card,.sig04-page .sig04-metric-card{border:0!important;border-radius:3mm!important;background:var(--p48-soft)!important;padding:3.5mm 4mm!important;color:var(--p48-ink)!important}
+.sig04-page .sig04-blue{background:var(--p48-cool)!important}
+.sig04-page .sig04-beige{background:var(--p48-warm2)!important}
+.sig04-page .sig04-green,.sig04-page .sig04-tealbox{background:var(--p48-tealp)!important}
+.sig04-page .sig04-red{background:var(--p48-redp)!important}
+.sig04-page .sig04-center{text-align:center!important}
+.sig04-page .sig04-flow{display:grid!important;margin:0!important;gap:4mm!important}
+.sig04-page .sig04-flow-3{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.sig04-page .sig04-flow-4{grid-template-columns:repeat(4,minmax(0,1fr))!important}
+
+/* P048 — Stage opener: paradox -> two states -> management thesis */
+#pdf-048 .sig04-kicker{color:var(--p48-teal)!important;margin-bottom:4mm!important}
+#pdf-048 .sig04-title{font-size:21.2pt!important;line-height:24pt!important;max-width:124mm!important;margin-bottom:2.6mm!important}
+#pdf-048 .sig04-deck{font-size:11.2pt!important;line-height:14.2pt!important;margin-bottom:4.4mm!important}
+#pdf-048 .sig04-p{max-width:119mm!important;font-size:9.6pt!important;line-height:12.9pt!important;margin-bottom:3mm!important}
+#pdf-048 .sig04-callout.sig04-accent{font-size:10.6pt!important;line-height:13.2pt!important;margin:3.2mm 0 3.5mm!important}
+#pdf-048 .sig04-callout.sig04-teal{font-size:9.6pt!important;line-height:12.3pt!important;background:var(--p48-tealp)!important;border-left:0!important;padding:3.2mm 4mm!important;border-radius:2.5mm!important;margin:3.8mm 0!important}
+#pdf-048 .sig04-panel{background:#fff!important;border-top:.8pt solid var(--p48-rule)!important;border-bottom:.8pt solid var(--p48-rule)!important;border-radius:0!important;padding:3.1mm 0 3.4mm!important;margin-top:3.6mm!important}
+#pdf-048 .sig04-panel-title{font-size:8.4pt!important;line-height:10pt!important;color:var(--p48-muted)!important;margin:0 0 2.4mm!important;letter-spacing:.045em!important}
+#pdf-048 .sig04-grid-2{gap:4mm!important}
+#pdf-048 .sig04-card{min-height:29mm!important;padding:4.5mm 4mm!important;background:var(--p48-soft)!important;border-top:1.2mm solid var(--p48-red)!important;border-radius:1.8mm!important}
+#pdf-048 .sig04-card:nth-child(2){border-top-color:var(--p48-teal)!important}
+#pdf-048 .sig04-card-title{font-size:9.7pt!important;line-height:11.7pt!important;margin-bottom:3mm!important}
+#pdf-048 .sig04-card-body{font-family:var(--p48-ui)!important;font-size:8.3pt!important;line-height:10pt!important;font-weight:700!important;color:var(--p48-muted)!important}
+#pdf-048>.sig04-callout.sig04-navy{font-size:10.0pt!important;line-height:12.5pt!important;margin-top:5.5mm!important}
+
+/* P049 — threshold + full protection period. Dense but structured. */
+#pdf-049 .sig04-title{font-size:18.9pt!important;line-height:21.5pt!important;margin-bottom:2.4mm!important}
+#pdf-049 .sig04-p{font-size:9.0pt!important;line-height:11.7pt!important;margin-bottom:2.3mm!important}
+#pdf-049>.sig04-p:first-of-type{font-size:9.4pt!important;line-height:12.2pt!important;margin-bottom:3mm!important}
+#pdf-049 .sig04-panel.sig04-blue{padding:3.5mm 4mm!important;margin:0 0 3.2mm!important;border-left:1.25mm solid var(--p48-navy)!important;border-radius:1.7mm!important}
+#pdf-049 .sig04-panel.sig04-blue .sig04-panel-title{margin:0 0 2.2mm!important;font-size:9.4pt!important}
+#pdf-049 .sig04-panel.sig04-blue .sig04-list{column-count:2!important;column-gap:5mm!important;margin-bottom:2mm!important}
+#pdf-049 .sig04-panel.sig04-blue .sig04-li{font-size:8.35pt!important;line-height:10.5pt!important;break-inside:avoid!important;margin-bottom:1.4mm!important}
+#pdf-049 .sig04-panel.sig04-blue .sig04-emphasis{font-size:8.7pt!important;line-height:11pt!important;margin:2mm 0 0!important;padding-top:2.3mm!important;border-top:.7pt solid #C4D0D6!important}
+#pdf-049 .sig04-section-title{font-size:9.2pt!important;margin:3mm 0 1.8mm!important}
+#pdf-049 .sig04-panel.sig04-beige{padding:3.2mm 3.6mm!important;margin:0 0 2.8mm!important;border-radius:2mm!important}
+#pdf-049 .sig04-panel.sig04-beige .sig04-panel-title{margin:0 0 1.8mm!important;font-size:8.4pt!important;color:var(--p48-muted)!important}
+#pdf-049 .sig04-panel.sig04-beige .sig04-grid{gap:3mm!important;margin-bottom:2.4mm!important}
+#pdf-049 .sig04-panel.sig04-beige .sig04-card{background:#fff!important;border:.8pt solid var(--p48-gold)!important;border-radius:2mm!important;min-height:17mm!important;padding:3mm 3.3mm!important}
+#pdf-049 .sig04-panel.sig04-beige .sig04-card-title{font-size:8.4pt!important;line-height:10.1pt!important;margin:0!important}
+#pdf-049 .sig04-panel.sig04-beige>.sig04-card-body{font-size:8.7pt!important;line-height:11pt!important}
+#pdf-049>.sig04-callout.sig04-accent{font-size:8.8pt!important;line-height:11.1pt!important;margin:2.6mm 0 0!important}
+
+/* P050 — time math + long-tail mechanism. */
+#pdf-050 .sig04-title{font-size:19.5pt!important;line-height:22.2pt!important;margin-bottom:3mm!important}
+#pdf-050>.sig04-callout.sig04-teal{font-size:9.5pt!important;line-height:12.1pt!important;margin:0 0 3.8mm!important}
+#pdf-050 .sig04-section-title{font-size:9.7pt!important;margin:3.1mm 0 2mm!important}
+#pdf-050 .sig04-grid.sig04-grid-3{gap:3mm!important;background:transparent!important}
+#pdf-050 .sig04-metric-card{min-height:36mm!important;padding:4.4mm 3mm 3mm!important;background:var(--p48-warm2)!important;border-top:1.15mm solid var(--p48-gold)!important;border-radius:2mm!important}
+#pdf-050 .sig04-metric-card:nth-child(2){border-top-color:var(--p48-teal)!important}#pdf-050 .sig04-metric-card:nth-child(3){border-top-color:var(--p48-navy)!important}
+#pdf-050 .sig04-metric-card .sig04-label:first-child{color:var(--p48-navy)!important;font-size:8.4pt!important}
+#pdf-050 .sig04-metric-card .sig04-metric{font-size:28pt!important;line-height:30pt!important;margin:3.5mm 0 1.5mm!important}
+#pdf-050>.sig04-p{font-size:9.1pt!important;line-height:11.8pt!important;margin-top:2.4mm!important}
+#pdf-050 aside.sig04-panel{padding:3.5mm 4mm!important;margin:0 0 2.8mm!important;border-left:1.15mm solid var(--p48-teal)!important;border-radius:1.8mm!important}
+#pdf-050 aside .sig04-card-title{font-size:8.8pt!important}
+#pdf-050 aside .sig04-card-body{font-size:8.8pt!important;line-height:11.2pt!important}
+#pdf-050>.sig04-callout.sig04-navy{font-family:var(--p48-ui)!important;font-size:8.8pt!important;line-height:10.8pt!important;margin-top:3.2mm!important}
+
+/* P051 — operational cycle as live time flow. */
+#pdf-051 .sig04-title{font-size:19.3pt!important;line-height:22pt!important;margin-bottom:2.8mm!important}
+#pdf-051 .sig04-p{font-size:9.2pt!important;line-height:12pt!important;margin-bottom:2.4mm!important}
+#pdf-051>.sig04-callout.sig04-teal{font-size:9.1pt!important;line-height:11.6pt!important;margin:3mm 0 3.5mm!important}
+#pdf-051 .sig04-section-title{font-size:8.8pt!important;color:var(--p48-muted)!important;margin:0 0 2.2mm!important;letter-spacing:.035em!important}
+#pdf-051 .sig04-flow{position:relative!important;display:flex!important;gap:3.2mm!important;background:var(--p48-soft)!important;padding:4mm!important;border-radius:2.5mm!important;margin:0 0 3.4mm!important}
+#pdf-051 .sig04-flow .sig04-card{position:relative!important;flex:1 1 0!important;min-width:0!important;min-height:35mm!important;background:#fff!important;border:.9pt solid var(--p48-rule)!important;border-top:1.15mm solid var(--p48-teal)!important;border-radius:2mm!important;padding:4mm 2.8mm!important}
+#pdf-051 .sig04-flow .sig04-card:nth-child(2){border-top-color:var(--p48-navy)!important}#pdf-051 .sig04-flow .sig04-card:nth-child(3){border-top-color:var(--p48-gold)!important}#pdf-051 .sig04-flow .sig04-card:nth-child(4){border-top-color:var(--p48-teal)!important}
+#pdf-051 .sig04-flow .sig04-card:not(:last-child):after{content:"›"!important;position:absolute!important;right:-3.25mm!important;top:50%!important;transform:translateY(-50%)!important;font-family:var(--p48-ui)!important;font-size:15pt!important;line-height:15pt!important;color:#89979E!important;font-weight:700!important;z-index:3!important}
+#pdf-051 .sig04-flow .sig04-card-title{font-size:8.3pt!important;line-height:10pt!important;margin-bottom:3mm!important}
+#pdf-051 .sig04-flow .sig04-card-body{font-family:var(--p48-ui)!important;font-size:7.8pt!important;line-height:9.4pt!important;color:var(--p48-muted)!important}
+#pdf-051>.sig04-callout.sig04-navy{font-family:var(--p48-ui)!important;font-size:9pt!important;line-height:11pt!important;margin-top:3mm!important;background:var(--p48-navy)!important;color:#fff!important;border-left:0!important;border-radius:2mm!important;padding:3mm 4mm!important;text-align:center!important}
+
+/* P052 — educational aggregation model. */
+#pdf-052 .sig04-title{font-size:18.8pt!important;line-height:21.3pt!important;margin-bottom:2.6mm!important}
+#pdf-052 .sig04-p{font-size:9.1pt!important;line-height:11.8pt!important;margin-bottom:2.4mm!important}
+#pdf-052>.sig04-callout.sig04-teal{font-size:9.2pt!important;line-height:11.7pt!important;margin:2.8mm 0 3.2mm!important}
+#pdf-052 .sig04-section-title{font-size:9.4pt!important;margin:0 0 1.7mm!important}
+#pdf-052 .sig04-section-title + .sig04-p{font-size:8.8pt!important;line-height:11.2pt!important;color:var(--p48-muted)!important;margin-bottom:2mm!important}
+#pdf-052 .sig04-list{display:grid!important;grid-template-columns:1fr 1fr!important;column-gap:5mm!important;row-gap:1mm!important;padding-left:4.2mm!important;margin:0 0 3mm!important}
+#pdf-052 .sig04-li{font-size:8.5pt!important;line-height:10.7pt!important;margin:0!important}
+#pdf-052 .sig04-panel{background:var(--p48-warm2)!important;border-radius:2.2mm!important;padding:4mm 4.5mm!important;border-top:1.1mm solid var(--p48-gold)!important}
+#pdf-052 .sig04-panel-title{font-size:8.7pt!important;color:var(--p48-muted)!important;margin:0 0 2.2mm!important}
+#pdf-052 .sig04-metric-line{font-size:10.4pt!important;line-height:12.6pt!important;margin-bottom:2.3mm!important}
+#pdf-052 .sig04-panel .sig04-emphasis{font-size:9.2pt!important;line-height:11.6pt!important;text-align:center!important;margin:0!important}
+
+/* P053/P054 — paired spread. Keep direct geometry comparability. */
+#pdf-053 .sig04-title,#pdf-054 .sig04-title{font-size:20pt!important;line-height:22.5pt!important;margin:0 0 2.1mm!important;text-align:center!important}
+#pdf-053 .sig04-deck,#pdf-054 .sig04-deck{font-size:10.1pt!important;line-height:12.7pt!important;text-align:center!important;margin-bottom:5mm!important}
+#pdf-053 .sig04-grid-5,#pdf-054 .sig04-grid-5{gap:2.6mm!important;margin:0 0 2.3mm!important}
+#pdf-053 .sig04-mini-card,#pdf-054 .sig04-mini-card{min-height:24.5mm!important;background:#fff!important;border:.75pt solid var(--p48-rule)!important;border-radius:2mm!important;padding:3.2mm 2mm!important;text-align:center!important}
+#pdf-053 .sig04-mini-card{border-top:1.05mm solid var(--p48-gold)!important}#pdf-054 .sig04-mini-card{border-top:1.05mm solid var(--p48-teal)!important}
+#pdf-053 .sig04-mini-card .sig04-card-title,#pdf-054 .sig04-mini-card .sig04-card-title{font-size:7.8pt!important;line-height:9.2pt!important;margin-bottom:2.5mm!important}
+#pdf-053 .sig04-mini-card .sig04-card-body,#pdf-054 .sig04-mini-card .sig04-card-body{font-family:var(--p48-ui)!important;font-size:8.5pt!important;line-height:10pt!important;font-weight:800!important;color:var(--p48-muted)!important;text-align:center!important}
+#pdf-053>.sig04-label,#pdf-054>.sig04-label{font-size:7.7pt!important;line-height:9.2pt!important;margin:1mm 0 4mm!important}
+#pdf-053>.sig04-panel.sig04-red,#pdf-054>.sig04-panel.sig04-green{padding:4mm!important;border-radius:2.5mm!important;margin:0 0 4mm!important}
+#pdf-053>.sig04-panel.sig04-red{border-left:1.3mm solid var(--p48-red)!important}#pdf-054>.sig04-panel.sig04-green{border-left:1.3mm solid var(--p48-teal)!important}
+#pdf-053 .sig04-panel .sig04-metric,#pdf-054 .sig04-panel .sig04-metric{font-size:34pt!important;line-height:35pt!important;margin:2.5mm 0 1.4mm!important}
+#pdf-053>.sig04-callout.sig04-navy{font-family:var(--p48-ui)!important;font-size:9.0pt!important;line-height:11pt!important;background:var(--p48-navy)!important;color:#fff!important;border-left:0!important;border-radius:2mm!important;padding:3.2mm 4mm!important;text-align:center!important;margin:0!important}
+#pdf-054>.sig04-panel.sig04-tealbox{padding:3.2mm 4mm!important;background:var(--p48-tealp)!important;border:0!important;border-top:1.15mm solid var(--p48-teal)!important;border-radius:2mm!important;margin:0 0 4mm!important}
+#pdf-054>.sig04-panel.sig04-tealbox .sig04-emphasis{font-family:var(--p48-ui)!important;font-size:9.4pt!important;line-height:11.5pt!important;margin:0!important;text-align:center!important}
+#pdf-054>.sig04-footnote{font-size:7.2pt!important;line-height:8.8pt!important;text-align:center!important;margin-top:1mm!important}
+
+/* P055 — model vs historical practice. */
+#pdf-055 .sig04-title{font-size:19.2pt!important;line-height:21.9pt!important;margin-bottom:3.5mm!important}
+#pdf-055>.sig04-grid-2{gap:4mm!important;margin:0 0 3mm!important;align-items:stretch!important}
+#pdf-055>.sig04-grid-2>.sig04-panel{padding:3.8mm 4mm!important;border-radius:2mm!important}
+#pdf-055>.sig04-grid-2>.sig04-panel:first-child{border-top:1.15mm solid var(--p48-navy)!important}
+#pdf-055>.sig04-grid-2>.sig04-panel:nth-child(2){border-top:1.15mm solid var(--p48-teal)!important}
+#pdf-055 .sig04-grid .sig04-card-title{font-size:8.8pt!important;margin-bottom:2mm!important}
+#pdf-055 .sig04-grid .sig04-li{font-size:8.1pt!important;line-height:10.2pt!important;margin-bottom:1.1mm!important}
+#pdf-055 .sig04-grid .sig04-emphasis{font-size:8.4pt!important;line-height:10.5pt!important;margin:2mm 0 0!important}
+#pdf-055 .sig04-grid .sig04-card-body{font-size:8.25pt!important;line-height:10.5pt!important}
+#pdf-055 .sig04-grid .sig04-metric{font-size:31pt!important;line-height:33pt!important;color:var(--p48-teal)!important;margin:3mm 0 1.2mm!important}
+#pdf-055 .sig04-grid .sig04-label{font-size:7.7pt!important}
+#pdf-055>.sig04-p{font-size:8.9pt!important;line-height:11.4pt!important;margin-bottom:2.1mm!important}
+#pdf-055>.sig04-callout.sig04-accent{font-size:8.7pt!important;line-height:10.9pt!important;margin:2.2mm 0!important}
+#pdf-055>.sig04-callout.sig04-accent:last-of-type{background:var(--p48-warm2)!important;border-left-color:var(--p48-gold)!important;padding:3mm 3.5mm!important;border-radius:0 2mm 2mm 0!important;margin-top:2.6mm!important}
+
+/* P056 — routing decision + pharmacist time. */
+#pdf-056 .sig04-title{font-size:19.0pt!important;line-height:21.7pt!important;margin-bottom:2.6mm!important}
+#pdf-056>.sig04-p{font-size:8.9pt!important;line-height:11.4pt!important;margin-bottom:2.1mm!important}
+#pdf-056>.sig04-callout.sig04-teal{font-size:8.9pt!important;line-height:11.3pt!important;margin:2.5mm 0 3.2mm!important}
+#pdf-056 .sig04-section-title{font-size:9.0pt!important;margin:2.3mm 0 1.5mm!important;color:var(--p48-muted)!important}
+#pdf-056>.sig04-emphasis{font-family:var(--p48-ui)!important;font-size:8.8pt!important;line-height:10.5pt!important;color:var(--p48-navy)!important;text-align:center!important;margin:.5mm 0!important}
+#pdf-056>.sig04-question{font-size:9.8pt!important;line-height:12.4pt!important;margin:1.4mm auto 3mm!important;max-width:118mm!important}
+#pdf-056>.sig04-grid-2{gap:4mm!important;margin:0 0 2.8mm!important}
+#pdf-056 .sig04-card{min-height:31mm!important;background:#fff!important;border:.8pt solid var(--p48-rule)!important;border-top:1.15mm solid var(--p48-red)!important;border-radius:2mm!important;padding:4mm!important}
+#pdf-056 .sig04-card:nth-child(2){border-top-color:var(--p48-teal)!important;background:var(--p48-tealp)!important}
+#pdf-056 .sig04-card-title{font-size:9pt!important;margin-bottom:3mm!important}
+#pdf-056 .sig04-card-body{font-family:var(--p48-ui)!important;font-size:8.1pt!important;line-height:9.9pt!important;color:var(--p48-muted)!important}
+#pdf-056>.sig04-callout.sig04-navy{font-family:var(--p48-ui)!important;font-size:8.8pt!important;line-height:10.8pt!important;background:var(--p48-navy)!important;color:#fff!important;border-left:0!important;border-radius:2mm!important;padding:3mm 4mm!important;text-align:center!important;margin-top:3mm!important}
+
+/* P057 — shortage time buffer causal path. */
+#pdf-057 .sig04-title{font-size:20.3pt!important;line-height:22.8pt!important;margin-bottom:2.8mm!important}
+#pdf-057>.sig04-p{font-size:9.0pt!important;line-height:11.6pt!important;margin-bottom:2.4mm!important}
+#pdf-057>.sig04-callout.sig04-accent{font-size:10pt!important;line-height:12.5pt!important;margin:2.7mm 0 3mm!important}
+#pdf-057 .sig04-section-title{font-size:8.8pt!important;color:var(--p48-muted)!important;margin:0 0 2mm!important}
+#pdf-057 .sig04-flow{display:flex!important;gap:4.5mm!important;background:var(--p48-soft)!important;padding:4mm!important;border-radius:2.5mm!important;margin:0 0 3.2mm!important}
+#pdf-057 .sig04-flow .sig04-card{position:relative!important;flex:1 1 0!important;min-width:0!important;min-height:31mm!important;background:#fff!important;border:.8pt solid var(--p48-rule)!important;border-top:1.15mm solid var(--p48-red)!important;border-radius:2mm!important;padding:4mm 3mm!important}
+#pdf-057 .sig04-flow .sig04-card:nth-child(2){border-top-color:var(--p48-teal)!important}#pdf-057 .sig04-flow .sig04-card:nth-child(3){border-top-color:var(--p48-navy)!important}
+#pdf-057 .sig04-flow .sig04-card:not(:last-child):after{content:"›"!important;position:absolute!important;right:-4mm!important;top:50%!important;transform:translateY(-50%)!important;font-family:var(--p48-ui)!important;font-size:15pt!important;color:#87959C!important;font-weight:700!important}
+#pdf-057 .sig04-flow .sig04-card-title{font-size:8.5pt!important;line-height:10.2pt!important;margin-bottom:2.5mm!important}
+#pdf-057 .sig04-flow .sig04-card-body{font-family:var(--p48-ui)!important;font-size:7.9pt!important;line-height:9.5pt!important;color:var(--p48-muted)!important}
+#pdf-057 aside.sig04-panel{padding:3.2mm 4mm!important;margin:0 0 2.7mm!important;border-left:1.15mm solid var(--p48-gold)!important;border-radius:1.8mm!important}
+#pdf-057 aside .sig04-card-title{font-size:8.4pt!important;margin-bottom:1.5mm!important}
+#pdf-057 aside .sig04-card-body{font-size:8.5pt!important;line-height:10.7pt!important}
+#pdf-057>.sig04-callout.sig04-navy{font-family:var(--p48-ui)!important;font-size:8.7pt!important;line-height:10.6pt!important;margin-top:3mm!important}
+
+/* P058 — three mechanisms; vary rhythm with horizontal sections, not repeated cards. */
+#pdf-058 .sig04-title{font-size:20pt!important;line-height:22.7pt!important;margin-bottom:2.7mm!important}
+#pdf-058>.sig04-p{font-size:9.1pt!important;line-height:11.8pt!important;margin-bottom:2.2mm!important}
+#pdf-058>.sig04-panel{background:#fff!important;border-radius:0!important;border:0!important;border-top:.9pt solid var(--p48-rule)!important;padding:2.8mm 0 1.4mm!important;margin:1.3mm 0 1.2mm!important}
+#pdf-058>.sig04-panel .sig04-card-title{font-size:9.1pt!important;line-height:10.9pt!important;margin-bottom:1.5mm!important}
+#pdf-058>.sig04-panel .sig04-card-body{font-family:var(--p48-ui)!important;font-size:8.2pt!important;line-height:9.8pt!important;color:var(--p48-teal)!important;font-weight:700!important}
+#pdf-058>.sig04-panel.sig04-beige .sig04-card-body{color:var(--p48-gold)!important}#pdf-058>.sig04-panel.sig04-green .sig04-card-body{color:var(--p48-teal)!important}
+#pdf-058>.sig04-emphasis{font-size:8.9pt!important;line-height:11.2pt!important;margin:1.4mm 0 2.5mm!important;padding-left:3mm!important;border-left:1.0mm solid var(--p48-gold)!important}
+#pdf-058>.sig04-callout.sig04-navy{font-family:var(--p48-ui)!important;font-size:8.7pt!important;line-height:10.7pt!important;margin-top:3mm!important}
+
+/* P059 — management check + control transfer + Stage 5 bridge. */
+#pdf-059 .sig04-title{font-size:20.5pt!important;line-height:23pt!important;margin-bottom:2.5mm!important}
+#pdf-059>.sig04-p{font-size:9.0pt!important;line-height:11.6pt!important;margin-bottom:2mm!important}
+#pdf-059 .sig04-section-title{font-size:9.3pt!important;margin:2.8mm 0 1.8mm!important}
+#pdf-059>.sig04-list{display:grid!important;grid-template-columns:1fr 1fr!important;gap:1.3mm 5mm!important;margin:0 0 3mm!important;padding-left:4.2mm!important}
+#pdf-059>.sig04-list .sig04-li{font-size:8.35pt!important;line-height:10.4pt!important;margin:0!important}
+#pdf-059 .sig04-flow{display:flex!important;gap:3.5mm!important;background:var(--p48-soft)!important;padding:3.5mm!important;border-radius:2.3mm!important;margin:0 0 2.5mm!important}
+#pdf-059 .sig04-flow .sig04-card{position:relative!important;flex:1 1 0!important;min-width:0!important;min-height:31mm!important;background:#fff!important;border:.8pt solid var(--p48-rule)!important;border-top:1.1mm solid var(--p48-red)!important;border-radius:2mm!important;padding:3.4mm 3mm!important}
+#pdf-059 .sig04-flow .sig04-card:nth-child(2){border-top-color:var(--p48-teal)!important}#pdf-059 .sig04-flow .sig04-card:nth-child(3){border-top-color:var(--p48-navy)!important}
+#pdf-059 .sig04-flow .sig04-card:not(:last-child):after{content:"›"!important;position:absolute!important;right:-3.3mm!important;top:50%!important;transform:translateY(-50%)!important;font-family:var(--p48-ui)!important;font-size:14pt!important;color:#8A989F!important;font-weight:700!important}
+#pdf-059 .sig04-flow .sig04-card-title{font-size:8.3pt!important;line-height:10pt!important;margin-bottom:2.2mm!important}
+#pdf-059 .sig04-flow .sig04-card-body{font-family:var(--p48-ui)!important;font-size:7.8pt!important;line-height:9.5pt!important;color:var(--p48-muted)!important}
+#pdf-059>.sig04-callout.sig04-accent{font-size:9.6pt!important;line-height:12pt!important;background:var(--p48-warm)!important;border-left-color:var(--p48-gold)!important;padding:3.1mm 3.6mm!important;border-radius:0 2mm 2mm 0!important;margin:2.5mm 0 2.4mm!important}
+#pdf-059>.sig04-emphasis{font-family:var(--p48-ui)!important;font-size:8.7pt!important;line-height:10.5pt!important;color:var(--p48-navy)!important;margin:0!important}
+
+/* current rolling internal folios 44–55 */
+#pdf-048:after,#pdf-049:after,#pdf-050:after,#pdf-051:after,#pdf-052:after,#pdf-053:after,#pdf-054:after,#pdf-055:after,#pdf-056:after,#pdf-057:after,#pdf-058:after,#pdf-059:after{position:absolute!important;bottom:-11mm!important;font-family:var(--p48-ui)!important;font-size:7.2pt!important;line-height:8pt!important;color:#A0AAAF!important}
+#pdf-048:after{content:"44"!important;left:0!important}#pdf-049:after{content:"45"!important;right:0!important}#pdf-050:after{content:"46"!important;left:0!important}#pdf-051:after{content:"47"!important;right:0!important}#pdf-052:after{content:"48"!important;left:0!important}#pdf-053:after{content:"49"!important;right:0!important}#pdf-054:after{content:"50"!important;left:0!important}#pdf-055:after{content:"51"!important;right:0!important}#pdf-056:after{content:"52"!important;left:0!important}#pdf-057:after{content:"53"!important;right:0!important}#pdf-058:after{content:"54"!important;left:0!important}#pdf-059:after{content:"55"!important;right:0!important}
+
+#v2-robotics-replenishment-link{display:none!important}
+
+/* architecture calibration pass: use meaningful visual space, not tiny type or dead bottom tails */
+#pdf-049 .sig04-panel.sig04-blue .sig04-li{font-size:8.8pt!important;line-height:11.0pt!important}
+#pdf-052 .sig04-li{font-size:8.8pt!important;line-height:11.1pt!important}
+#pdf-055 .sig04-grid .sig04-li{font-size:8.8pt!important;line-height:11pt!important}
+#pdf-055 .sig04-grid .sig04-card-body{font-size:8.8pt!important;line-height:11pt!important}
+#pdf-056 .sig04-card-body{font-size:8.8pt!important;line-height:10.9pt!important}
+#pdf-059>.sig04-list .sig04-li{font-size:8.8pt!important;line-height:11pt!important}
+
+/* P050: let the quantitative comparison carry more of the page. */
+#pdf-050 .sig04-metric-card{min-height:42mm!important;padding-top:5.5mm!important}
+#pdf-050 aside.sig04-panel{padding-top:4.2mm!important;padding-bottom:4.2mm!important}
+#pdf-050>.sig04-callout.sig04-navy{margin-top:4.2mm!important}
+
+/* P051: mirror approved cycle lineage as a 2x2 live loop instead of a shallow slide row. */
+#pdf-051 .sig04-flow{display:grid!important;grid-template-columns:1fr 1fr!important;grid-template-rows:1fr 1fr!important;gap:4mm 5mm!important;min-height:67mm!important;padding:5mm!important}
+#pdf-051 .sig04-flow .sig04-card{min-height:27mm!important;padding:4mm 4mm!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+#pdf-051 .sig04-flow .sig04-card:nth-child(1){grid-column:1;grid-row:1}
+#pdf-051 .sig04-flow .sig04-card:nth-child(2){grid-column:2;grid-row:1}
+#pdf-051 .sig04-flow .sig04-card:nth-child(3){grid-column:2;grid-row:2}
+#pdf-051 .sig04-flow .sig04-card:nth-child(4){grid-column:1;grid-row:2}
+#pdf-051 .sig04-flow .sig04-card:not(:last-child):after{right:auto!important;top:auto!important;transform:none!important}
+#pdf-051 .sig04-flow .sig04-card:nth-child(1):after{content:"›"!important;right:-4.3mm!important;top:50%!important;transform:translateY(-50%)!important}
+#pdf-051 .sig04-flow .sig04-card:nth-child(2):after{content:"↓"!important;right:50%!important;bottom:-4.2mm!important;top:auto!important;transform:translateX(50%)!important;font-size:12pt!important}
+#pdf-051 .sig04-flow .sig04-card:nth-child(3):after{content:"‹"!important;left:-4.3mm!important;top:50%!important;transform:translateY(-50%)!important}
+#pdf-051 .sig04-flow .sig04-card:nth-child(4):after{content:none!important}
+#pdf-051 .sig04-flow .sig04-card-title{font-size:8.8pt!important;line-height:10.5pt!important;margin-bottom:2.2mm!important}
+#pdf-051 .sig04-flow .sig04-card-body{font-size:8.2pt!important;line-height:9.9pt!important}
+
+/* P052: enlarge the educational-model proof object. */
+#pdf-052 .sig04-panel{min-height:43mm!important;padding-top:5mm!important;padding-bottom:5mm!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+#pdf-052 .sig04-panel-title{font-size:9.1pt!important;margin-bottom:3mm!important}
+#pdf-052 .sig04-metric-line{font-size:11.3pt!important;line-height:13.8pt!important;margin-bottom:3.2mm!important}
+#pdf-052 .sig04-panel .sig04-emphasis{font-size:9.5pt!important;line-height:12pt!important}
+
+/* P053-P054 are an intentionally open paired comparison spread: center the visual mass vertically and keep geometry matched. */
+#pdf-053,#pdf-054{padding-top:17mm!important}
+#pdf-053 .sig04-grid-5,#pdf-054 .sig04-grid-5{margin-bottom:3.5mm!important}
+#pdf-053>.sig04-panel.sig04-red,#pdf-054>.sig04-panel.sig04-green{padding-top:5mm!important;padding-bottom:5mm!important}
+
+/* P055: larger readable evidence text consumes space through content, not padding. */
+#pdf-055>.sig04-grid-2>.sig04-panel{padding-top:4.3mm!important;padding-bottom:4.3mm!important}
+#pdf-055>.sig04-p{font-size:9.1pt!important;line-height:11.7pt!important}
+#pdf-055>.sig04-callout.sig04-accent{font-size:8.9pt!important;line-height:11.2pt!important}
+
+/* P056: balanced comparison page; give the decision object more physical presence. */
+#pdf-056{padding-top:7mm!important}
+#pdf-056>.sig04-question{margin-top:2mm!important;margin-bottom:4mm!important}
+#pdf-056 .sig04-card{min-height:39mm!important;padding:5mm 4mm!important}
+#pdf-056 .sig04-card-title{margin-bottom:4mm!important}
+#pdf-056>.sig04-p:last-of-type{margin-top:3mm!important;margin-bottom:3mm!important}
+#pdf-056>.sig04-callout.sig04-navy{margin-top:4mm!important}
+
+/* P057: slightly larger causal path, preserving diagram-label scale. */
+#pdf-057 .sig04-flow .sig04-card{min-height:36mm!important;padding-top:4.8mm!important;padding-bottom:4.8mm!important}
+#pdf-057 aside.sig04-panel{padding-top:3.8mm!important;padding-bottom:3.8mm!important}
+
+/* P058: three mechanisms should read as a full-page sequence, not a compressed top block. */
+#pdf-058{padding-top:5mm!important}
+#pdf-058>.sig04-panel{padding-top:3.5mm!important;padding-bottom:2.2mm!important;margin-top:2mm!important;margin-bottom:1.8mm!important}
+#pdf-058>.sig04-p{margin-bottom:2.8mm!important}
+#pdf-058>.sig04-emphasis{margin-top:2mm!important;margin-bottom:3.4mm!important}
+#pdf-058>.sig04-callout.sig04-navy{margin-top:4mm!important}
+/* final architecture rhythm calibration */
+#pdf-048 .sig04-title{font-size:26pt!important;line-height:28.8pt!important;letter-spacing:-.02em!important;margin-bottom:3.5mm!important}
+#pdf-048 .sig04-deck{margin-bottom:5mm!important}
+#pdf-051{padding-top:5mm!important}
+#pdf-052{padding-top:6mm!important}
+#pdf-053,#pdf-054{padding-top:27mm!important}
+#pdf-056{padding-top:11mm!important}
+/* same-role typography consistency across the block */
+#pdf-049 .sig04-title,#pdf-050 .sig04-title,#pdf-051 .sig04-title,#pdf-052 .sig04-title,#pdf-053 .sig04-title,#pdf-054 .sig04-title,#pdf-055 .sig04-title,#pdf-056 .sig04-title,#pdf-057 .sig04-title,#pdf-058 .sig04-title,#pdf-059 .sig04-title{font-size:19.4pt!important;line-height:22.1pt!important}
+#pdf-049 .sig04-p{font-size:9.1pt!important;line-height:11.9pt!important}
+#pdf-056>.sig04-p{font-size:9.2pt!important;line-height:11.9pt!important}
+#pdf-057>.sig04-p{font-size:9.2pt!important;line-height:11.9pt!important}
+#pdf-059>.sig04-p{font-size:9.1pt!important;line-height:11.8pt!important}
+/* avoid fallback font for the vertical connector */
+#pdf-051 .sig04-flow .sig04-card:nth-child(2):after{content:""!important;width:0!important;height:0!important;border-left:1.5mm solid transparent!important;border-right:1.5mm solid transparent!important;border-top:2.2mm solid #89979E!important;right:50%!important;bottom:-3.4mm!important;top:auto!important;transform:translateX(50%)!important}
+/* final hard-floor guard for narrative text inside cards/callouts */
+#pdf-049 .sig04-panel.sig04-beige>.sig04-card-body{font-size:8.8pt!important;line-height:11.1pt!important}
+#pdf-055 .sig04-grid .sig04-emphasis{font-size:8.8pt!important;line-height:10.9pt!important}
+#pdf-057 aside .sig04-card-body{font-size:8.8pt!important;line-height:11pt!important}
+/* final density calibration: enlarge existing meaningful objects before accepting excess bottom-tail */
+#pdf-051 .sig04-flow{min-height:77mm!important;padding:5.5mm!important}
+#pdf-051 .sig04-flow .sig04-card{min-height:32mm!important}
+#pdf-051>.sig04-callout.sig04-navy{margin-top:4mm!important}
+#pdf-052 .sig04-panel{min-height:55mm!important;padding-top:6mm!important;padding-bottom:6mm!important}
+#pdf-052 .sig04-metric-line{font-size:12pt!important;line-height:14.4pt!important;margin-bottom:4mm!important}
+#pdf-052 .sig04-panel .sig04-emphasis{font-size:9.8pt!important;line-height:12.3pt!important}
+#pdf-056{padding-top:12mm!important}
+#pdf-056 .sig04-card{min-height:43mm!important}
+#pdf-056>.sig04-question{margin-bottom:5mm!important}
+#pdf-056>.sig04-p:last-of-type{margin-top:4mm!important;margin-bottom:3.5mm!important}
+#pdf-056>.sig04-callout.sig04-navy{margin-top:5mm!important}
+#pdf-058>.sig04-panel{padding-top:4.8mm!important;padding-bottom:3.5mm!important;margin-top:2.5mm!important;margin-bottom:2.2mm!important}
+
+/* Review v2: user-authorized conceptual correction for P055-P056/P059 */
+#pdf-055 .p55-architecture>.sig04-panel{min-height:78mm!important}
+#pdf-055 .p55-architecture .sig04-card-title{font-size:9.1pt!important;line-height:10.8pt!important}
+#pdf-055 .p55-architecture .sig04-li{font-size:8.8pt!important;line-height:11pt!important;margin-bottom:1.7mm!important}
+#pdf-055 .p55-architecture .sig04-emphasis{font-size:8.8pt!important;line-height:11pt!important;margin-top:3.5mm!important}
+#pdf-055 .p55-architecture .sig04-card-body{font-size:9pt!important;line-height:11.5pt!important}
+#pdf-055 .p55-architecture .sig04-metric{font-size:36pt!important;line-height:38pt!important;margin-top:7mm!important}
+#pdf-055 .p55-architecture .sig04-label{font-size:8.2pt!important;line-height:10pt!important}
+#pdf-055>.sig04-p{font-size:9.0pt!important;line-height:11.6pt!important}
+#pdf-055>.sig04-callout.sig04-accent{font-size:8.8pt!important;line-height:11.1pt!important}
+
+#pdf-056{padding-top:11mm!important}
+#pdf-056 .sig04-title{font-size:20pt!important;line-height:22.5pt!important;margin-bottom:3.2mm!important}
+#pdf-056>.sig04-p{font-size:9.2pt!important;line-height:11.8pt!important;margin-bottom:2.6mm!important}
+#pdf-056>.sig04-callout.sig04-teal{font-size:9pt!important;line-height:11.4pt!important;margin:2.6mm 0 4mm!important}
+#pdf-056 .p56-central-flow{display:flex!important;gap:4mm!important;background:var(--p48-soft)!important;padding:4.5mm!important;border-radius:2.5mm!important;margin:0 0 4mm!important}
+#pdf-056 .p56-central-flow .sig04-card{position:relative!important;flex:1 1 0!important;min-width:0!important;min-height:37mm!important;background:#fff!important;border:.8pt solid var(--p48-rule)!important;border-top:1.15mm solid var(--p48-gold)!important;border-radius:2mm!important;padding:4.2mm 3.2mm!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+#pdf-056 .p56-central-flow .sig04-card:nth-child(2){border-top-color:var(--p48-teal)!important;background:var(--p48-tealp)!important}
+#pdf-056 .p56-central-flow .sig04-card:nth-child(3){border-top-color:var(--p48-navy)!important}
+#pdf-056 .p56-central-flow .sig04-card:not(:last-child):after{content:"›"!important;position:absolute!important;right:-3.2mm!important;top:50%!important;transform:translateY(-50%)!important;font-family:var(--p48-ui)!important;font-size:15pt!important;line-height:15pt!important;color:#89979E!important;font-weight:700!important;z-index:3!important}
+#pdf-056 .p56-central-flow .sig04-card-title{font-size:8.7pt!important;line-height:10.4pt!important;margin-bottom:2.8mm!important}
+#pdf-056 .p56-central-flow .sig04-card-body{font-family:var(--p48-ui)!important;font-size:8.2pt!important;line-height:10pt!important;color:var(--p48-muted)!important}
+#pdf-056 .p56-benefit-title{margin-top:4.2mm!important;margin-bottom:2mm!important}
+#pdf-056>.sig04-callout.sig04-navy{font-size:8.8pt!important;line-height:10.9pt!important;margin-top:4mm!important;padding:3.4mm 4mm!important}
+#pdf-056 .p56-central-flow{min-height:58mm!important;padding-top:6mm!important;padding-bottom:6mm!important;margin-bottom:5.5mm!important}
+#pdf-056 .p56-central-flow .sig04-card{min-height:46mm!important;padding-top:5mm!important;padding-bottom:5mm!important}
+#pdf-056 .p56-central-flow .sig04-card-title{font-size:9.1pt!important;line-height:10.9pt!important}
+#pdf-056 .p56-central-flow .sig04-card-body{font-size:8.8pt!important;line-height:10.7pt!important}
+#pdf-056 .p56-benefit-panel{padding:5mm!important;margin:0 0 5mm!important;border-radius:2.2mm!important}
+#pdf-056 .p56-benefit-panel .p56-benefit-title{margin:0 0 2.7mm!important;color:var(--p48-navy)!important}
+#pdf-056 .p56-benefit-panel .sig04-p{font-size:9.2pt!important;line-height:11.8pt!important;margin:0!important}
+#pdf-056>.sig04-callout.sig04-navy{margin-top:0!important;padding-top:4.2mm!important;padding-bottom:4.2mm!important}
+
+
+/* Review v3: P058 user-authorized capability map */
+#pdf-058{padding-top:2mm!important}
+#pdf-058 .sig04-kicker{margin-bottom:2.4mm!important}
+#pdf-058 .sig04-title{font-size:18.6pt!important;line-height:21.3pt!important;margin-bottom:2.6mm!important;max-width:126mm!important}
+#pdf-058 .p58-deck{font-size:9.3pt!important;line-height:12pt!important;margin:0 0 4mm!important;max-width:127mm!important}
+#pdf-058 .p58-capability-grid{display:grid!important;grid-template-columns:1fr 1fr!important;gap:3.2mm 4mm!important;margin:0 0 4mm!important}
+#pdf-058 .p58-capability{position:relative!important;display:grid!important;grid-template-columns:10mm 1fr!important;column-gap:3mm!important;min-height:39mm!important;background:var(--p48-soft)!important;border-radius:2.2mm!important;padding:4.2mm 4mm 3.8mm 3.6mm!important;border-top:1.1mm solid var(--p48-navy)!important;break-inside:avoid!important}
+#pdf-058 .p58-capability.p58-teal{border-top-color:var(--p48-teal)!important;background:var(--p48-tealp)!important}
+#pdf-058 .p58-capability.p58-gold{border-top-color:var(--p48-gold)!important;background:var(--p48-warm2)!important}
+#pdf-058 .p58-num{font-family:var(--p48-ui)!important;font-size:20pt!important;line-height:20pt!important;font-weight:800!important;color:var(--p48-navy)!important;text-align:left!important;padding-top:.2mm!important}
+#pdf-058 .p58-teal .p58-num{color:var(--p48-teal)!important}
+#pdf-058 .p58-gold .p58-num{color:var(--p48-gold)!important}
+#pdf-058 .p58-capability-copy{min-width:0!important}
+#pdf-058 .p58-capability .sig04-card-title{font-size:8.8pt!important;line-height:10.5pt!important;margin:0 0 1.4mm!important}
+#pdf-058 .p58-capability .sig04-card-body{font-family:var(--p48-ui)!important;font-size:8.8pt!important;line-height:10.6pt!important;font-weight:700!important;color:var(--p48-muted)!important;margin:0 0 1.5mm!important}
+#pdf-058 .p58-note{font-family:var(--p48-body)!important;font-size:8.8pt!important;line-height:10.8pt!important;color:var(--p48-ink)!important;margin:0!important}
+#pdf-058 .p58-closing{font-family:var(--p48-ui)!important;font-size:9.1pt!important;line-height:11.2pt!important;margin:3.8mm 0 0!important;padding:3.5mm 4mm!important;background:var(--p48-cool)!important;border-left:1.35mm solid var(--p48-navy)!important;border-radius:1.4mm!important;font-weight:800!important}
+/* Review v3 fit correction: keep P058 conclusion on the same physical page */
+#pdf-058 .p58-capability-grid{gap:2.5mm 4mm!important;margin-bottom:2.8mm!important}
+#pdf-058 .p58-capability{min-height:34.5mm!important;padding-top:3.3mm!important;padding-bottom:3.1mm!important}
+#pdf-058 .p58-capability .sig04-card-title{margin-bottom:1.1mm!important}
+#pdf-058 .p58-capability .sig04-card-body{margin-bottom:1.1mm!important}
+#pdf-058 .p58-closing{margin-top:2.8mm!important;padding-top:3mm!important;padding-bottom:3mm!important}
+/* Review v3 final fit: anchor summary inside P058 safe content box */
+#pdf-058 .p58-closing{position:absolute!important;left:0!important;right:0!important;bottom:0!important;margin:0!important}
+
+/* Review v4: P056 flow geometry correction */
+#pdf-056 .p56-central-flow{
+  gap:5mm!important;
+  min-height:0!important;
+  padding:4.5mm!important;
+  margin-bottom:5mm!important;
+  align-items:stretch!important;
+}
+#pdf-056 .p56-central-flow .sig04-card{
+  min-height:38mm!important;
+  padding:4.2mm 3.4mm!important;
+  justify-content:flex-start!important;
+}
+#pdf-056 .p56-central-flow .sig04-card:nth-child(1),
+#pdf-056 .p56-central-flow .sig04-card:nth-child(3){flex:1 1 0!important}
+#pdf-056 .p56-central-flow .sig04-card:nth-child(2){flex:1.18 1 0!important}
+#pdf-056 .p56-central-flow .sig04-card:not(:last-child):after{
+  right:-4mm!important;
+  top:50%!important;
+}
+#pdf-056 .p56-central-flow .sig04-card-title{
+  margin:0 0 2.4mm!important;
+}
+
+/* Review v6: P056 compact natural-height flow geometry */
+#pdf-056 .p56-central-flow{
+  gap:5mm!important;
+  min-height:0!important;
+  padding:3.5mm!important;
+  margin-bottom:5mm!important;
+  align-items:stretch!important;
+}
+#pdf-056 .p56-central-flow .sig04-card{
+  min-height:0!important;
+  height:auto!important;
+  padding:3.2mm 3.4mm!important;
+  justify-content:flex-start!important;
+}
+#pdf-056 .p56-central-flow .sig04-card:nth-child(1),
+#pdf-056 .p56-central-flow .sig04-card:nth-child(3){flex:1 1 0!important}
+#pdf-056 .p56-central-flow .sig04-card:nth-child(2){flex:1.18 1 0!important}
+#pdf-056 .p56-central-flow .sig04-card:not(:last-child):after{
+  right:-4mm!important;
+  top:50%!important;
+}
+#pdf-056 .p56-central-flow .sig04-card-title{margin:0 0 2mm!important}
+/* Review v6b: exact compact flow height after render check */
+#pdf-056 .p56-central-flow .sig04-card{
+  min-height:34mm!important;
+  height:auto!important;
+  padding:3.2mm 3.4mm!important;
+}
+
+
+/* v9 approved consolidation: source P053 + P054 become one direct-comparison page. */
+#pdf-053{page:p48-right!important;padding-top:0!important}
+#pdf-055{page:p48-left!important}
+#pdf-056{page:p48-right!important}
+#pdf-057{page:p48-left!important}
+#pdf-058{page:p48-right!important}
+#pdf-059{page:p48-left!important}
+
+#pdf-053 .p53-compare-wrap{width:127mm!important;margin:0 auto!important;padding-top:0!important}
+#pdf-053 .p53-state{margin:0!important;padding:0!important}
+#pdf-053 .p53-state .sig04-title{font-size:15.8pt!important;line-height:18.2pt!important;margin:0 0 1.8mm!important;text-align:center!important}
+#pdf-053 .p53-state .sig04-deck{font-size:9.4pt!important;line-height:11.4pt!important;margin:0 0 4.4mm!important;text-align:center!important}
+#pdf-053 .p53-state-band{height:8.3mm!important;margin:0 0 3mm!important;padding:2.8mm 2mm 0!important;border-radius:1.6mm!important;background:#FBF8F0!important;border-top:1.1mm solid var(--p48-gold)!important;font-family:var(--p48-ui)!important;font-size:8.5pt!important;line-height:9.5pt!important;font-weight:800!important;color:var(--p48-navy)!important;text-align:center!important}
+#pdf-053 .p53-state-band.p53-teal{background:#EAF4F3!important;border-top-color:var(--p48-teal)!important}
+#pdf-053 .p53-pharmacy-grid{display:grid!important;grid-template-columns:repeat(5,1fr)!important;gap:2.3mm 2.5mm!important;margin:0 0 3.2mm!important}
+#pdf-053 .p53-pharmacy{height:17.3mm!important;background:#fff!important;border:.65pt solid var(--p48-rule)!important;border-top:1.0mm solid var(--p48-gold)!important;border-radius:1.6mm!important;padding:4.0mm 1.2mm 1.6mm!important;text-align:center!important}
+#pdf-053 .p53-grid-teal .p53-pharmacy{border-top-color:var(--p48-teal)!important}
+#pdf-053 .p53-pharmacy h3{font-family:var(--p48-ui)!important;font-size:7.6pt!important;line-height:8.8pt!important;font-weight:800!important;color:var(--p48-navy)!important;margin:0 0 1.8mm!important}
+#pdf-053 .p53-pharmacy p{font-family:var(--p48-ui)!important;font-size:8.7pt!important;line-height:9.4pt!important;font-weight:800!important;color:var(--p48-muted)!important;margin:0!important}
+#pdf-053 .p53-count{font-family:var(--p48-ui)!important;font-size:7.5pt!important;line-height:8.5pt!important;font-weight:800!important;color:var(--p48-muted)!important;text-align:center!important;margin:0 0 2.2mm!important}
+#pdf-053 .p53-total{height:21.7mm!important;display:grid!important;grid-template-columns:57mm 37mm 1fr!important;align-items:center!important;margin:0!important;border-radius:1.9mm!important;background:var(--p48-redp)!important;border-left:1.3mm solid var(--p48-red)!important;padding:0 4mm!important}
+#pdf-053 .p53-total-teal{background:#EAF4F3!important;border-left-color:var(--p48-teal)!important}
+#pdf-053 .p53-formula{font-family:var(--p48-ui)!important;font-size:7.7pt!important;line-height:9.6pt!important;font-weight:800!important;color:var(--p48-muted)!important;margin:0!important;text-align:center!important;padding:0 1mm!important}
+#pdf-053 .p53-metric{font-family:var(--p48-ui)!important;font-size:25.5pt!important;line-height:27pt!important;font-weight:800!important;color:var(--p48-navy)!important;margin:0!important;text-align:center!important;white-space:nowrap!important}
+#pdf-053 .p53-total-teal .p53-metric{font-size:23.2pt!important}
+#pdf-053 .p53-total-label{font-family:var(--p48-ui)!important;font-size:7.9pt!important;line-height:9.2pt!important;font-weight:800!important;color:var(--p48-navy)!important;margin:0!important;text-align:center!important}
+#pdf-053 .p53-transition{height:20.8mm!important;position:relative!important;margin:0!important}
+#pdf-053 .p53-transition:before{content:""!important;position:absolute!important;left:0!important;right:0!important;top:9.7mm!important;border-top:.8pt solid var(--p48-rule)!important}
+#pdf-053 .p53-transition span{position:absolute!important;left:50%!important;top:7.7mm!important;width:0!important;height:0!important;border-left:3.2mm solid transparent!important;border-right:3.2mm solid transparent!important;border-top:4.6mm solid #95A2A8!important;transform:translateX(-50%)!important;background:#fff!important}
+#pdf-053 .p53-after .sig04-title{margin-bottom:1.8mm!important}
+#pdf-053 .p53-footnote{font-size:7.25pt!important;line-height:8.6pt!important;text-align:center!important;margin:4.2mm auto 0!important;max-width:122mm!important;color:#7D8A91!important}
+
+/* After one physical page is removed, downstream in-scope parity and folios shift by -1. */
+#pdf-055:after{content:"50"!important;left:0!important;right:auto!important}
+#pdf-056:after{content:"51"!important;right:0!important;left:auto!important}
+#pdf-057:after{content:"52"!important;left:0!important;right:auto!important}
+#pdf-058:after{content:"53"!important;right:0!important;left:auto!important}
+#pdf-059:after{content:"54"!important;left:0!important;right:auto!important}
+/* v9 fit calibration: preserve generous comparison geometry inside one physical page. */
+#pdf-053 .p53-state-band{margin-bottom:2.2mm!important}
+#pdf-053 .p53-pharmacy-grid{gap:2.0mm 2.5mm!important;margin-bottom:2.5mm!important}
+#pdf-053 .p53-pharmacy{height:16.4mm!important;padding-top:3.6mm!important}
+#pdf-053 .p53-count{margin-bottom:1.8mm!important}
+#pdf-053 .p53-total{height:20mm!important}
+#pdf-053 .p53-transition{height:13.8mm!important}
+#pdf-053 .p53-transition:before{top:6.3mm!important}
+#pdf-053 .p53-transition span{top:4.3mm!important}
+#pdf-053 .p53-footnote{margin-top:2.2mm!important}

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.book-page[data-density="compact"] .p{font-size:var(--compact);line-height:var(--compact-leading);}
+.book-page[data-density="compact"] li{font-size:8.9pt;line-height:11.1pt;}
+.book-page[data-page-family="F"] table,.book-page[data-page-family="G"] table{font-size:8.05pt;line-height:10pt;}
+.book-page[data-page-family="G"] tbody td:last-child{min-height:9mm;background:#fff;}
+.book-page[data-page-family="G"] tbody tr{break-inside:avoid;}

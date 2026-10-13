@@ -1,0 +1,35 @@
+/* P023 b100 live HTML/CSS source, scoped to canonical #pdf-028. */
+#pdf-028 .p023-live-figure{position:relative;width:167mm;height:240mm;margin:0;padding:0;overflow:hidden;background:#fff;color:#0b2c61;font-family:"Noto Sans",sans-serif;}
+#pdf-028 .p023-live-figure,#pdf-028 .p023-live-figure *{box-sizing:border-box;}
+#pdf-028 .p023-live-figure .kicker{position:absolute; left:20mm; top:14.8mm; height:5mm; display:flex; align-items:center; gap:2.2mm; font:700 8.2pt/9.6pt "Noto Sans",sans-serif; color:#00a6a3; letter-spacing:.018em; white-space:nowrap;}
+#pdf-028 .p023-live-figure .kbar{width:1.5mm; height:4.6mm; background:#f39a0b; flex:0 0 auto;}
+#pdf-028 .p023-live-figure .title{position:absolute; left:20mm; top:22.7mm; width:132mm; margin:0; font:700 19.6pt/22.2pt "Noto Sans",sans-serif; letter-spacing:-.018em; color:#08285d;}
+#pdf-028 .p023-live-figure .deck{position:absolute; left:20mm; top:40.8mm; width:132mm; margin:0; font:400 10.8pt/13.6pt "Noto Serif",serif; color:#4a6786;}
+#pdf-028 .p023-live-figure .cards{position:absolute; left:20mm; top:61.8mm; width:132mm; height:132.0mm;}
+#pdf-028 .p023-live-figure .card{position:absolute; width:64mm; height:64.0mm; border:.28mm solid #d8e7eb; border-radius:1.5mm; background:#fbfdfe; overflow:hidden;}
+#pdf-028 .p023-live-figure .card.c1{left:0; top:0;}
+#pdf-028 .p023-live-figure .card.c2{left:68mm; top:0;}
+#pdf-028 .p023-live-figure .card.c3{left:0; top:68.0mm;}
+#pdf-028 .p023-live-figure .card.c4{left:68mm; top:68.0mm;}
+#pdf-028 .p023-live-figure .card:before{content:""; position:absolute; left:-.3mm; right:-.3mm; top:-.3mm; height:1.65mm; background:#1ba8a1;}
+#pdf-028 .p023-live-figure .card-main{position:absolute; left:3.2mm; right:3.2mm; top:3.4mm;}
+#pdf-028 .p023-live-figure .card-title{margin:0 0 1.2mm; font:700 10.5pt/12.3pt "Noto Sans",sans-serif; color:#08285d;}
+#pdf-028 .p023-live-figure .card-desc{margin:0; min-height:12.0mm; font:400 8.8pt/10.6pt "Noto Sans Condensed","Noto Sans",sans-serif; color:#506a84;}
+#pdf-028 .p023-live-figure .rank-table{position:absolute; left:3.0mm; right:3.0mm; top:24.0mm; height:19.7mm; background:#fff; border-radius:1.0mm;}
+#pdf-028 .p023-live-figure .rank-row{height:6.55mm; display:grid; grid-template-columns:8.3mm 1fr 15.5mm; align-items:center; border-bottom:.18mm solid #e1e9ed;}
+#pdf-028 .p023-live-figure .rank-row:last-child{border-bottom:0;}
+#pdf-028 .p023-live-figure .badge{position:relative; display:block; width:5.3mm; min-width:5.3mm; max-width:5.3mm; height:5.3mm; min-height:5.3mm; max-height:5.3mm; margin-left:.7mm; padding:0; border-radius:50%; overflow:hidden; box-sizing:border-box; background:#dfe8ed; color:#173b5d; justify-self:center;}
+#pdf-028 .p023-live-figure .badge-num{position:absolute; left:50%; top:50%; display:block; margin:0; padding:0; font:700 8.0pt/8.0pt "Noto Sans",sans-serif; line-height:8.0pt; text-align:center; white-space:nowrap; transform:translate(-50%,-50%);}
+#pdf-028 .p023-live-figure .rank-row.hot .badge{background:#e9573c; color:#fff;}
+#pdf-028 .p023-live-figure .rank-name{font:400 8.2pt/9.2pt "Noto Sans Condensed","Noto Sans",sans-serif; color:#173b5d; white-space:nowrap;}
+#pdf-028 .p023-live-figure .rank-value{text-align:right; padding-right:1mm; font:700 8.6pt/9.2pt "Noto Sans",sans-serif; color:#173b5d; white-space:nowrap;}
+#pdf-028 .p023-live-figure .rank-row.hot .rank-value{color:#e23d28;}
+#pdf-028 .p023-live-figure .card-note{position:absolute; left:3.2mm; right:3.2mm; top:45.0mm; bottom:2.8mm; margin:0; font:400 8.8pt/9.9pt "Noto Sans Condensed","Noto Sans",sans-serif; color:#506a84;}
+#pdf-028 .p023-live-figure .card-note b{color:#163858; font-weight:700;}
+#pdf-028 .p023-live-figure .bottom-note{position:absolute; left:20mm; top:196.2mm; width:132mm; height:12.5mm; border-left:1.6mm solid #f0a008; padding:.2mm 0 0 4.0mm;}
+#pdf-028 .p023-live-figure .bottom-note h2{margin:0 0 .7mm; font:700 10.8pt/12.2pt "Noto Sans",sans-serif; color:#08285d;}
+#pdf-028 .p023-live-figure .bottom-note p{margin:0; font:400 9.0pt/10.6pt "Noto Serif",serif; color:#4a6786;}
+#pdf-028 .p023-live-figure .thesis{position:absolute; left:20mm; top:211.2mm; width:132mm; height:10.6mm; border-radius:1.2mm; background:#083c70; color:#fff; display:flex; align-items:center;}
+#pdf-028 .p023-live-figure .thesis-accent{width:1.2mm; height:10.6mm; background:#1fc0ad; flex:0 0 auto;}
+#pdf-028 .p023-live-figure .thesis p{margin:0 4mm 0 4.4mm; font:700 9.0pt/10.4pt "Noto Sans",sans-serif;}
+#pdf-028 .p023-live-figure .folio{position:absolute; right:8mm; bottom:4.7mm; font:400 7.3pt/8pt "Noto Sans",sans-serif; color:#4d719a;}

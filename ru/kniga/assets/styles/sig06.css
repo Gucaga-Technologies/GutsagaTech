@@ -1,0 +1,13 @@
+/* P072-P081 approved block v5. Scoped canonical styling; approved trim/print PDFs remain production authorities. */
+.sig06-page{max-width:46rem;margin:0 auto 2.5rem;padding:1rem 0}
+.sig06-page .stage-label,.sig06-page>aside.callout:first-child{font:700 .78rem/1.2 sans-serif;letter-spacing:.035em;text-transform:uppercase}
+.sig06-page .sig06-network-grid,.sig06-page .sig06-mode-summary,.sig06-page .sig06-metrics,.sig06-page .sig06-principle,.sig06-page .sig06-time-frame,.sig06-page .sig06-synthesis{margin:1rem 0;padding:1rem;border:1px solid currentColor;border-radius:.6rem}
+.sig06-page .sig06-network-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem}
+.sig06-page .sig06-network-grid p:last-child{grid-column:1/-1;font-weight:700;text-align:center}
+.sig06-page .sig06-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;text-align:center;font-weight:700}
+.sig06-page .sig06-mode-summary p:first-child,.sig06-page .sig06-target-framing,.sig06-page .sig06-principle p:first-child,.sig06-page .sig06-time-frame h3,.sig06-page .sig06-synthesis h3{font-weight:700}
+.sig06-page .sig06-target-framing{margin:1rem 0}
+.sig06-page .sig06-principle{text-align:center}
+.sig06-page .sig06-principle p:last-child{font-size:1.5rem;font-weight:800}
+.sig06-page .sig06-synthesis h3{margin-top:1rem}
+@media(max-width:44rem){.sig06-page .sig06-network-grid,.sig06-page .sig06-metrics{grid-template-columns:1fr}.sig06-page .sig06-network-grid p:last-child{grid-column:auto}}

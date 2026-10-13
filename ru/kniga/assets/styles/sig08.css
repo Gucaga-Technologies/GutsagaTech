@@ -1,0 +1,16 @@
+/* P082-P091 approved Stage 7 block v5. Scoped canonical styling; approved trim PDF remains visual authority. */
+.sig08-page{max-width:46rem;margin:0 auto 2.5rem;padding:1rem 0}
+.sig08-page .sig08-deck{font-size:1.05rem;margin:.4rem 0 1rem}
+.sig08-page .sig08-flow-four,.sig08-page .sig08-contrast-two,.sig08-page .sig08-decision-two{display:grid;gap:.75rem;margin:1rem 0}
+.sig08-page .sig08-flow-four{grid-template-columns:repeat(4,minmax(0,1fr))}
+.sig08-page .sig08-contrast-two,.sig08-page .sig08-decision-two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.sig08-page .sig08-flow-four p,.sig08-page .sig08-contrast-two p,.sig08-page .sig08-decision-two>section,.sig08-page .key-statement,.sig08-page .sig08-linear{padding:.8rem;border:1px solid #c9d2d5;border-radius:.55rem}
+.sig08-page .sig08-sequence-five,.sig08-page .sig08-three-questions{display:grid;gap:.55rem;margin:1rem 0;padding-left:0;list-style-position:inside}
+.sig08-page .sig08-sequence-five{grid-template-columns:repeat(5,minmax(0,1fr))}
+.sig08-page .sig08-three-questions{grid-template-columns:repeat(3,minmax(0,1fr))}
+.sig08-page .sig08-sequence-five li,.sig08-page .sig08-three-questions li{padding:.65rem;border:1px solid #c9d2d5;border-radius:.45rem}
+.sig08-page .sig08-flow-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem;margin:1rem 0}
+.sig08-page .sig08-flow-two p{margin:0;padding:.55rem;border-left:.2rem solid currentColor}
+.sig08-page .sig08-decision-two ul{margin:.5rem 0 0;padding-left:1.2rem}
+.sig08-page .sig08-map-list{columns:2;column-gap:2rem}
+@media(max-width:44rem){.sig08-page .sig08-flow-four,.sig08-page .sig08-sequence-five,.sig08-page .sig08-three-questions,.sig08-page .sig08-contrast-two,.sig08-page .sig08-decision-two,.sig08-page .sig08-flow-two{grid-template-columns:1fr}.sig08-page .sig08-map-list{columns:1}}

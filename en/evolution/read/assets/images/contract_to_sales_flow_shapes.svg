@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="132mm" height="20.2mm" viewBox="0 0 1320 202">
+  <style>
+    .box{fill:#eef3f5;stroke:#9cb1ba;stroke-width:10;}
+    .label{fill:#12324a;font-family:'Noto Sans',Arial,sans-serif;font-weight:800;text-anchor:middle;dominant-baseline:middle;}
+    .label-normal{font-size:36px;}
+    .label-assortment{font-size:33px;letter-spacing:-0.25px;}
+    .label-availability{font-size:31.5px;letter-spacing:-0.35px;}
+    .arrow-line{fill:none;stroke:#1e918a;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;}
+  </style>
+  <rect class="box" x="0" y="1" width="250" height="200" rx="20" ry="20"/>
+  <line class="arrow-line" x1="272" y1="101" x2="319" y2="101"/>
+  <polyline class="arrow-line" points="307,87 322,101 307,115"/>
+
+  <rect class="box" x="350" y="1" width="270" height="200" rx="20" ry="20"/>
+  <line class="arrow-line" x1="642" y1="101" x2="689" y2="101"/>
+  <polyline class="arrow-line" points="677,87 692,101 677,115"/>
+
+  <rect class="box" x="720" y="1" width="250" height="200" rx="20" ry="20"/>
+  <line class="arrow-line" x1="992" y1="101" x2="1039" y2="101"/>
+  <polyline class="arrow-line" points="1027,87 1042,101 1027,115"/>
+
+  <rect class="box" x="1070" y="1" width="250" height="200" rx="20" ry="20"/>
+  </svg>

@@ -1,0 +1,654 @@
+:root{--navy:#12324A;--teal:#1E918A;--gold:#D3921F;--red:#C94D42;--ink:#26333B;--muted:#52616B;--cool:#EEF2F3;--warm:#F6E8BD;--rule:#C8D2D7;--soft:#F8FAFA;--body:"Noto Serif",serif;--ui:"Noto Sans",sans-serif}
+@page leftpage{size:167mm 240mm;margin:15mm 20mm 18mm 15mm;background:#fff}
+@page rightpage{size:167mm 240mm;margin:15mm 15mm 18mm 20mm;background:#fff}
+html,body{margin:0!important;padding:0!important;background:#fff!important;color:var(--ink)!important;max-width:none!important;font-family:var(--body)!important}
+body>main,body>main>#ch-06{margin:0!important;padding:0!important;max-width:none!important}
+#ch-06>h1,#v2-robotics-order-link{display:none!important}
+#pdf-038,#pdf-039,#pdf-040,#pdf-041,#pdf-042,#pdf-043,#pdf-044,#pdf-045,#pdf-046,#pdf-047{display:block!important;box-sizing:border-box!important;width:132mm!important;height:207mm!important;max-width:none!important;margin:0!important;padding:0!important;position:relative!important;break-after:page!important;page-break-after:always!important;overflow:visible!important;font-family:var(--body)!important;font-size:9.8pt!important;line-height:13pt!important;color:var(--ink)!important;hyphens:none!important}
+#pdf-038,#pdf-040,#pdf-042,#pdf-044,#pdf-046{page:leftpage}
+#pdf-039,#pdf-041,#pdf-043,#pdf-045,#pdf-047{page:rightpage}
+#pdf-047{break-after:auto!important;page-break-after:auto!important}
+#pdf-038 *,#pdf-039 *,#pdf-040 *,#pdf-041 *,#pdf-042 *,#pdf-043 *,#pdf-044 *,#pdf-045 *,#pdf-046 *,#pdf-047 *{box-sizing:border-box!important;hyphens:none!important}
+.sig03-legacy-figure,.deferred-figure{display:none!important}
+.sig03-page .sig03-kicker{font-family:var(--ui)!important;font-size:8.1pt!important;line-height:9.6pt!important;font-weight:800!important;letter-spacing:.055em!important;color:var(--teal)!important;margin:0 0 2mm!important;text-transform:uppercase!important}
+.sig03-page .sig03-title{font-family:var(--ui)!important;font-size:19.5pt!important;line-height:22.7pt!important;font-weight:800!important;color:var(--navy)!important;margin:0 0 2.5mm!important}
+.sig03-page .sig03-deck{font-family:var(--body)!important;font-size:10.7pt!important;line-height:14pt!important;color:var(--muted)!important;font-weight:600!important;margin:0 0 3mm!important}
+.sig03-page .sig03-p{font-family:var(--body)!important;font-size:9.8pt!important;line-height:13pt!important;margin:0 0 3mm!important;color:var(--ink)!important}
+.sig03-page .sig03-question{font-family:var(--ui)!important;font-weight:800!important;color:var(--navy)!important;font-size:10.5pt!important;line-height:13pt!important}
+.sig03-page .sig03-section-title,.sig03-page .sig03-panel-title{font-family:var(--ui)!important;font-size:10.8pt!important;line-height:13pt!important;font-weight:800!important;color:var(--navy)!important;margin:3mm 0 1.7mm!important}
+.sig03-page .sig03-card-title{font-family:var(--ui)!important;font-size:9.5pt!important;line-height:11.3pt!important;font-weight:800!important;color:var(--navy)!important;margin:0 0 1.3mm!important}
+.sig03-page .sig03-card-body,.sig03-page .sig03-li{font-family:var(--body)!important;font-size:8.95pt!important;line-height:11.4pt!important;color:var(--ink)!important}
+.sig03-page .sig03-callout{font-family:var(--body)!important;font-size:9.2pt!important;line-height:11.8pt!important;margin:2.7mm 0!important;padding:2.4mm 3mm 2.4mm 4mm!important;border:0!important;border-left:1.4mm solid var(--gold)!important;background:transparent!important;color:var(--ink)!important}
+.sig03-page .sig03-callout-accent{font-weight:700!important;color:var(--navy)!important}
+.sig03-page .sig03-callout-light{background:var(--cool)!important;border-left-color:var(--teal)!important;border-radius:0!important}
+.sig03-page .sig03-callout-navy{font-family:var(--ui)!important;font-size:9.2pt!important;line-height:11.3pt!important;font-weight:800!important;color:#fff!important;background:var(--navy)!important;border:0!important;border-radius:1.4mm!important;text-align:center!important;padding:2.5mm 3.5mm!important;margin:2.8mm 0!important}
+.sig03-page .sig03-emphasis{font-family:var(--ui)!important;font-size:9.4pt!important;line-height:11.7pt!important;font-weight:800!important;color:var(--navy)!important;text-align:left!important;margin:2mm 0 2.5mm!important}
+.sig03-page .sig03-label{font-family:var(--ui)!important;font-size:7.6pt!important;line-height:9.2pt!important;color:var(--muted)!important;text-align:center!important}
+.sig03-page .sig03-list{margin:1.5mm 0 2.5mm 5mm!important;padding:0!important}
+.sig03-page .sig03-li{margin:0 0 1mm!important;padding-left:.4mm!important}
+.sig03-page .sig03-grid{display:grid!important;gap:3mm!important;margin:2.5mm 0!important;align-items:stretch!important}
+.sig03-page .sig03-grid-2{grid-template-columns:1fr 1fr!important}.sig03-page .sig03-grid-3{grid-template-columns:repeat(3,1fr)!important}
+.sig03-page .sig03-card,.sig03-page .sig03-panel,.sig03-page .sig03-metric-card{border:.7pt solid var(--rule)!important;border-radius:1.6mm!important;background:#fff!important;padding:3.5mm!important;color:var(--ink)!important}
+/* folios */
+#pdf-038:after,#pdf-039:after,#pdf-040:after,#pdf-041:after,#pdf-042:after,#pdf-043:after,#pdf-044:after,#pdf-045:after,#pdf-046:after,#pdf-047:after{position:absolute;bottom:-11mm;font-family:var(--ui);font-size:7.2pt;line-height:8pt;color:#829099}
+#pdf-038:after{content:"34";left:0}#pdf-039:after{content:"35";right:0}#pdf-040:after{content:"36";left:0}#pdf-041:after{content:"37";right:0}#pdf-042:after{content:"38";left:0}#pdf-043:after{content:"39";right:0}#pdf-044:after{content:"40";left:0}#pdf-045:after{content:"41";right:0}#pdf-046:after{content:"42";left:0}#pdf-047:after{content:"43";right:0}
+/* P038 - one policy, many local decisions, one reproducible system */
+#pdf-038 .sig03-title{font-size:20.7pt!important;line-height:23.5pt!important}
+#pdf-038 .sig03-deck{font-size:11pt!important}
+#pdf-038 .sig03-policy-map{display:grid!important;grid-template-columns:repeat(4,1fr)!important;grid-template-areas:"t t t t" "sub sub sub sub" "policy policy policy policy" "a b c d" "lab lab lab lab" "system system system system" "repeat repeat repeat repeat"!important;gap:1.6mm 2mm!important;padding:3mm 3.2mm 3.2mm!important;background:var(--soft)!important;margin:2mm 0 2.8mm!important;position:relative!important}
+#pdf-038 .sig03-policy-map>.sig03-card-title{grid-area:t;text-align:center!important;margin:0!important;font-size:10pt!important}
+#pdf-038 .sig03-policy-map>.sig03-card-body{grid-area:sub;text-align:center!important;color:var(--muted)!important;font-size:8pt!important;line-height:9.6pt!important;margin:0 0 .8mm!important}
+#pdf-038 .sig03-policy-map>.sig03-node{font-family:var(--ui)!important;font-weight:800!important;font-size:7.8pt!important;line-height:9.4pt!important;text-align:center!important;padding:2.2mm 1.3mm!important;border:.7pt solid var(--rule)!important;border-radius:1.2mm!important;background:#fff!important;margin:0!important;min-height:11mm!important;display:flex!important;align-items:center!important;justify-content:center!important;color:var(--navy)!important}
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(2){grid-area:policy;border-top:1.2mm solid var(--gold)!important;max-width:62mm!important;justify-self:center!important;width:100%!important}
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(3){grid-area:a;border-top:1.2mm solid var(--red)!important}
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(4){grid-area:b;border-top:1.2mm solid var(--teal)!important}
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(5){grid-area:c;border-top:1.2mm solid var(--gold)!important}
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(6){grid-area:d;border-top:1.2mm solid #81919A!important}
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(7){grid-area:lab;margin:.2mm 0 0!important;font-weight:700!important}
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(8){grid-area:system;background:#F3FAF8!important;border-color:#8DBEB6!important;border-top:1.3mm solid var(--teal)!important;max-width:84mm!important;justify-self:center!important;width:100%!important}
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(9){grid-area:repeat;margin:0!important;font-weight:800!important;color:var(--teal)!important;letter-spacing:.03em!important}
+/* P039 - direction without mechanism vs repeatable system */
+#pdf-039 .sig03-mechanism-grid{display:grid!important;grid-template-columns:1fr 1fr!important;grid-template-rows:auto auto auto auto!important;gap:1.6mm 3mm!important;padding:3mm!important;background:var(--soft)!important;margin:2mm 0 2.8mm!important}
+#pdf-039 .sig03-mechanism-grid>*{margin:0!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-panel-title{font-size:9.4pt!important;text-align:center!important;padding-bottom:1mm!important;border-bottom:.7pt solid var(--rule)!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-panel-title:first-child{grid-column:1;grid-row:1;color:var(--red)!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-panel-title:nth-of-type(2){grid-column:2;grid-row:1;color:var(--teal)!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node{font-family:var(--ui)!important;font-size:7.9pt!important;line-height:9.4pt!important;font-weight:800!important;text-align:center!important;padding:2.2mm!important;border:.7pt solid var(--rule)!important;border-radius:1.2mm!important;background:#fff!important;min-height:11mm!important;display:flex!important;align-items:center!important;justify-content:center!important;color:var(--navy)!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(1){grid-column:1;grid-row:2;border-top:1.2mm solid var(--gold)!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(2){grid-column:1;grid-row:3}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(3){grid-column:1;grid-row:4;border-color:#E1B5B1!important;border-top:1.2mm solid var(--red)!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-label{grid-column:1;grid-row:5;margin:0!important;color:var(--red)!important;font-weight:700!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(4){grid-column:2;grid-row:2/4;border-color:#8DBEB6!important;border-top:1.2mm solid var(--teal)!important;background:#F3FAF8!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(5){grid-column:2;grid-row:4/6;border-color:#8DBEB6!important;background:#F3FAF8!important}
+#pdf-039 .sig03-callout-light{font-size:8.85pt!important;line-height:11.2pt!important}
+/* P040 - move scarce attention from routine to exceptions/rules */
+#pdf-040 .sig03-specialist{background:var(--soft)!important;padding:3mm!important;margin:2mm 0 2.7mm!important;display:grid!important;grid-template-columns:1fr 1fr!important;grid-template-areas:"head head" "skills skills" "att att" "cards cards" "op system"!important;gap:1.6mm 3mm!important}
+#pdf-040 .sig03-specialist>.sig03-card-title{grid-area:head;text-align:center!important;font-size:10pt!important}
+#pdf-040 .sig03-specialist>.sig03-list{grid-area:skills;display:grid!important;grid-template-columns:repeat(5,1fr)!important;gap:1.2mm!important;margin:0!important;list-style:none!important}
+#pdf-040 .sig03-specialist>.sig03-list .sig03-li{background:#fff!important;border-top:.9mm solid var(--gold)!important;border-radius:1mm!important;padding:1.8mm 1.3mm!important;text-align:center!important;font-size:7pt!important;line-height:8.4pt!important;display:flex!important;align-items:center!important;justify-content:center!important;min-height:13mm!important}
+#pdf-040 .sig03-specialist>.sig03-label{grid-area:att;margin:.4mm 0 0!important;font-weight:800!important;color:var(--teal)!important}
+#pdf-040 .sig03-specialist>.sig03-grid{grid-area:cards;margin:0!important;gap:3mm!important}
+#pdf-040 .sig03-specialist .sig03-card{padding:2.7mm 3mm!important;border-top:1.2mm solid var(--red)!important;background:#fff!important}
+#pdf-040 .sig03-specialist .sig03-card:nth-child(2){border-top-color:var(--teal)!important}
+#pdf-040 .sig03-specialist .sig03-card .sig03-list{margin:1mm 0 1.2mm 4mm!important}
+#pdf-040 .sig03-specialist>.sig03-operator{grid-area:op;align-self:center!important;justify-self:end!important;font-family:var(--ui)!important;font-size:15pt!important;line-height:16pt!important;color:#8B979D!important;margin:0!important;padding-right:2mm!important}
+#pdf-040 .sig03-specialist>.sig03-node-system{grid-area:system;font-family:var(--ui)!important;font-size:8pt!important;line-height:9.8pt!important;font-weight:800!important;text-align:center!important;color:var(--navy)!important;background:#F3FAF8!important;border:.7pt solid #8DBEB6!important;border-top:1.2mm solid var(--teal)!important;border-radius:1.2mm!important;padding:2.1mm 2.5mm!important;margin:0!important}
+#pdf-040 .sig03-card-body{font-size:8.5pt!important;line-height:10.6pt!important}.sig03-page#pdf-040 .sig03-li{font-size:8.2pt!important;line-height:10.3pt!important}
+/* P041 - coherent diagnostic ladder */
+#pdf-041 .sig03-title{margin-bottom:1.8mm!important}
+#pdf-041 .sig03-decision-ladder{display:grid!important;gap:0!important;margin:2.6mm 0 2.8mm!important;border:.7pt solid var(--rule)!important;border-radius:1.6mm!important;overflow:hidden!important;background:#fff!important}
+#pdf-041 .sig03-row{display:grid!important;grid-template-columns:8mm 1.35fr 1fr!important;gap:2mm!important;align-items:center!important;padding:2.6mm 3mm!important;border:0!important;border-bottom:.6pt solid var(--rule)!important;position:relative!important;min-height:21mm!important}
+#pdf-041 .sig03-row:last-child{border-bottom:0!important}
+#pdf-041 .sig03-row-head{min-height:10mm!important;padding:1.8mm 3mm!important;background:var(--cool)!important}
+#pdf-041 .sig03-row-head .sig03-label{font-size:7.2pt!important;font-weight:800!important;text-align:left!important;color:var(--muted)!important}
+#pdf-041 .sig03-step{font-family:var(--ui)!important;font-size:12pt!important;line-height:12pt!important;font-weight:800!important;color:var(--navy)!important;margin:0!important;text-align:center!important}
+#pdf-041 .sig03-row .sig03-card-title{font-size:8.9pt!important;line-height:10.7pt!important;margin:0!important;padding-right:2mm!important}
+#pdf-041 .sig03-row .sig03-card-body{font-size:8.3pt!important;line-height:10.4pt!important;margin:0!important;color:var(--muted)!important;padding-left:3mm!important;border-left:.9mm solid var(--rule)!important}
+#pdf-041 .sig03-row:nth-child(2) .sig03-card-body{border-left-color:#C94D42!important}#pdf-041 .sig03-row:nth-child(3) .sig03-card-body{border-left-color:#D3921F!important}#pdf-041 .sig03-row:nth-child(4) .sig03-card-body{border-left-color:#B9A34A!important}#pdf-041 .sig03-row:nth-child(5) .sig03-card-body{border-left-color:#64A99F!important}#pdf-041 .sig03-row:nth-child(6) .sig03-card-body{border-left-color:#1E918A!important}
+#pdf-041 .sig03-emphasis{text-align:center!important;margin:2mm 0!important}
+/* P042/P043 - comparable control architectures */
+#pdf-042 .sig03-title,#pdf-043 .sig03-title{margin-bottom:2.2mm!important}
+#pdf-042 .sig03-flow,#pdf-043 .sig03-flow{display:grid!important;grid-template-columns:repeat(4,1fr)!important;gap:3mm!important;margin:2.1mm 0 2.2mm!important}
+#pdf-042 .sig03-flow .sig03-node,#pdf-043 .sig03-flow .sig03-node{font-family:var(--ui)!important;font-size:7.7pt!important;line-height:9.3pt!important;font-weight:800!important;text-align:center!important;color:var(--navy)!important;background:#fff!important;border:.7pt solid var(--rule)!important;border-radius:1.2mm!important;min-height:22mm!important;padding:2mm 1.4mm!important;display:flex!important;align-items:center!important;justify-content:center!important;position:relative!important;margin:0!important}
+#pdf-042 .sig03-flow .sig03-node{border-top:1.25mm solid var(--gold)!important;background:#FFFCF5!important}
+#pdf-043 .sig03-flow .sig03-node{border-top:1.25mm solid var(--teal)!important;background:#F4FAF9!important}
+#pdf-042 .sig03-flow .sig03-node:not(:last-child):after,#pdf-043 .sig03-flow .sig03-node:not(:last-child):after{content:"";position:absolute;right:-3.2mm;top:50%;width:2.6mm;border-top:.8pt solid #8A9AA2;transform:translateY(-50%)}
+#pdf-042 .sig03-flow .sig03-node:not(:last-child):before,#pdf-043 .sig03-flow .sig03-node:not(:last-child):before{content:"";position:absolute;right:-3.45mm;top:calc(50% - 1.1mm);border-left:1.7mm solid #8A9AA2;border-top:1.1mm solid transparent;border-bottom:1.1mm solid transparent}
+#pdf-042 .sig03-callout-accent{border-left-color:var(--gold)!important}#pdf-043 .sig03-callout-accent{border-left-color:var(--teal)!important}
+#pdf-042 .sig03-list{margin:1.2mm 0 2.4mm 5mm!important}
+#pdf-043 .sig03-grid-3{gap:2.2mm!important;margin:2mm 0 2.3mm!important}
+#pdf-043 .sig03-grid-3 .sig03-card{padding:2.4mm 2mm!important;text-align:center!important;border-top:1.15mm solid var(--teal)!important;background:var(--soft)!important}
+#pdf-043 .sig03-grid-3 .sig03-card:first-child{border-top-color:var(--red)!important}#pdf-043 .sig03-grid-3 .sig03-card:nth-child(2){border-top-color:var(--gold)!important}
+#pdf-043 .sig03-grid-3 .sig03-card .sig03-emphasis{text-align:center!important;margin:1mm 0!important;font-size:9pt!important}
+#pdf-043 .sig03-grid-3 .sig03-card-body{text-align:center!important;color:var(--muted)!important;margin:0!important}
+#pdf-043 .sig03-section-title:nth-of-type(2){font-size:9.2pt!important;line-height:11pt!important;margin-top:2mm!important}
+#pdf-043 .sig03-callout-light{font-size:8.6pt!important;line-height:10.8pt!important;padding:2mm 3mm 2mm 4mm!important}
+/* P044 - system vs human */
+#pdf-044 .sig03-grid-2{gap:3mm!important;margin:2.5mm 0 2.7mm!important}
+#pdf-044 .sig03-grid-2 .sig03-card{padding:3mm!important;background:var(--soft)!important}
+#pdf-044 .sig03-card-system{border-top:1.25mm solid var(--teal)!important}#pdf-044 .sig03-card-human{border-top:1.25mm solid var(--gold)!important}
+#pdf-044 .sig03-card-system .sig03-card-title{color:var(--teal)!important}#pdf-044 .sig03-card-human .sig03-card-title{color:var(--gold)!important}
+#pdf-044 .sig03-grid-2 .sig03-list{margin:1mm 0 2mm 4mm!important}.sig03-page#pdf-044 .sig03-li{font-size:8.35pt!important;line-height:10.4pt!important}
+#pdf-044 .sig03-grid-2 .sig03-card-body{font-size:8.55pt!important;line-height:10.8pt!important;margin:1.6mm 0!important}
+#pdf-044 .sig03-grid-2 .sig03-emphasis{font-size:8.7pt!important;line-height:10.6pt!important;margin:1.3mm 0 0!important}
+#pdf-044>.sig03-emphasis{text-align:center!important;margin:2mm 0 2.4mm!important}
+/* P045 - neutral resistance mechanism */
+#pdf-045 .sig03-grid-2{gap:3mm!important;margin:2.4mm 0 2.6mm!important}
+#pdf-045 .sig03-grid-2 .sig03-card{padding:3mm!important;background:var(--soft)!important;border-top:1.2mm solid var(--teal)!important}
+#pdf-045 .sig03-grid-2 .sig03-card-warm{border-top-color:var(--gold)!important;background:#FFFCF5!important}
+#pdf-045 .sig03-grid-2 .sig03-list{margin:1mm 0 0 4mm!important}.sig03-page#pdf-045 .sig03-li{font-size:8.35pt!important;line-height:10.4pt!important}
+#pdf-045 .sig03-callout-light{font-size:8.8pt!important;line-height:11.1pt!important}
+#pdf-045>.sig03-emphasis{text-align:center!important;margin:2mm 0!important}
+/* P046 - evidence first, interpretation second */
+#pdf-046 .sig03-title{font-size:18.7pt!important;line-height:21.6pt!important;margin-bottom:2.2mm!important}
+#pdf-046 .sig03-section-title{text-align:center!important;margin:3mm 0 1mm!important}
+#pdf-046>.sig03-emphasis{text-align:center!important;color:var(--teal)!important;margin:.5mm 0 2mm!important}
+#pdf-046 .sig03-grid-2{gap:3mm!important;margin:2mm 0 2.8mm!important}
+#pdf-046 .sig03-metric-card{padding:3.6mm 3mm!important;text-align:center!important;background:var(--soft)!important;border-top:1.3mm solid var(--red)!important;min-height:31mm!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+#pdf-046 .sig03-metric-card:nth-child(2){border-top-color:var(--teal)!important}
+#pdf-046 .sig03-metric{font-family:var(--ui)!important;font-size:22pt!important;line-height:23.5pt!important;font-weight:800!important;color:var(--navy)!important;margin:0 0 1.4mm!important}
+#pdf-046 .sig03-label{font-size:7.8pt!important;line-height:9.3pt!important;margin:0!important}
+#pdf-046 .sig03-callout-light{font-size:8.7pt!important;line-height:11pt!important}
+#pdf-046>.sig03-p{font-size:9.35pt!important;line-height:12.3pt!important}
+/* P047 - management check + bridge */
+#pdf-047 .sig03-title{font-size:19.2pt!important;line-height:22pt!important;margin-bottom:2mm!important}
+#pdf-047 .sig03-list-questions{list-style:none!important;margin:1.8mm 0 2.4mm!important;padding:0!important;counter-reset:q!important;display:grid!important;grid-template-columns:1fr 1fr!important;gap:1.4mm 3mm!important}
+#pdf-047 .sig03-list-questions .sig03-li{counter-increment:q!important;background:var(--soft)!important;border-left:.9mm solid var(--teal)!important;padding:1.6mm 2mm 1.6mm 6mm!important;position:relative!important;min-height:15.5mm!important;font-size:8.15pt!important;line-height:10.2pt!important;display:flex!important;align-items:center!important}
+#pdf-047 .sig03-list-questions .sig03-li:nth-child(even){border-left-color:var(--gold)!important}
+#pdf-047 .sig03-list-questions .sig03-li:before{content:counter(q);position:absolute;left:2mm;top:1.6mm;font-family:var(--ui);font-size:6.9pt;font-weight:800;color:var(--navy)}
+#pdf-047 .sig03-callout-light{font-size:8.6pt!important;line-height:10.8pt!important;padding:2mm 3mm 2mm 4mm!important}
+#pdf-047 .sig03-grid-3{gap:2.3mm!important;margin:1.8mm 0 2.2mm!important}
+#pdf-047 .sig03-grid-3 .sig03-card{padding:2.3mm 2mm!important;text-align:center!important;background:var(--soft)!important;position:relative!important;border-top:1.1mm solid var(--gold)!important}
+#pdf-047 .sig03-grid-3 .sig03-card:nth-child(2){border-top-color:var(--teal)!important}#pdf-047 .sig03-grid-3 .sig03-card:nth-child(3){border-top-color:#7B8B94!important}
+#pdf-047 .sig03-grid-3 .sig03-card:not(:last-child):after{content:"";position:absolute;right:-2.3mm;top:50%;width:2mm;border-top:.8pt solid #89979E}
+#pdf-047 .sig03-grid-3 .sig03-card:not(:last-child):before{content:"";position:absolute;right:-2.6mm;top:calc(50% - 1mm);border-left:1.5mm solid #89979E;border-top:1mm solid transparent;border-bottom:1mm solid transparent}
+#pdf-047 .sig03-grid-3 .sig03-card-body{font-size:7.8pt!important;line-height:9.5pt!important;margin:0!important;color:var(--muted)!important}
+#pdf-047>.sig03-emphasis{text-align:center!important;font-size:9.2pt!important;line-height:11.3pt!important;margin:2mm 0!important}
+/* v1 density and visual-geometry refinement after first physical-scale render */
+/* Use open arrowheads rather than filled triangles in process connectors. */
+#pdf-042 .sig03-flow .sig03-node:not(:last-child):before,#pdf-043 .sig03-flow .sig03-node:not(:last-child):before{right:-3.25mm!important;top:calc(50% - 1.1mm)!important;width:2mm!important;height:2mm!important;border:0!important;border-top:.8pt solid #8A9AA2!important;border-right:.8pt solid #8A9AA2!important;transform:rotate(45deg)!important;background:transparent!important}
+#pdf-047 .sig03-grid-3 .sig03-card:not(:last-child):before{right:-2.35mm!important;top:calc(50% - 1mm)!important;width:1.8mm!important;height:1.8mm!important;border:0!important;border-top:.8pt solid #89979E!important;border-right:.8pt solid #89979E!important;transform:rotate(45deg)!important;background:transparent!important}
+/* P039: let the comparison occupy more of the page without adding content. */
+#pdf-039 .sig03-mechanism-grid{min-height:74mm!important;align-content:stretch!important;padding:3.6mm!important;gap:2mm 3mm!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node{min-height:14mm!important;padding:2.8mm 2mm!important}
+#pdf-039 .sig03-callout-light{padding-top:3mm!important;padding-bottom:3mm!important;margin-top:3.4mm!important;margin-bottom:3.4mm!important}
+/* P040: make the operator a deliberate transition marker, not a stray symbol. */
+#pdf-040 .sig03-specialist{grid-template-areas:"head head" "skills skills" "att att" "cards cards" "op op" "system system"!important;gap:1.9mm 3mm!important;padding-bottom:3.5mm!important}
+#pdf-040 .sig03-specialist>.sig03-operator{grid-area:op!important;justify-self:center!important;align-self:center!important;width:7mm!important;height:7mm!important;border:.7pt solid var(--rule)!important;border-radius:50%!important;display:flex!important;align-items:center!important;justify-content:center!important;padding:0!important;font-size:11pt!important;line-height:11pt!important;color:#7D8B92!important;background:#fff!important}
+#pdf-040 .sig03-specialist>.sig03-node-system{grid-area:system!important;justify-self:center!important;width:78%!important;min-height:14mm!important;display:flex!important;align-items:center!important;justify-content:center!important}
+/* P041: full-height diagnostic ladder. */
+#pdf-041 .sig03-decision-ladder{margin-top:3.5mm!important;margin-bottom:3.5mm!important}
+#pdf-041 .sig03-row{min-height:27mm!important;padding:3.4mm 3.3mm!important}
+#pdf-041 .sig03-row-head{min-height:12mm!important;padding-top:2.2mm!important;padding-bottom:2.2mm!important}
+#pdf-041 .sig03-row .sig03-card-title{font-size:9.2pt!important;line-height:11.1pt!important}
+#pdf-041 .sig03-row .sig03-card-body{font-size:8.55pt!important;line-height:10.7pt!important}
+#pdf-041 .sig03-emphasis{margin:3.2mm 0!important;font-size:9.6pt!important;line-height:12pt!important}
+/* P042/P043: diagrams should be the primary explanatory objects. */
+#pdf-042 .sig03-flow,#pdf-043 .sig03-flow{margin-top:3mm!important;margin-bottom:3.4mm!important;gap:3.2mm!important}
+#pdf-042 .sig03-flow .sig03-node,#pdf-043 .sig03-flow .sig03-node{min-height:30mm!important;padding:3mm 1.8mm!important;font-size:8pt!important;line-height:9.8pt!important}
+#pdf-042 .sig03-emphasis,#pdf-043 .sig03-emphasis{margin:2.8mm 0 3.3mm!important;font-size:9.55pt!important;line-height:12pt!important}
+#pdf-042 .sig03-list{margin-top:2mm!important;margin-bottom:3mm!important}.sig03-page#pdf-042 .sig03-li{font-size:9.05pt!important;line-height:11.6pt!important;margin-bottom:1.6mm!important}
+#pdf-043 .sig03-grid-3{margin-top:3mm!important;margin-bottom:3mm!important;gap:2.8mm!important}
+#pdf-043 .sig03-grid-3 .sig03-card{min-height:31mm!important;padding:3mm 2.2mm!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+#pdf-043 .sig03-callout-light{padding-top:2.8mm!important;padding-bottom:2.8mm!important;margin-top:2.5mm!important;margin-bottom:2.8mm!important}
+/* P044: enlarge the actual division-of-labor mechanism. */
+#pdf-044 .sig03-grid-2 .sig03-card{min-height:89mm!important;padding:4mm 3.7mm!important}
+#pdf-044 .sig03-grid-2 .sig03-list{margin-top:2mm!important;margin-bottom:3mm!important}
+#pdf-044 .sig03-grid-2 .sig03-card-body{font-size:8.8pt!important;line-height:11.2pt!important;margin:2.4mm 0!important}
+#pdf-044>.sig03-p{margin-top:3.5mm!important;margin-bottom:3.5mm!important}
+#pdf-044>.sig03-emphasis{margin:3mm 0 3.4mm!important}
+/* P045: use the page to show the governance change clearly; no filler. */
+#pdf-045 .sig03-title{font-size:19.2pt!important;line-height:22.2pt!important;margin-bottom:3mm!important}
+#pdf-045 .sig03-grid-2{margin-top:3.4mm!important;margin-bottom:3.6mm!important;gap:3.5mm!important}
+#pdf-045 .sig03-grid-2 .sig03-card{min-height:72mm!important;padding:4.2mm 3.8mm!important}
+#pdf-045 .sig03-grid-2 .sig03-list{margin-top:2mm!important}.sig03-page#pdf-045 .sig03-li{font-size:8.8pt!important;line-height:11.1pt!important;margin-bottom:1.7mm!important}
+#pdf-045 .sig03-callout-light{padding-top:3.2mm!important;padding-bottom:3.2mm!important;margin-top:3mm!important;margin-bottom:3.5mm!important}
+#pdf-045>.sig03-p{margin-top:3mm!important;margin-bottom:3.6mm!important}
+#pdf-045>.sig03-emphasis{margin:3mm 0 3.2mm!important;font-size:9.7pt!important}
+/* P046: case evidence gets more visual mass than interpretation. */
+#pdf-046 .sig03-grid-2{margin-top:3mm!important;margin-bottom:3.8mm!important}
+#pdf-046 .sig03-metric-card{min-height:47mm!important;padding:5mm 3mm!important}
+#pdf-046 .sig03-metric{font-size:24pt!important;line-height:25.5pt!important;margin-bottom:2.2mm!important}
+#pdf-046 .sig03-callout-light{padding:3.4mm 3.5mm 3.4mm 4.2mm!important;margin-top:3.5mm!important;margin-bottom:3.5mm!important;font-size:8.9pt!important;line-height:11.3pt!important}
+#pdf-046>.sig03-p{margin-bottom:3.6mm!important}
+/* final density pass */
+#pdf-041 .sig03-row{min-height:31mm!important;padding-top:4mm!important;padding-bottom:4mm!important}
+#pdf-041 .sig03-row-head{min-height:14mm!important;padding-top:2.5mm!important;padding-bottom:2.5mm!important}
+#pdf-041 .sig03-row .sig03-card-title{font-size:9.4pt!important;line-height:11.4pt!important}
+#pdf-041 .sig03-row .sig03-card-body{font-size:8.75pt!important;line-height:10.9pt!important}
+#pdf-042 .sig03-flow .sig03-node{min-height:34mm!important}
+#pdf-042 .sig03-flow{margin-top:3.5mm!important;margin-bottom:4mm!important}
+#pdf-042 .sig03-callout-navy{margin-top:3.5mm!important;padding-top:3mm!important;padding-bottom:3mm!important}
+/* editorial separation before the final decision prompts uses remaining tail intentionally. */
+#pdf-041>.sig03-callout-navy{margin-top:8mm!important;padding-top:3mm!important;padding-bottom:3mm!important}
+#pdf-042>.sig03-callout-navy{margin-top:9mm!important}
+/* hard-floor correction: rendered question counters must stay above 7pt. */
+#pdf-047 .sig03-list-questions .sig03-li:before{font-size:7.3pt!important;line-height:8.5pt!important}
+
+/* v2 human-review corrections: make causal relationships explicit on P038-P041. */
+/* P038 - one policy branches into dispersed local decisions or one reproducible system. */
+#pdf-038 .sig03-policy-map{
+  grid-template-columns:repeat(6,1fr)!important;
+  grid-template-areas:
+    "t t t t t t"
+    "sub sub sub sub sub sub"
+    "policy policy policy policy policy policy"
+    "lab lab lab lab system system"
+    "a b c d system system"
+    "a b c d repeat repeat"!important;
+  gap:2mm 2mm!important;
+  padding:3.2mm 3.4mm 3.5mm!important;
+  align-items:stretch!important;
+}
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(2){
+  max-width:70mm!important;min-height:13mm!important;position:relative!important;
+}
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(7){
+  grid-area:lab!important;align-self:center!important;justify-self:center!important;
+  width:88%!important;padding:1.6mm 2mm!important;border:.7pt solid #E1B5B1!important;
+  border-radius:1.1mm!important;background:#FFF8F7!important;color:var(--red)!important;
+  font-size:7.8pt!important;line-height:9.4pt!important;position:relative!important;
+}
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(8){
+  grid-area:system!important;max-width:none!important;width:100%!important;min-height:31mm!important;
+  align-self:stretch!important;position:relative!important;padding:3mm 2.5mm!important;
+}
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(9){
+  grid-area:repeat!important;align-self:start!important;padding:1.7mm 1.8mm!important;
+  border-top:.8pt solid #8DBEB6!important;background:#F3FAF8!important;border-radius:0 0 1mm 1mm!important;
+  font-size:7.8pt!important;line-height:9.3pt!important;
+}
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(3),
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(4),
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(5),
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(6){
+  min-height:18mm!important;padding:2.5mm 1mm!important;align-self:stretch!important;
+}
+/* branch arrows from the common policy */
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(7):before,
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(8):before{
+  content:"";position:absolute;left:50%;top:-5.2mm;height:4.2mm;border-left:.8pt solid #829199;
+}
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(7):after,
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(8):after{
+  content:"";position:absolute;left:calc(50% - 1mm);top:-2.2mm;width:2mm;height:2mm;
+  border-right:.8pt solid #829199;border-bottom:.8pt solid #829199;transform:rotate(45deg);background:transparent;
+}
+
+/* P039 - one command splits into two execution paths; show the mechanism, not two unrelated columns. */
+#pdf-039 .sig03-mechanism-grid{
+  grid-template-columns:1fr 1fr!important;
+  grid-template-rows:auto auto auto auto auto!important;
+  grid-template-areas:
+    "hl hr"
+    "command command"
+    "order system"
+    "reactions daily"
+    "detail daily"!important;
+  gap:2.2mm 3.6mm!important;padding:3.6mm!important;min-height:78mm!important;position:relative!important;
+}
+#pdf-039 .sig03-mechanism-grid>.sig03-panel-title:first-child{grid-area:hl!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-panel-title:nth-of-type(2){grid-area:hr!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(2){
+  grid-area:command!important;justify-self:center!important;width:62%!important;min-height:12mm!important;
+  border-top:1.2mm solid var(--gold)!important;background:#FFFDF7!important;position:relative!important;
+}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(1){grid-area:order!important;position:relative!important;min-height:15mm!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(4){grid-area:system!important;position:relative!important;min-height:15mm!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(3){grid-area:reactions!important;min-height:18mm!important;position:relative!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-label{grid-area:detail!important;align-self:start!important;padding:1.2mm 1.5mm!important;background:#FFF8F7!important;border-radius:1mm!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(5){grid-area:daily!important;min-height:27mm!important;position:relative!important}
+/* split from one command to both execution paths */
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(1):before,
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(4):before{
+  content:"";position:absolute;left:50%;top:-4.8mm;height:3.8mm;border-left:.8pt solid #83939A;
+}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(1):after,
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(4):after{
+  content:"";position:absolute;left:calc(50% - 1mm);top:-2.1mm;width:2mm;height:2mm;
+  border-right:.8pt solid #83939A;border-bottom:.8pt solid #83939A;transform:rotate(45deg);
+}
+/* second step arrows */
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(3):before,
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(5):before{
+  content:"";position:absolute;left:50%;top:-4.4mm;height:3.4mm;border-left:.8pt solid #83939A;
+}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(3):after,
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(5):after{
+  content:"";position:absolute;left:calc(50% - 1mm);top:-2mm;width:2mm;height:2mm;
+  border-right:.8pt solid #83939A;border-bottom:.8pt solid #83939A;transform:rotate(45deg);
+}
+
+/* P040 - show attention transfer as a connected three-part mechanism. */
+#pdf-040 .sig03-specialist{
+  grid-template-columns:1fr!important;
+  grid-template-areas:"head" "skills" "att" "flow"!important;
+  gap:1.8mm!important;padding:3.2mm 3.2mm 3.6mm!important;
+}
+#pdf-040 .sig03-specialist>.sig03-card-title{grid-area:head!important}
+#pdf-040 .sig03-specialist>.sig03-list{grid-area:skills!important}
+#pdf-040 .sig03-specialist>.sig03-label{grid-area:att!important;margin-top:.8mm!important;margin-bottom:.6mm!important}
+#pdf-040 .sig03-attention-flow{
+  grid-area:flow;display:grid!important;grid-template-columns:1fr 37mm 1fr!important;gap:3.2mm!important;
+  align-items:stretch!important;position:relative!important;margin-top:.4mm!important;
+}
+#pdf-040 .sig03-attention-flow .sig03-card{
+  min-height:61mm!important;padding:3.2mm 3.2mm!important;background:#fff!important;display:flex!important;
+  flex-direction:column!important;justify-content:flex-start!important;position:relative!important;
+}
+#pdf-040 .sig03-attention-flow .sig03-attention-now{border-top:1.2mm solid var(--red)!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target{border-top:1.2mm solid var(--teal)!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-now>.sig03-label{
+  margin-top:auto!important;padding-top:2.2mm!important;font-size:7.8pt!important;color:var(--muted)!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-node-system{
+  align-self:center!important;min-height:31mm!important;width:100%!important;padding:3.2mm 2.6mm!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;position:relative!important;
+  background:#F3FAF8!important;border:.7pt solid #8DBEB6!important;border-top:1.2mm solid var(--teal)!important;
+  border-radius:1.2mm!important;font-family:var(--ui)!important;font-size:8.25pt!important;line-height:10.2pt!important;
+  text-align:center!important;font-weight:800!important;color:var(--navy)!important;margin:0!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-node-system:before{
+  content:"";position:absolute;left:-3.2mm;top:50%;width:2.4mm;border-top:.8pt solid #819199;
+}
+#pdf-040 .sig03-attention-flow>.sig03-node-system:after{
+  content:"";position:absolute;right:-3mm;top:calc(50% - 1mm);width:2mm;height:2mm;border-top:.8pt solid #819199;
+  border-right:.8pt solid #819199;transform:rotate(45deg);
+}
+#pdf-040 .sig03-attention-flow>.sig03-operator{
+  grid-column:1!important;grid-row:1!important;align-self:end!important;justify-self:center!important;z-index:3!important;
+  width:6.5mm!important;height:6.5mm!important;border:.8pt solid #DFA6A0!important;border-radius:50%!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;margin:0 0 5.5mm 0!important;padding:0!important;
+  font-family:var(--ui)!important;font-size:10.5pt!important;line-height:10.5pt!important;color:var(--red)!important;background:#fff!important;
+}
+#pdf-040 .sig03-attention-flow .sig03-card .sig03-emphasis{font-size:9.2pt!important;line-height:11.2pt!important;margin:1.5mm 0 2mm!important}
+#pdf-040 .sig03-attention-flow .sig03-card-body{font-size:8.9pt!important;line-height:11.2pt!important}
+#pdf-040 .sig03-attention-flow .sig03-list{margin:1.5mm 0 1.8mm 4.6mm!important}
+#pdf-040 .sig03-attention-flow .sig03-li{font-size:8.45pt!important;line-height:10.6pt!important;margin-bottom:1.2mm!important}
+
+/* P041 - restore the visual diagnostic ladder: text + a visible decision-right axis per row. */
+#pdf-041 .sig03-decision-ladder{
+  gap:2.2mm!important;border:0!important;border-radius:0!important;overflow:visible!important;background:transparent!important;
+  margin:3mm 0 3mm!important;
+}
+#pdf-041 .sig03-row{
+  display:grid!important;grid-template-columns:9mm minmax(0,1fr) 42mm!important;grid-template-rows:auto auto!important;
+  column-gap:3mm!important;row-gap:.8mm!important;align-items:center!important;min-height:25mm!important;
+  padding:3mm 3.2mm!important;border:.7pt solid var(--rule)!important;border-radius:2.3mm!important;background:#fff!important;
+  position:relative!important;
+}
+#pdf-041 .sig03-row:not(.sig03-row-head){box-shadow:none!important}
+#pdf-041 .sig03-row-head{
+  min-height:12mm!important;padding:0 3.2mm 1.6mm!important;border:0!important;border-bottom:.7pt solid var(--rule)!important;
+  border-radius:0!important;background:transparent!important;grid-template-columns:9mm minmax(0,1fr) 42mm!important;
+  position:relative!important;
+}
+#pdf-041 .sig03-row-head .sig03-label:nth-child(1){grid-column:1/3!important;grid-row:1!important;text-align:left!important;font-size:7.4pt!important}
+#pdf-041 .sig03-row-head .sig03-label:nth-child(2){grid-column:3!important;grid-row:1!important;justify-self:start!important;text-align:left!important;color:var(--navy)!important;font-weight:800!important}
+#pdf-041 .sig03-row-head .sig03-label:nth-child(3){grid-column:3!important;grid-row:1!important;justify-self:end!important;text-align:right!important;color:var(--navy)!important;font-weight:800!important}
+#pdf-041 .sig03-row .sig03-step{
+  grid-column:1!important;grid-row:1/3!important;align-self:center!important;justify-self:center!important;width:8mm!important;height:8mm!important;
+  border-radius:50%!important;display:flex!important;align-items:center!important;justify-content:center!important;margin:0!important;
+  font-family:var(--ui)!important;font-size:8.2pt!important;line-height:8.2pt!important;font-weight:800!important;color:#fff!important;background:#B16B62!important;
+}
+#pdf-041 .sig03-row:nth-child(3) .sig03-step{background:#B58A42!important}
+#pdf-041 .sig03-row:nth-child(4) .sig03-step{background:#B58A42!important}
+#pdf-041 .sig03-row:nth-child(5) .sig03-step{background:#4E9791!important}
+#pdf-041 .sig03-row:nth-child(6) .sig03-step{background:#4C826A!important}
+#pdf-041 .sig03-row .sig03-card-title{
+  grid-column:2!important;grid-row:1!important;font-size:8.85pt!important;line-height:10.7pt!important;margin:0!important;padding:0!important;
+}
+#pdf-041 .sig03-row .sig03-card-body{
+  grid-column:2!important;grid-row:2!important;font-size:8.35pt!important;line-height:10.4pt!important;margin:0!important;padding:0!important;
+  color:var(--muted)!important;border:0!important;
+}
+#pdf-041 .sig03-rights-track{
+  grid-column:3!important;grid-row:1/3!important;align-self:center!important;justify-self:stretch!important;height:8mm!important;position:relative!important;
+  display:block!important;
+}
+#pdf-041 .sig03-rights-track:before{
+  content:"";position:absolute;left:1.5mm;right:1.5mm;top:50%;border-top:.8pt solid #B8C1C4;
+}
+#pdf-041 .sig03-rights-dot{
+  position:absolute;top:calc(50% - 2mm);width:4mm;height:4mm;border-radius:50%;background:#B16B62;left:5%;
+}
+#pdf-041 .sig03-row:nth-child(3) .sig03-rights-dot{left:27%;background:#B58A42}
+#pdf-041 .sig03-row:nth-child(4) .sig03-rights-dot{left:49%;background:#B58A42}
+#pdf-041 .sig03-row:nth-child(5) .sig03-rights-dot{left:74%;background:#4E9791}
+#pdf-041 .sig03-row:nth-child(6) .sig03-rights-dot{left:90%;background:#4C826A}
+#pdf-041>.sig03-emphasis{text-align:center!important;margin:3.8mm 0 3.2mm!important;font-size:9.35pt!important;line-height:11.6pt!important}
+#pdf-041>.sig03-callout-navy{margin-top:4.5mm!important;padding-top:3mm!important;padding-bottom:3mm!important}
+/* v2 fit correction for P040: keep the three-part attention mechanism on one line. */
+#pdf-040 .sig03-attention-flow{
+  display:flex!important;grid-template-columns:none!important;gap:3mm!important;align-items:stretch!important;position:relative!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-card{flex:1 1 0!important;min-width:0!important;min-height:51mm!important;padding:2.7mm 2.8mm!important}
+#pdf-040 .sig03-attention-flow>.sig03-node-system{flex:0 0 35mm!important;width:35mm!important;min-height:29mm!important;align-self:center!important;padding:2.7mm 2.3mm!important}
+#pdf-040 .sig03-attention-flow>.sig03-operator{
+  position:absolute!important;left:22%!important;bottom:5.5mm!important;transform:translateX(-50%)!important;margin:0!important;
+}
+#pdf-040 .sig03-specialist>.sig03-list .sig03-li{min-height:11.5mm!important;padding:1.4mm 1mm!important}
+#pdf-040 .sig03-attention-flow .sig03-card .sig03-emphasis{margin:1.2mm 0 1.6mm!important}
+#pdf-040 .sig03-attention-flow .sig03-list{margin:1.1mm 0 1.2mm 4mm!important}
+#pdf-040 .sig03-attention-flow .sig03-li{margin-bottom:.8mm!important}
+/* v2 review correction: P038 branches must visibly descend from the common policy. */
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(2){max-width:96mm!important}
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(7):before,
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(8):before{top:-7mm!important;height:6mm!important}
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(7):after,
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(8):after{top:-2.3mm!important}
+
+/* v2 review correction: P039 selector mapping - system must precede the repeatable daily decision. */
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(5){grid-area:system!important;position:relative!important;min-height:15mm!important;border-color:#8DBEB6!important;border-top:1.2mm solid var(--teal)!important;background:#F3FAF8!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(6){grid-area:daily!important;min-height:27mm!important;position:relative!important;border-color:#8DBEB6!important;background:#F3FAF8!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(4){grid-area:auto!important}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(5):before{content:"";position:absolute;left:50%;top:-4.8mm;height:3.8mm;border-left:.8pt solid #83939A}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(5):after{content:"";position:absolute;left:calc(50% - 1mm);top:-2.1mm;width:2mm;height:2mm;border-right:.8pt solid #83939A;border-bottom:.8pt solid #83939A;transform:rotate(45deg)}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(6):before{content:"";position:absolute;left:50%;top:-4.4mm;height:3.4mm;border-left:.8pt solid #83939A}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(6):after{content:"";position:absolute;left:calc(50% - 1mm);top:-2mm;width:2mm;height:2mm;border-right:.8pt solid #83939A;border-bottom:.8pt solid #83939A;transform:rotate(45deg)}
+
+/* v2 review correction: P040 give enough width to the human-exception card and keep all text readable. */
+#pdf-040 .sig03-attention-flow>.sig03-attention-now{flex:0 0 39mm!important;min-height:64mm!important}
+#pdf-040 .sig03-attention-flow>.sig03-node-system{flex:0 0 29mm!important;width:29mm!important;min-height:31mm!important;font-size:7.75pt!important;line-height:9.6pt!important;padding:2.4mm 1.8mm!important}
+#pdf-040 .sig03-attention-flow>.sig03-attention-target{flex:1 1 auto!important;min-height:64mm!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-now>.sig03-label{padding-top:2mm!important;padding-bottom:8mm!important}
+#pdf-040 .sig03-attention-flow>.sig03-operator{left:15.5mm!important;bottom:3.5mm!important;transform:none!important;width:6mm!important;height:6mm!important;font-size:9.5pt!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-card-title{font-size:8.75pt!important;line-height:10.4pt!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-emphasis{font-size:8.8pt!important;line-height:10.7pt!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-li{font-size:8pt!important;line-height:10pt!important;margin-bottom:.9mm!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-list{margin-left:3.8mm!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target>.sig03-emphasis:last-child{margin-top:auto!important;margin-bottom:0!important}
+
+/* v2 review correction: keep both P041 axis-end labels inside the track. */
+#pdf-041 .sig03-row-head .sig03-label:nth-child(2){padding-left:1.5mm!important}
+#pdf-041 .sig03-row-head .sig03-label:nth-child(3){padding-right:4mm!important;font-size:7.15pt!important}
+/* v2 final clarity fit for P040. */
+#pdf-040 .sig03-attention-flow>.sig03-attention-now{flex-basis:34mm!important;min-height:64mm!important;padding:2.6mm 2.4mm!important}
+#pdf-040 .sig03-attention-flow>.sig03-node-system{flex-basis:26mm!important;width:26mm!important;font-size:7.25pt!important;line-height:9pt!important;padding:2.2mm 1.5mm!important}
+#pdf-040 .sig03-attention-flow>.sig03-attention-target{min-height:64mm!important;padding:2.5mm 2.6mm!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-now .sig03-card-title{font-size:8.35pt!important;line-height:10pt!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-now .sig03-emphasis{font-size:8.35pt!important;line-height:10.1pt!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-now .sig03-card-body{font-size:8.2pt!important;line-height:10.2pt!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-card-title{font-size:8.25pt!important;line-height:9.9pt!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-emphasis{font-size:8.15pt!important;line-height:9.9pt!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-li{font-size:7.35pt!important;line-height:9.2pt!important;margin-bottom:.65mm!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-list{margin-top:.7mm!important;margin-bottom:.7mm!important;margin-left:3.5mm!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target>.sig03-emphasis:last-child{font-size:8.15pt!important;line-height:9.8pt!important}
+#pdf-040 .sig03-attention-flow>.sig03-operator{left:12.5mm!important;bottom:3.3mm!important}
+
+/* v2 final header alignment for P041 axis endpoints. */
+#pdf-041 .sig03-row-head .sig03-label:nth-child(2){justify-self:start!important;margin-left:0!important;padding-left:0!important}
+#pdf-041 .sig03-row-head .sig03-label:nth-child(3){justify-self:start!important;margin-left:25mm!important;padding-right:0!important;font-size:7.15pt!important}
+/* P040 text-flow correction: no auto-push inside cards; keep labels in normal reading order. */
+#pdf-040 .sig03-attention-flow .sig03-attention-now>.sig03-label{margin-top:2.2mm!important;padding-top:0!important;padding-bottom:0!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target>.sig03-emphasis:last-child{margin-top:2mm!important;margin-bottom:0!important}
+/* P040 final polish: separate the left explanatory lines and pair the x with the attention note. */
+#pdf-040 .sig03-attention-flow .sig03-attention-now .sig03-card-body{margin:2mm 0 0!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-now>.sig03-label{margin:3.2mm 0 0!important;display:block!important;position:relative!important;z-index:2!important}
+#pdf-040 .sig03-attention-flow>.sig03-operator{left:27mm!important;top:31mm!important;bottom:auto!important}
+/* P040 final geometry: place the 'do not spend attention' note deliberately below the routine-work text. */
+#pdf-040 .sig03-attention-flow .sig03-attention-now>.sig03-label{
+  position:absolute!important;left:2.5mm!important;right:2.5mm!important;top:31mm!important;margin:0!important;text-align:center!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-operator{left:26.5mm!important;top:39mm!important}
+/* P040 flow arrows: routine work -> system -> exception work. */
+#pdf-040 .sig03-attention-flow>.sig03-attention-now:after{
+  content:"";position:absolute;right:-3mm;top:50%;width:2.6mm;border-top:.8pt solid #819199;
+}
+#pdf-040 .sig03-attention-flow>.sig03-node-system:before{
+  content:"";position:absolute;left:-1.5mm;top:calc(50% - 1mm);width:2mm;height:2mm;border:0!important;
+  border-top:.8pt solid #819199!important;border-right:.8pt solid #819199!important;transform:rotate(45deg)!important;
+}
+
+/* v3 human-review corrections: connector geometry, visual clarity, and excess air. */
+
+/* Global rule for the specific reviewed connector patterns: stems stop before borders; arrowheads sit in whitespace. */
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(7):before,
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(8):before{
+  top:-6.1mm!important;height:4.3mm!important;border-left:.8pt solid #829199!important;
+}
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(7):after,
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(8):after{
+  top:-2.9mm!important;width:1.9mm!important;height:1.9mm!important;
+  border-right:.8pt solid #829199!important;border-bottom:.8pt solid #829199!important;
+  transform:rotate(45deg)!important;background:transparent!important;
+}
+
+/* P039: clean command -> mechanism -> result connectors with no line tails through containers. */
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(1):before,
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(5):before{
+  top:-5.7mm!important;height:3.7mm!important;border-left:.8pt solid #83939A!important;
+}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(1):after,
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(5):after{
+  top:-2.9mm!important;width:1.9mm!important;height:1.9mm!important;
+  border-right:.8pt solid #83939A!important;border-bottom:.8pt solid #83939A!important;
+  transform:rotate(45deg)!important;background:transparent!important;
+}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(3):before,
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(6):before{
+  top:-5.2mm!important;height:3.3mm!important;border-left:.8pt solid #83939A!important;
+}
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(3):after,
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(6):after{
+  top:-2.8mm!important;width:1.9mm!important;height:1.9mm!important;
+  border-right:.8pt solid #83939A!important;border-bottom:.8pt solid #83939A!important;
+  transform:rotate(45deg)!important;background:transparent!important;
+}
+
+/* P039: turn the three reaction modes into distinct visual states without changing reader text. */
+#pdf-039 .sig03-reaction-options{
+  display:flex!important;align-items:center!important;justify-content:center!important;gap:1.1mm!important;
+  padding:1.3mm 1mm!important;background:transparent!important;border:0!important;color:var(--red)!important;
+}
+#pdf-039 .sig03-reaction-option{
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;
+  min-height:7mm!important;padding:1mm 2mm!important;border:.7pt solid #E1B5B1!important;border-radius:3.5mm!important;
+  background:#FFF8F7!important;font-family:var(--ui)!important;font-size:7.35pt!important;line-height:8.5pt!important;
+  font-weight:800!important;white-space:nowrap!important;
+}
+#pdf-039 .sig03-reaction-sharp{border-color:#D98A82!important;background:#FFF2F0!important}
+#pdf-039 .sig03-reaction-partial{border-color:#DDBE7A!important;background:#FFF9E9!important;color:#9D6E16!important}
+#pdf-039 .sig03-reaction-none{border-color:#B8C3C8!important;background:#F6F8F8!important;color:#65757D!important}
+#pdf-039 .sig03-reaction-sep{font-family:var(--ui)!important;font-size:7.2pt!important;color:#9AA7AD!important}
+
+/* P040: remove the stray operator and make the transfer of attention a clean three-block flow. */
+#pdf-040 .sig03-attention-flow{
+  display:grid!important;grid-template-columns:minmax(0,1fr) 31mm minmax(0,1.35fr)!important;
+  gap:4mm!important;align-items:center!important;position:relative!important;margin-top:1mm!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-card{
+  min-width:0!important;min-height:56mm!important;height:56mm!important;padding:3mm 3.1mm!important;
+  display:flex!important;flex-direction:column!important;justify-content:flex-start!important;position:relative!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-attention-now{grid-column:1!important}
+#pdf-040 .sig03-attention-flow>.sig03-node-system{
+  grid-column:2!important;width:31mm!important;min-height:30mm!important;height:30mm!important;align-self:center!important;
+  font-size:7.9pt!important;line-height:9.6pt!important;padding:2.6mm 2mm!important;margin:0!important;position:relative!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-attention-target{grid-column:3!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-now>.sig03-label{
+  position:static!important;margin:3mm 0 0!important;padding:0!important;text-align:center!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-attention-now:after{
+  content:""!important;position:absolute!important;right:-3.2mm!important;top:50%!important;width:2.4mm!important;
+  border-top:.8pt solid #819199!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-node-system:before{
+  content:""!important;position:absolute!important;left:-2.1mm!important;top:calc(50% - 1mm)!important;width:1.8mm!important;height:1.8mm!important;
+  border:0!important;border-top:.8pt solid #819199!important;border-right:.8pt solid #819199!important;transform:rotate(45deg)!important;
+  background:transparent!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-node-system:after{
+  content:""!important;position:absolute!important;right:-3.2mm!important;top:50%!important;width:2.4mm!important;height:0!important;
+  border:0!important;border-top:.8pt solid #819199!important;transform:none!important;background:transparent!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-attention-target:before{
+  content:""!important;position:absolute!important;left:-2.1mm!important;top:calc(50% - 1mm)!important;width:1.8mm!important;height:1.8mm!important;
+  border-top:.8pt solid #819199!important;border-right:.8pt solid #819199!important;transform:rotate(45deg)!important;background:transparent!important;
+}
+#pdf-040 .sig03-attention-flow>.sig03-attention-target:after{content:none!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-now .sig03-card-title{font-size:8.6pt!important;line-height:10.3pt!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-now .sig03-emphasis{font-size:8.55pt!important;line-height:10.3pt!important;margin:1.4mm 0 1.7mm!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-now .sig03-card-body{font-size:8.35pt!important;line-height:10.4pt!important;margin:1.5mm 0 0!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-card-title{font-size:8.45pt!important;line-height:10.1pt!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-emphasis{font-size:8.35pt!important;line-height:10.1pt!important;margin:1.2mm 0 1.4mm!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-list{margin:1mm 0 1.2mm 3.7mm!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target .sig03-li{font-size:7.55pt!important;line-height:9.4pt!important;margin-bottom:.8mm!important}
+#pdf-040 .sig03-attention-flow .sig03-attention-target>.sig03-emphasis:last-child{margin-top:1.7mm!important;margin-bottom:0!important}
+
+/* P041: keep all five diagnostic rows fully boxed and inside the ladder; no cropped last-card border. */
+#pdf-041 .sig03-decision-ladder{gap:2mm!important;margin:3mm 0 3mm!important;overflow:visible!important}
+#pdf-041 .sig03-row{min-height:25.5mm!important;padding:3mm 3.2mm!important;border:.8pt solid var(--rule)!important;border-radius:2.3mm!important;break-inside:avoid!important;overflow:visible!important}
+#pdf-041 .sig03-row-head{min-height:10.5mm!important;padding:0 3.2mm 1.6mm!important;border:0!important;border-bottom:.8pt solid var(--rule)!important;border-radius:0!important}
+#pdf-041 .sig03-row:last-child{border-bottom:.9pt solid var(--rule)!important;margin-bottom:.4mm!important}
+#pdf-041 .sig03-row .sig03-card-title{font-size:9.15pt!important;line-height:11pt!important}
+#pdf-041 .sig03-row .sig03-card-body{font-size:8.55pt!important;line-height:10.5pt!important}
+#pdf-041>.sig03-emphasis{margin:3.2mm 0 2.7mm!important}
+#pdf-041>.sig03-callout-navy{margin-top:4mm!important}
+
+/* P045: remove dead air inside the comparison cards while keeping a balanced information page. */
+#pdf-045 .sig03-grid-2{margin-top:3.2mm!important;margin-bottom:4.2mm!important;gap:3.5mm!important;align-items:start!important}
+#pdf-045 .sig03-grid-2 .sig03-card{min-height:58mm!important;height:auto!important;padding:3.8mm 3.8mm 4mm!important}
+#pdf-045 .sig03-grid-2 .sig03-list{margin-top:2mm!important;margin-bottom:0!important}
+#pdf-045 .sig03-callout-light{margin-top:4.2mm!important;margin-bottom:4.2mm!important;padding-top:3.6mm!important;padding-bottom:3.6mm!important}
+#pdf-045>.sig03-p{margin-top:3.8mm!important;margin-bottom:4.2mm!important}
+#pdf-045>.sig03-emphasis{margin:3.5mm 0 3.8mm!important}
+#pdf-045>.sig03-callout-navy{margin-top:3.8mm!important;padding-top:2.8mm!important;padding-bottom:2.8mm!important}
+
+/* v4 correction after human review: keep the P038 right branch fully inside the parent panel.
+   The previous repeat(6,1fr) tracks retained min-content width in WeasyPrint, so the two-column
+   system branch could protrude beyond the panel border and expose the parent border through the label. */
+#pdf-038 .sig03-policy-map{
+  grid-template-columns:repeat(6,minmax(0,1fr))!important;
+  overflow:hidden!important;
+}
+#pdf-038 .sig03-policy-map>.sig03-node:nth-of-type(8){
+  width:auto!important;
+  max-width:none!important;
+  min-width:0!important;
+  justify-self:stretch!important;
+  margin-left:0!important;
+  margin-right:0!important;
+}
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(9){
+  width:auto!important;
+  max-width:100%!important;
+  min-width:0!important;
+  justify-self:stretch!important;
+  margin-left:0!important;
+  margin-right:0!important;
+}
+
+
+/* v5 human-review corrections: finish P038/P039 geometry and clarify P040 prose. */
+/* P038: the repeat-logic label is a complete semantic block, not a loose top rule. */
+#pdf-038 .sig03-policy-map>.sig03-label:nth-of-type(9){
+  border:.8pt solid #8DBEB6!important;
+  border-radius:1.1mm!important;
+  background:#F3FAF8!important;
+  padding:1.7mm 1.8mm!important;
+}
+
+/* P039: the three reaction modes belong inside the 'РАЗНЫЕ РЕАКЦИИ' card. */
+#pdf-039 .sig03-mechanism-grid>.sig03-node:nth-of-type(3){
+  grid-area:reactions!important;
+  min-height:27mm!important;
+  align-items:flex-start!important;
+  padding:4mm 2mm 11.5mm!important;
+  position:relative!important;
+}
+#pdf-039 .sig03-mechanism-grid>.sig03-label.sig03-reaction-options{
+  grid-area:reactions!important;
+  align-self:end!important;
+  justify-self:stretch!important;
+  z-index:3!important;
+  margin:0 2.4mm 2.5mm!important;
+  padding:0!important;
+  background:transparent!important;
+  border:0!important;
+}
+#pdf-039 .sig03-reaction-option{
+  min-height:6.7mm!important;
+  padding:.9mm 1.8mm!important;
+}

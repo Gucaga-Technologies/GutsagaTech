@@ -1,0 +1,391 @@
+@page b080-verso{size:167mm 240mm;margin:15mm 20mm 18mm 15mm;background:#fff}
+@page b080-recto{size:167mm 240mm;margin:15mm 15mm 18mm 20mm;background:#fff}
+#pdf-031{page:b080-recto!important}
+#pdf-031::after{content:"25"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-032{page:b080-verso!important}
+#pdf-032::after{content:"26"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-033{page:b080-recto!important}
+#pdf-033::after{content:"27"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-034{page:b080-verso!important}
+#pdf-034::after{content:"28"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-035{page:b080-recto!important}
+#pdf-035::after{content:"29"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-036{page:b080-verso!important}
+#pdf-036::after{content:"30"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-037{page:b080-recto!important}
+#pdf-037::after{content:"31"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-038{page:b080-verso!important}
+#pdf-038::after{content:"32"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-039{page:b080-recto!important}
+#pdf-039::after{content:"33"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-040{page:b080-verso!important}
+#pdf-040::after{content:"34"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-041{page:b080-recto!important}
+#pdf-041::after{content:"35"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-042{page:b080-verso!important}
+#pdf-042::after{content:"36"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-043{page:b080-recto!important}
+#pdf-043::after{content:"37"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-044{page:b080-verso!important}
+#pdf-044::after{content:"38"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-045{page:b080-recto!important}
+#pdf-045::after{content:"39"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-046{page:b080-verso!important}
+#pdf-046::after{content:"40"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-047{page:b080-recto!important}
+#pdf-047::after{content:"41"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-048{page:b080-verso!important}
+#pdf-048::after{content:"42"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-049{page:b080-recto!important}
+#pdf-049::after{content:"43"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-050{page:b080-verso!important}
+#pdf-050::after{content:"44"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-051{page:b080-recto!important}
+#pdf-051::after{content:"45"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-052{page:b080-verso!important}
+#pdf-052::after{content:"46"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-053{page:b080-recto!important}
+#pdf-053::after{content:"47"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-055{page:b080-verso!important}
+#pdf-055::after{content:"48"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-056{page:b080-recto!important}
+#pdf-056::after{content:"49"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-057{page:b080-verso!important}
+#pdf-057::after{content:"50"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-058{page:b080-recto!important}
+#pdf-058::after{content:"51"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-059{page:b080-verso!important}
+#pdf-059::after{content:"52"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-060{page:b080-recto!important}
+#pdf-060::after{content:"53"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-061{page:b080-verso!important}
+#pdf-061::after{content:"54"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-062{page:b080-recto!important}
+#pdf-062::after{content:"55"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-063{page:b080-verso!important}
+#pdf-063::after{content:"56"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-064{page:b080-recto!important}
+#pdf-064::after{content:"57"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-065{page:b080-verso!important}
+#pdf-065::after{content:"58"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-066{page:b080-recto!important}
+#pdf-066::after{content:"59"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-067{page:b080-verso!important}
+#pdf-067::after{content:"60"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-068{page:b080-recto!important}
+#pdf-068::after{content:"61"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-069{page:b080-verso!important}
+#pdf-069::after{content:"62"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-070{page:b080-recto!important}
+#pdf-070::after{content:"63"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-071{page:b080-verso!important}
+#pdf-071::after{content:"64"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-072{page:b080-recto!important}
+#pdf-072::after{content:"65"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-073{page:b080-verso!important}
+#pdf-073::after{content:"66"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-074{page:b080-recto!important}
+#pdf-074::after{content:"67"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-075{page:b080-verso!important}
+#pdf-075::after{content:"68"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-076{page:b080-recto!important}
+#pdf-076::after{content:"69"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-077{page:b080-verso!important}
+#pdf-077::after{content:"70"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-078{page:b080-recto!important}
+#pdf-078::after{content:"71"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-079{page:b080-verso!important}
+#pdf-079::after{content:"72"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-080{page:b080-recto!important}
+#pdf-080::after{content:"73"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-081{page:b080-verso!important}
+#pdf-081::after{content:"74"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-082{page:b080-recto!important}
+#pdf-082::after{content:"75"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-083{page:b080-verso!important}
+#pdf-083::after{content:"76"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-084{page:b080-recto!important}
+#pdf-084::after{content:"77"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-085{page:b080-verso!important}
+#pdf-085::after{content:"78"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-086{page:b080-recto!important}
+#pdf-086::after{content:"79"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-087{page:b080-verso!important}
+#pdf-087::after{content:"80"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-088{page:b080-recto!important}
+#pdf-088::after{content:"81"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-089{page:b080-verso!important}
+#pdf-089::after{content:"82"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-090{page:b080-recto!important}
+#pdf-090::after{content:"83"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-091{page:b080-verso!important}
+#pdf-091::after{content:"84"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-092{page:b080-recto!important}
+#pdf-092::after{content:"85"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-093{page:b080-verso!important}
+#pdf-093::after{content:"86"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-094{page:b080-recto!important}
+#pdf-094::after{content:"87"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-095{page:b080-verso!important}
+#pdf-095::after{content:"88"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-096{page:b080-recto!important}
+#pdf-096::after{content:"89"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-097{page:b080-verso!important}
+#pdf-097::after{content:"90"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-098{page:b080-recto!important}
+#pdf-098::after{content:"91"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-099{page:b080-verso!important}
+#pdf-099::after{content:"92"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-100{page:b080-recto!important}
+#pdf-100::after{content:"93"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-101{page:b080-verso!important}
+#pdf-101::after{content:"94"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#robotics-opening{page:b080-recto!important}
+#robotics-opening::after{content:"95"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#robotics-space{page:b080-verso!important}
+#robotics-space::after{content:"96"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#robotics-person{page:b080-recto!important}
+#robotics-person::after{content:"97"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#robotics-inbound{page:b080-verso!important}
+#robotics-inbound::after{content:"98"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#robotics-capacity{page:b080-recto!important}
+#robotics-capacity::after{content:"99"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#robotics-small-pharmacy{page:b080-verso!important}
+#robotics-small-pharmacy::after{content:"100"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#robotics-network{page:b080-recto!important}
+#robotics-network::after{content:"101"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#robotics-warehouse{page:b080-verso!important}
+#robotics-warehouse::after{content:"102"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#robotics-hospital{page:b080-recto!important}
+#robotics-hospital::after{content:"103"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#robotics-regulation{page:b080-verso!important}
+#robotics-regulation::after{content:"104"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#robotics-installed-diagnostic{page:b080-recto!important}
+#robotics-installed-diagnostic::after{content:"105"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#robotics-owner-test{page:b080-verso!important}
+#robotics-owner-test::after{content:"106"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-102{page:b080-recto!important}
+#pdf-102::after{content:"107"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-103{page:b080-verso!important}
+#pdf-103::after{content:"108"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-104{page:b080-recto!important}
+#pdf-104::after{content:"109"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-105{page:b080-verso!important}
+#pdf-105::after{content:"110"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-106{page:b080-recto!important}
+#pdf-106::after{content:"111"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-107{page:b080-verso!important}
+#pdf-107::after{content:"112"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-108{page:b080-recto!important}
+#pdf-108::after{content:"113"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-109{page:b080-verso!important}
+#pdf-109::after{content:"114"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-110{page:b080-recto!important}
+#pdf-110::after{content:"115"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-111{page:b080-verso!important}
+#pdf-111::after{content:"116"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-112{page:b080-recto!important}
+#pdf-112::after{content:"117"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-113{page:b080-verso!important}
+#pdf-113::after{content:"118"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-114{page:b080-recto!important}
+#pdf-114::after{content:"119"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-115{page:b080-verso!important}
+#pdf-115::after{content:"120"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-116{page:b080-recto!important}
+#pdf-116::after{content:"121"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-117{page:b080-verso!important}
+#pdf-117::after{content:"122"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-118{page:b080-recto!important}
+#pdf-118::after{content:"123"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-119{page:b080-verso!important}
+#pdf-119::after{content:"124"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-120{page:b080-recto!important}
+#pdf-120::after{content:"125"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#b057-kpi-page-01{page:b080-verso!important}
+#b057-kpi-page-01::after{content:"126"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#b057-kpi-page-02{page:b080-recto!important}
+#b057-kpi-page-02::after{content:"127"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#b057-kpi-page-03{page:b080-verso!important}
+#b057-kpi-page-03::after{content:"128"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#b057-kpi-page-04{page:b080-recto!important}
+#b057-kpi-page-04::after{content:"129"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#b057-kpi-page-05{page:b080-verso!important}
+#b057-kpi-page-05::after{content:"130"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#b057-kpi-page-06{page:b080-recto!important}
+#b057-kpi-page-06::after{content:"131"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#b057-kpi-page-07{page:b080-verso!important}
+#b057-kpi-page-07::after{content:"132"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#b057-kpi-page-08{page:b080-recto!important}
+#b057-kpi-page-08::after{content:"133"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#b057-kpi-page-09{page:b080-verso!important}
+#b057-kpi-page-09::after{content:"134"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#b057-kpi-page-10{page:b080-recto!important}
+#b057-kpi-page-10::after{content:"135"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#v2-kpi-page-05-owner-pack{page:b080-verso!important}
+#v2-kpi-page-05-owner-pack::after{content:"136"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#v2-kpi-page-06-operating-rhythm{page:b080-recto!important}
+#v2-kpi-page-06-operating-rhythm::after{content:"137"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-121{page:b080-verso!important}
+#pdf-121::after{content:"138"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-122{page:b080-recto!important}
+#pdf-122::after{content:"139"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-123{page:b080-verso!important}
+#pdf-123::after{content:"140"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-124{page:b080-recto!important}
+#pdf-124::after{content:"141"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-125{page:b080-verso!important}
+#pdf-125::after{content:"142"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-126{page:b080-recto!important}
+#pdf-126::after{content:"143"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-127{page:b080-verso!important}
+#pdf-127::after{content:"144"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-128{page:b080-recto!important}
+#pdf-128::after{content:"145"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-129{page:b080-verso!important}
+#pdf-129::after{content:"146"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-130{page:b080-recto!important}
+#pdf-130::after{content:"147"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-131{page:b080-verso!important}
+#pdf-131::after{content:"148"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-132{page:b080-recto!important}
+#pdf-132::after{content:"149"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-133{page:b080-verso!important}
+#pdf-133::after{content:"150"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-134{page:b080-recto!important}
+#pdf-134::after{content:"151"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-135{page:b080-verso!important}
+#pdf-135::after{content:"152"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-136{page:b080-recto!important}
+#pdf-136::after{content:"153"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-137{page:b080-verso!important}
+#pdf-137::after{content:"154"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-138{page:b080-recto!important}
+#pdf-138::after{content:"155"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-139{page:b080-verso!important}
+#pdf-139::after{content:"156"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-140{page:b080-recto!important}
+#pdf-140::after{content:"157"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-141{page:b080-verso!important}
+#pdf-141::after{content:"158"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-142{page:b080-recto!important}
+#pdf-142::after{content:"159"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-143{page:b080-verso!important}
+#pdf-143::after{content:"160"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-144{page:b080-recto!important}
+#pdf-144::after{content:"161"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-145{page:b080-verso!important}
+#pdf-145::after{content:"162"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-146{page:b080-recto!important}
+#pdf-146::after{content:"163"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-147{page:b080-verso!important}
+#pdf-147::after{content:"164"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-148{page:b080-recto!important}
+#pdf-148::after{content:"165"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-149{page:b080-verso!important}
+#pdf-149::after{content:"166"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-150{page:b080-recto!important}
+#pdf-150::after{content:"167"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-151{page:b080-verso!important}
+#pdf-151::after{content:"168"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-152{page:b080-recto!important}
+#pdf-152::after{content:"169"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-153{page:b080-verso!important}
+#pdf-153::after{content:"170"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-154{page:b080-recto!important}
+#pdf-154::after{content:"171"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-155{page:b080-verso!important}
+#pdf-155::after{content:"172"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-156{page:b080-recto!important}
+#pdf-156::after{content:"173"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-157{page:b080-verso!important}
+#pdf-157::after{content:"174"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-158{page:b080-recto!important}
+#pdf-158::after{content:"175"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-159{page:b080-verso!important}
+#pdf-159::after{content:"176"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-160{page:b080-recto!important}
+#pdf-160::after{content:"177"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-161{page:b080-verso!important}
+#pdf-161::after{content:"178"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-162{page:b080-recto!important}
+#pdf-162::after{content:"179"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#b063-it-183{page:b080-verso!important}
+#b063-it-183::after{content:"180"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#b063-it-184{page:b080-recto!important}
+#b063-it-184::after{content:"181"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-163{page:b080-verso!important}
+#pdf-163::after{content:"182"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-164{page:b080-recto!important}
+#pdf-164::after{content:"183"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-165{page:b080-verso!important}
+#pdf-165::after{content:"184"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-166{page:b080-recto!important}
+#pdf-166::after{content:"185"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-167{page:b080-verso!important}
+#pdf-167::after{content:"186"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-168{page:b080-recto!important}
+#pdf-168::after{content:"187"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-169{page:b080-verso!important}
+#pdf-169::after{content:"188"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-170{page:b080-recto!important}
+#pdf-170::after{content:"189"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#std12-p187{page:b080-verso!important}
+#std12-p187::after{content:"190"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#std12-p188{page:b080-recto!important}
+#std12-p188::after{content:"191"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#std12-p189{page:b080-verso!important}
+#std12-p189::after{content:"192"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#std12-p190{page:b080-recto!important}
+#std12-p190::after{content:"193"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#std12-p191{page:b080-verso!important}
+#std12-p191::after{content:"194"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#std12-p192{page:b080-recto!important}
+#std12-p192::after{content:"195"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#std12-p193{page:b080-verso!important}
+#std12-p193::after{content:"196"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#std12-p194{page:b080-recto!important}
+#std12-p194::after{content:"197"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#std12-p195{page:b080-verso!important}
+#std12-p195::after{content:"198"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#std12-p196{page:b080-recto!important}
+#std12-p196::after{content:"199"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#std12-p197{page:b080-verso!important}
+#std12-p197::after{content:"200"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-179{page:b080-recto!important}
+#pdf-179::after{content:"201"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-180{page:b080-verso!important}
+#pdf-180::after{content:"202"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-181{page:b080-recto!important}
+#pdf-181::after{content:"203"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-182{page:b080-verso!important}
+#pdf-182::after{content:"204"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-183{page:b080-recto!important}
+#pdf-183::after{content:"205"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-184{page:b080-verso!important}
+#pdf-184::after{content:"206"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-185{page:b080-recto!important}
+#pdf-185::after{content:"207"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-186{page:b080-verso!important}
+#pdf-186::after{content:"208"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-187{page:b080-recto!important}
+#pdf-187::after{content:"209"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-188{page:b080-verso!important}
+#pdf-188::after{content:"210"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-189{page:b080-recto!important}
+#pdf-189::after{content:"211"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-190{page:b080-verso!important}
+#pdf-190::after{content:"212"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+#pdf-191{page:b080-recto!important}
+#pdf-191::after{content:"213"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;right:0!important;left:auto!important}
+#pdf-192{page:b080-verso!important}
+#pdf-192::after{content:"214"!important;display:block!important;position:absolute!important;bottom:-11mm!important;font-family:"Noto Sans",sans-serif!important;font-size:7.2pt!important;line-height:8pt!important;color:#829099!important;left:0!important;right:auto!important}
+
+
+/* b082 approved P025 stage-check integration: exact trim full-page surface. */
+@page b082-p029-full{size:167mm 240mm;margin:0;background:#fff}
+#pdf-031{page:b082-p029-full!important;width:167mm!important;height:240mm!important;overflow:hidden!important;margin:0!important;padding:0!important;break-after:page!important;page-break-after:always!important}
+#pdf-031 .approved-full-art{display:block!important;position:static!important;width:167mm!important;height:240mm!important;margin:0!important;padding:0!important;overflow:hidden!important;break-inside:avoid!important;page-break-inside:avoid!important}
+#pdf-031 .approved-full-art img{display:block!important;width:167mm!important;height:240mm!important;max-width:none!important;margin:0!important;padding:0!important}
+#pdf-031 .semantic-source{display:none!important}
+#pdf-031::after{content:none!important;display:none!important}

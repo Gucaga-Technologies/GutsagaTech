@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* b139 P136 owner-accepted layout-only closure.
+   No content, KPI, typography-size, CID, folio or neighboring-page changes.
+   Geometry mirrors OWNER GATE A ACCEPT: status +12pt, lower +28pt, action +44pt. */
+#b057-kpi-page-09 .unwanted-status-row { transform: translateY(12pt); }
+#b057-kpi-page-09 .unwanted-lower { transform: translateY(28pt); }
+#b057-kpi-page-09 .action-strip.gold { transform: translateY(44pt); }

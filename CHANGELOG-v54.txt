@@ -1,0 +1,15 @@
+v54 — website forms moved from FormSubmit to Netlify Forms
+- All 61 forms (contact, demo, newsletter on 59 pages) now post to Netlify Forms (the host the site runs on).
+  No third-party activation email needed.
+- Form names in Netlify: "contact", "demo", "newsletter". Each submission includes the page it was sent from.
+- Spam protection: Netlify honeypot (bot-field) + Netlify's built-in spam filter.
+- After sending, visitors land on /thanks/.
+- assets/gt-extra.js: comment only.
+SETUP IN NETLIFY (once): Forms > Enable form detection, deploy v54, then
+Project configuration > Notifications > Emails and webhooks > Form submission notifications >
+Add notification > Email notification > info@gutsaga.tech (form: Any form).
+
+v54 (update 2) — Technologies page
+- New pictures for Dashboards and Assortment cards (assets/files/gt-dashboard-v54.webp, gt-assortment-v54.webp).
+  Illustrations with invented numbers and generic product names — no client data, no real charts.
+- Assortment card: one line added (rating per store; Assortment AI in development).
